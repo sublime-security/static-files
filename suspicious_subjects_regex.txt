@@ -1,0 +1,121 @@
+scam
+(?<!lease )termination.*notice
+38417
+:completed
+abandon.*package
+about.your.account
+acc(ou)?n?t (is )?on ho[li]d
+acc(ou)?n?t.*terminat
+acc(oun)?t.*[il1]{2}mitation
+access.*limitation
+account (will be )?block
+account.*de-?activat
+account.*locked
+account.*re-verification
+account.*security
+account.*suspension
+account.has.been
+account.has.expired
+account.will.be.blocked
+account\\ v[il]o[li]at
+activity.*acc(oun)?t
+almost.full
+app[li]e.[il]d
+authenticate.*account
+been.*suspend
+clos.*of.*account.*processed
+confirm.your.account
+courier.*able
+delivery.*attempt.*failed
+document.received
+documented.*shared.*with.*you
+dropbox.*document
+e-?ma[il1]+ .{010}suspen
+e-?ma[il1]{1} user
+e-?ma[il1]{2} acc
+e-?ma[il1]{2}.*up.?grade
+e.?ma[il1]{2}.*server
+e.?ma[il1]{2}.*suspend
+email.update
+faxed you
+fraud(ulent)?.*charge
+from.helpdesk
+fu[il1]{2}.*ma[il1]+[ -]?box
+has.been.*suspended
+has.been.limited
+have.locked
+heipdesk
+he[li]p ?desk upgrade
+ii[il]ega[il]
+incoming e?mail
+incoming.*fax
+i[il]iega[il]
+lock.*security
+mail on.?hold
+mail.*box.*migration
+mail.*de-?activat
+mail.update.required
+mails.pending
+ma[il1]{1}[ -]?box.*quo
+ma[il1]{2}box.*[il1]{2}mit
+ma[il1]{2}box\\ stor
+ma[il1]{2}[ -]?box.*fu[il1]
+missed.*shipping.*notification
+missed.shipment.notification
+must.update.your.account
+new voice ?-?mail
+new [sl][io]g?[nig][ -]?in from
+notifications?.pending
+office.*3.*6.*5.*suspend
+office365
+online doc
+on\\ google\\ docs\\ with\\ you
+password.*compromised
+periodic maintenance
+potential(ly)? unauthorized
+refund not approved
+scanned.?invoice
+secured?.update
+security breach
+securlty
+signed.*delivery
+status of your .{314}? ?delivery
+suspicious.*sign.*[io]n
+suspicious.activit
+susp[il1]+c[il1]+ous.*act[il1]+v[il1]+ty
+temporar(il)?y deactivate
+temporarily.*lock
+temporar[il1]{2}y disab[li]ed
+un-?usua[li].activity
+unable.*deliver
+unauthorized.*activit
+unauthorized.device
+undelivered message
+unread.*doc
+unusual.activity
+upgrade.*account
+upgrade.notice
+urgent message
+urgent.verification
+va[il1]{1}date.*ma[il1]{2}[ -]?box
+verification ?-?require
+verification( )?-?need
+verify.your?.account
+v[il1]o[li1]at[il1]on security
+web ?-?ma[il1]{2}
+web[ -]?ma[il1]{2}
+will.be.suspended
+your (customer )?account .as
+your.office.365
+your.online.access
+[il1]{2}mit.*ma[il1]{2} ?bo?x
+[il][il][il]egai[ -]
+[li][li][li]ega[li] attempt
+[ng]-?[io]n .*block
+[ng]-?[io]n .*cancel
+[ng]-?[io]n .*deactiv
+[ng]-?[io]n .*disabl
+\\aaction.*required
+\\bhoid\\b
+\\bits \\s
+revised.*policy

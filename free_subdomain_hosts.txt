@@ -158,7 +158,6 @@ shopping.hn
 sites.google.com
 space.lc
 start.lc
-sway.office.com
 te4m.de
 team.cx
 team.tl

@@ -220,6 +220,7 @@ w3t.org
 wapurl.co.uk
 wipi.es
 wp.me
+x.co
 x.se
 xaddr.com
 xeeurl.com

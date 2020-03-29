@@ -24,6 +24,7 @@
 9000.tk
 aaa.ai
 ab.im
+accountants
 ad.mn
 ae.am
 ae.tn
@@ -56,6 +57,7 @@ bee.pl
 bg.tc
 bg.tf
 bi.sh
+bid
 bij.pl
 biz.br.tc
 biz.ly
@@ -226,6 +228,7 @@ it.tc
 ix.cl
 iz.rs
 iz.tm
+jetzt
 jp.mn
 jp.pn
 jp.tn
@@ -248,6 +251,7 @@ men
 ml
 mm.am
 mo.tl
+mom
 moredns.org
 mp.sh
 mx.am
@@ -332,6 +336,8 @@ re.gs
 reawesome.net
 recool.net
 refun.net
+ren
+review
 review
 rift.tv
 rm.ee
@@ -381,6 +387,7 @@ tp.sh
 tr.gr
 tr.tn
 tr.vu
+trade
 tt
 tx.nl
 ua.tc
@@ -407,6 +414,7 @@ vc.cc
 ven.bz
 vigg.net
 vindme.nl
+vip
 vn.tn
 vps-10.com
 vu
@@ -414,14 +422,17 @@ vu.cx
 vugg.net
 vv.cc
 w-w-w.eu
+wang
 website.tk
 wiggy.me
+win
 wo.tv
 work
 world
 ws
 ww.ai
 xe.cx
+xin
 xl.cx
 xn--cda.cc
 xn.us

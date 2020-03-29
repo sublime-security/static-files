@@ -1,6 +1,16 @@
 (?<!lease )termination.*notice
 38417
 :completed
+[il1]{2}mit.*ma[il1]{2} ?bo?x
+[il][il][il]egai[ -]
+[li][li][li]ega[li] attempt
+[ng]-?[io]n .*block
+[ng]-?[io]n .*cancel
+[ng]-?[io]n .*deactiv
+[ng]-?[io]n .*disabl
+\\aaction.*required
+\\bhoid\\b
+\\bits \\s
 abandon.*package
 about.your.account
 acc(ou)?n?t (is )?on ho[li]d
@@ -43,36 +53,37 @@ fu[il1]{2}.*ma[il1]+[ -]?box
 has.been.*suspended
 has.been.limited
 have.locked
-heipdesk
 he[li]p ?desk upgrade
+heipdesk
+i[il]iega[il]
 ii[il]ega[il]
 incoming e?mail
 incoming.*fax
-i[il]iega[il]
 lock.*security
+ma[il1]{1}[ -]?box.*quo
+ma[il1]{2}[ -]?box.*fu[il1]
+ma[il1]{2}box.*[il1]{2}mit
+ma[il1]{2}box\\ stor
 mail on.?hold
 mail.*box.*migration
 mail.*de-?activat
 mail.update.required
 mails.pending
-ma[il1]{1}[ -]?box.*quo
-ma[il1]{2}box.*[il1]{2}mit
-ma[il1]{2}box\\ stor
-ma[il1]{2}[ -]?box.*fu[il1]
 missed.*shipping.*notification
 missed.shipment.notification
 must.update.your.account
-new voice ?-?mail
 new [sl][io]g?[nig][ -]?in from
+new voice ?-?mail
 notifications?.pending
 office.*3.*6.*5.*suspend
 office365
-online doc
 on\\ google\\ docs\\ with\\ you
+online doc
 password.*compromised
 periodic maintenance
 potential(ly)? unauthorized
 refund not approved
+revised.*policy
 scam
 scanned.?invoice
 secured?.update
@@ -80,12 +91,12 @@ security breach
 securlty
 signed.*delivery
 status of your .{314}? ?delivery
+susp[il1]+c[il1]+ous.*act[il1]+v[il1]+ty
 suspicious.*sign.*[io]n
 suspicious.activit
-susp[il1]+c[il1]+ous.*act[il1]+v[il1]+ty
 temporar(il)?y deactivate
-temporarily.*lock
 temporar[il1]{2}y disab[li]ed
+temporarily.*lock
 un-?usua[li].activity
 unable.*deliver
 unauthorized.*activit
@@ -97,25 +108,14 @@ upgrade.*account
 upgrade.notice
 urgent message
 urgent.verification
+v[il1]o[li1]at[il1]on security
 va[il1]{1}date.*ma[il1]{2}[ -]?box
 verification ?-?require
 verification( )?-?need
 verify.your?.account
-v[il1]o[li1]at[il1]on security
 web ?-?ma[il1]{2}
 web[ -]?ma[il1]{2}
 will.be.suspended
 your (customer )?account .as
 your.office.365
 your.online.access
-[il1]{2}mit.*ma[il1]{2} ?bo?x
-[il][il][il]egai[ -]
-[li][li][li]ega[li] attempt
-[ng]-?[io]n .*block
-[ng]-?[io]n .*cancel
-[ng]-?[io]n .*deactiv
-[ng]-?[io]n .*disabl
-\\aaction.*required
-\\bhoid\\b
-\\bits \\s
-revised.*policy

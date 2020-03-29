@@ -1,51 +1,51 @@
- are you available
- are you at your desk
  account has been limited
  action required
+ almost full
+ apd notifi cation
+ are you at your desk
+ are you available
  attached file to docusign
  banking is temporarily unavailable
  bankofamerica
  closing statement invoice
  completed: docusign
- docusign
- document is ready for signature
+ de-activation of
+ delivery attempt
  delivery stopped for shipment
  detected suspicious
  detected suspicious actvity
  docu sign
  document for you
  document has been sent to you via docusign
+ document is ready for signature
+ docusign
+ encrypted message
+ failed delivery
  freefax
  fwd: due invoice paid
+ has shared
+ inbox is full
+ invitation to comment
+ invitation to edit
  invoice due
+ new voicemail
+ out of space
  password reset
  payment status
- required: completed docusign
+ re: w-2
  required
+ required: completed docusign
  ringcentral
+ scanned image
  secured files
  secured pdf 
  security alert
- unrecognized login attempt
- you have notifications pending
- your document settlement
- your password has been compromised
- encrypted message
- upgrade immediately
- almost full
- has shared
- wants to share
- invitation to edit
- invitation to comment
- inbox is full
- de-activation of
- delivery attempt
- new voicemail
- failed delivery
  staff review
- re: w-2
- scanned image
- your order with amazon
+ unrecognized login attempt
+ upgrade immediately
+ wants to share
+ you have notifications pending
  your amazon order
- apd notifi cation
- out of space
+ your document settlement
+ your order with amazon
+ your password has been compromised

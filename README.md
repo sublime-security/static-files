@@ -5,7 +5,8 @@ A collection of static files maintained by the Sublime team, primarily used for 
 ## Repo contents
 
 * `alexa_top_1m.csv`: [Alexa](https://www.alexa.com/topsites) top 1 million sites.
-* `free_email_providers.txt`: Free email ("freemail") providers that allow anyone to create an email address. This is important to ensure the email address does not inherit the reputation of the freemail provider's domain.
+* `disposable_email_providers.txt`: Disposable (or temporary) email providers that generate short-lived email addresses not owned by or attributable to any single user.
+* `free_email_providers.txt`: Free email ("freemail") providers that allow anyone to create an email address. This is important to ensure the email address does not inherit the reputation of the freemail provider's domain. This list also includes the contents of the `disposable_email_providers.txt` list.
 * `free_file_hosts.txt`: Free file hosting sites that allow anyone to upload and serve arbitrary files.
 * `free_subdomain_hosts.txt`: Free subdomain sites that allow anyone to create their own subdomain and host arbitrary content. This is important to ensure the subdomains do not inherit the reputation of the root domain. 
 * `majestic_million.csv`: [Majestic million](https://majestic.com/reports/majestic-million) is a collection of domains that have the most referring subnets.

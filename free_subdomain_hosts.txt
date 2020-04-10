@@ -69,6 +69,7 @@ eu.nu
 eur.lc
 euro.lc
 europa.lc
+eventbrite.com
 fif.li
 filme.lc
 firm.nu
@@ -157,6 +158,7 @@ share.lc
 shopping.hn
 sites.google.com
 space.lc
+splashthat.com
 start.lc
 te4m.de
 team.cx

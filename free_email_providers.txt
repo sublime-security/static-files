@@ -14984,6 +14984,7 @@ o-tay.com
 o.opendns.ro
 o.spamtrap.ro
 o2.co.uk
+o2.pl
 o2stk.org
 o3enzyme.com
 o7i.net

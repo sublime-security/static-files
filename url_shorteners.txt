@@ -91,6 +91,8 @@ liltext.com
 lin.cr
 linkbee.com
 linkbun.ch
+linkfollowservice.com
+linksrtnr.com
 liurl.cn
 ln-s.net
 ln-s.ru
@@ -218,6 +220,7 @@ vl.am
 webrefer.cc
 w3t.org
 wapurl.co.uk
+webredirect.click
 wipi.es
 wp.me
 x.co

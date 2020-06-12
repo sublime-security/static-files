@@ -28,6 +28,7 @@ onedrive.live.com
 pcloud.com
 sabercathost.com
 sendspace.com
+share.hsforms.com
 sharepoint.com
 solidfiles.com
 sugarsync.com

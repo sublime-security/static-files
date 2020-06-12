@@ -42,11 +42,13 @@ clandomain.org
 club.lc
 cn.nf
 co.gp
+codesandbox.io
 com.nu
 community.lc
 cool.hn
 cool.lc
 cs-clan.org
+csb.app
 da.cx
 de.gp
 de.im
@@ -58,6 +60,7 @@ download.ac
 download.sh
 dr.ag
 dvd.lc
+dyndns.dk
 ee.tn
 english.lc
 es.cx
@@ -87,6 +90,7 @@ game.lc
 gaming.lc
 github.io
 glide.in
+glitch.me
 godaddysites.com
 gr.tn
 gratis.lc
@@ -190,6 +194,7 @@ wiki.lc
 windows.net
 wordpress.com 
 world.mu
+wufoo.com
 x.gg
 xl.lc
 xx.lc

@@ -1,5 +1,6 @@
 4shared.com
 adrive.com
+app.getresponse.com
 box.com
 datafilehost.com
 depositfiles.com

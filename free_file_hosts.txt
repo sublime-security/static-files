@@ -1,5 +1,6 @@
 4shared.com
 adrive.com
+app.getresponse.com
 box.com
 datafilehost.com
 depositfiles.com
@@ -14,6 +15,7 @@ filefactory.com
 fileflyer.com
 filehosting.org
 files.com
+firebasestorage.googleapis.com
 forms.office.com
 hightail.com
 idrive.com
@@ -27,6 +29,7 @@ onedrive.live.com
 pcloud.com
 sabercathost.com
 sendspace.com
+share.hsforms.com
 sharepoint.com
 solidfiles.com
 sugarsync.com

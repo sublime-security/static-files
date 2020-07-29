@@ -1,4 +1,3 @@
-
 0-00.usa.cc
 0-180.com
 0-420.com
@@ -5387,6 +5386,7 @@ mail21.cc
 mail22.club
 mail22.space
 mail2nowhere.tk
+mail2paste.com
 mail2rss.org
 mail333.com
 mail4.online

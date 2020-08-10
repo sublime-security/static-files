@@ -7912,6 +7912,7 @@ gmeil.me
 gmial.com
 gmil.com
 gmx.at
+gmx.biz
 gmx.ca
 gmx.cc
 gmx.ch

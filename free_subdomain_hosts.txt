@@ -1,4 +1,5 @@
 000webhost.com
+000webhostapp.com
 18.lc
 1x.net
 2.ag
@@ -19,6 +20,7 @@ appspot.com
 app.link
 asia.gp
 at.st
+azurewebsites.net
 auto.lc
 aw3.de
 b2b.lc
@@ -47,6 +49,7 @@ com.nu
 community.lc
 cool.hn
 cool.lc
+creatorlink.net
 cs-clan.org
 csb.app
 da.cx
@@ -137,6 +140,7 @@ now.lc
 npx.de
 on.lc
 online.gp
+oraclecloud.com
 party.lc
 pc.lc
 ph.tn
@@ -192,6 +196,7 @@ website.tk
 welt.tl
 wiki.lc
 windows.net
+wixsite.com
 wordpress.com 
 world.mu
 wufoo.com

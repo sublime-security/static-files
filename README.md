@@ -14,6 +14,7 @@ A collection of static files maintained by the Sublime team, primarily used for 
 * `suspicious_subjects.txt`: Words or phrases that may be considered suspicious in an email subject.
 * `suspicious_subjects_regex.txt`: Regular expressions for words or phrases that may be considered suspicious in an email subject.
 * `suspicious_tlds.txt`: Top-level domains that are either frequently abused, free to register, or otherwise not generally used in the normal course of business or email communication.
+* `tranco.csv`: [Tranco ranking](https://tranco-list.eu/), a research-oriented top sites ranking hardened against manipulation.
 * `umbrella_top_1m.csv`: [Cisco Umbrella](https://umbrella.cisco.com/blog/cisco-umbrella-1-million) top domains based on passive DNS data. 
 * `umbrella_top_1m_tld.csv`: [Cisco Umbrella](https://umbrella.cisco.com/blog/cisco-umbrella-1-million) top TLDs based on passive DNS data.
 * `url_shorteners.txt`: Known URL shorteners that allow anyone to host arbitrary content.

@@ -93,7 +93,6 @@ ch.vc
 ch.vu
 check-it-out.nl
 click
-cloud
 club
 cm
 cn.mn

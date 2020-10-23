@@ -11435,6 +11435,7 @@ mail.bestoption25.club
 mail.bulgaria.com
 mail.by
 mail.byte.it
+mail.ch
 mail.co.za
 mail.com
 mail.com.tr
@@ -11447,6 +11448,7 @@ mail.entrepeneurmag.com
 mail.entrepreneurmag.com
 mail.fettometern.com
 mail.fgoyq.com
+mail.fr
 mail.freetown.com
 mail.gr
 mail.hitthebeach.com
@@ -13020,6 +13022,7 @@ mailpick.biz
 mailpm.live
 mailpokemon.com
 mailpooch.com
+mailpoof.com
 mailportal.net
 mailpost.ga
 mailpost.gq

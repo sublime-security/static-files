@@ -75,7 +75,6 @@ c4.fr
 ca.pn
 ca.tf
 casubi.com
-cc
 cc.ai
 cc.cc
 cd.am
@@ -197,7 +196,6 @@ go.si
 gq
 gr.tn
 gu
-guru
 gv.vg
 ha.la
 hi.tw

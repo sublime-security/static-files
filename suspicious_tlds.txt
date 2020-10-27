@@ -197,7 +197,6 @@ go.si
 gq
 gr.tn
 gu
-guru
 gv.vg
 ha.la
 hi.tw

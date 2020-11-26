@@ -7099,6 +7099,7 @@ firefighter.co.uk
 firekiwi.xyz
 firema.cf
 firemail.cc
+firemailbox.club
 fireman.co.uk
 fireman.net
 first-email.net
@@ -16361,6 +16362,7 @@ post.com
 post.cybercity.dk
 post.cz
 post.dia.dk
+post.lu
 post.melkfl.es
 post.sk
 post0.profimedia.net

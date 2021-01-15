@@ -30,6 +30,7 @@ megafileupload.com
 notion.so
 onedrive.live.com
 pcloud.com
+quip.com
 sabercathost.com
 sendspace.com
 share.hsforms.com

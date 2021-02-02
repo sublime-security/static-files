@@ -37,6 +37,7 @@ sabercathost.com
 sendspace.com
 share.hsforms.com
 sharepoint.com
+storage.cloud.google.com
 solidfiles.com
 sugarsync.com
 surveymonkey.com

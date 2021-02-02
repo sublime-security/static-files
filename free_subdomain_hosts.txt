@@ -58,6 +58,7 @@ de.im
 de.ki
 de.pl
 design.tl
+digitaloceanspaces.com
 domain.lc
 download.ac
 download.sh

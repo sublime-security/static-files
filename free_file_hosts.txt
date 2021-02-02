@@ -6,6 +6,7 @@ box.com
 datafilehost.com
 depositfiles.com
 d.pr
+digitaloceanspaces.com
 docs.google.com
 drive.google.com
 dropbox.com

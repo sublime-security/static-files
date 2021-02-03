@@ -15,6 +15,7 @@ about.lc
 ae.tn
 afraid.org
 all.lc
+amazonaws.com
 anschauen.in
 appspot.com
 app.link

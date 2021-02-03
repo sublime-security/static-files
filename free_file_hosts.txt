@@ -1,5 +1,6 @@
 4shared.com
 adrive.com
+amazonaws.com
 app.getresponse.com
 app.milanote.com
 box.com

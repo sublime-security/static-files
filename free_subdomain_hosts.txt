@@ -195,6 +195,7 @@ vz.lc
 web.app
 web.gg
 website.tk
+weebly.com
 welt.tl
 wiki.lc
 windows.net

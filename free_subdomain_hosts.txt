@@ -16,6 +16,7 @@ ae.tn
 afraid.org
 all.lc
 amazonaws.com
+amplifyapp.com
 anschauen.in
 appspot.com
 app.link

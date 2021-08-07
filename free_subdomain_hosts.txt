@@ -102,7 +102,7 @@ gr.tn
 gratis.lc
 guest.de
 hase.in
-herokupapp.com
+herokuapp.com
 hexe.in
 hk.tn
 home.lc

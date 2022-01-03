@@ -179,12 +179,14 @@ team.cx
 team.tl
 test.lc
 th.tn
+translate.goog
 translate.google.com
 top.lc
 top8.com
 tr.tn
 turkish.lc
 tv.gg
+typeform.com
 uk.tn
 urlaub.lc
 us.gg

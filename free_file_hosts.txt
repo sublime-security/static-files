@@ -1,3 +1,5 @@
+1drv.com
+1drv.ms
 4shared.com
 adrive.com
 amazonaws.com
@@ -35,6 +37,7 @@ notion.so
 onedrive.live.com
 pcloud.com
 quip.com
+raw.githubusercontent.com
 sabercathost.com
 sendspace.com
 share.hsforms.com

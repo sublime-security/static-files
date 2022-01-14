@@ -1,4 +1,4 @@
-(?<!lease )termination.*notice
+termination.*notice
 38417
 :completed
 [il1]{2}mit.*ma[il1]{2} ?bo?x

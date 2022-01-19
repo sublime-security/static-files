@@ -37,6 +37,7 @@ message received
 new evoice
 new message
 new voicemail
+on desk
 out of space
 password reset
 payment status
@@ -58,6 +59,7 @@ staff review
 suspicious activity
 unrecognized login attempt
 upgrade immediately
+urgent
 wants to share
 w2
 you have notifications pending

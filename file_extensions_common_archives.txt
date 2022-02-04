@@ -1,0 +1,6 @@
+7z
+bz2
+gz
+rar
+tar
+zip

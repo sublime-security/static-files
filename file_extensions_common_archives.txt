@@ -4,3 +4,4 @@ gz
 rar
 tar
 zip
+zipx

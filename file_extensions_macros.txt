@@ -3,6 +3,7 @@ docm
 docx
 dot
 dotm
+mht
 pptm
 ppsm
 xlm
@@ -11,3 +12,4 @@ xlsb
 xlsm
 xlt
 xltm
+xml

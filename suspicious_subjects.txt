@@ -1,3 +1,4 @@
+abandoned trademark
 account has been limited
 action required
 almost full
@@ -32,11 +33,15 @@ invitation to edit
 invoice due
 left you a message
 message from
+message received
+new evoice
 new message
 new voicemail
+on desk
 out of space
 password reset
 payment status
+pending invoice
 quick reply
 re: w-2
 required
@@ -54,6 +59,7 @@ staff review
 suspicious activity
 unrecognized login attempt
 upgrade immediately
+urgent
 wants to share
 w2
 you have notifications pending

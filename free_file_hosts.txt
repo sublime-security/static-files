@@ -5,6 +5,7 @@ adrive.com
 amazonaws.com
 app.getresponse.com
 app.milanote.com
+appdomain.cloud
 box.com
 datafilehost.com
 depositfiles.com

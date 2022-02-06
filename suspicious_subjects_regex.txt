@@ -8,9 +8,11 @@ termination.*notice
 [ng]-?[io]n .*cancel
 [ng]-?[io]n .*deactiv
 [ng]-?[io]n .*disabl
+\\.wav
 \\aaction.*required
 \\bhoid\\b
 \\bits \\s
+\\d new
 abandon.*package
 about.your.account
 acc(ou)?n?t (is )?on ho[li]d
@@ -35,6 +37,7 @@ been.*suspend
 clos.*of.*account.*processed
 confirm.your.account
 courier.*able
+deactivation.*in.*progress
 delivery.*attempt.*failed
 document.received
 documented.*shared.*with.*you
@@ -68,13 +71,14 @@ mail on.?hold
 mail.*box.*migration
 mail.*de-?activat
 mail.update.required
-mails.pending
+mails.*pending
+messages.*pending
 missed.*shipping.*notification
 missed.shipment.notification
 must.update.your.account
 new [sl][io]g?[nig][ -]?in from
 new voice ?-?mail
-notifications?.pending
+notifications.*pending
 office.*3.*6.*5.*suspend
 office365
 on\\ google\\ docs\\ with\\ you

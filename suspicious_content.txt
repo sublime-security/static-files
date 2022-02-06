@@ -17,6 +17,9 @@
  help-desk
  helpdesk
  how to resolve your email
+ important task
+ kindly resend
+ let me know
  new documents was sent to you
  new documents were sent to you
  no emails reply: no emails
@@ -27,18 +30,22 @@
  scan result: clean
  secured files link
  security alert
+ security message
  share a file
  shared a private document
  shared a secure file
  suspension
  suspicious activity
  suspicious login
+ task completed
  to share some document
  unusual
+ update your account
  used docu.?box to
  verify your
  view click here
  view invoice in docxn
  will be deleted in a few hours
  will be deleted in few hours
+ will be suspended
  you have new documents

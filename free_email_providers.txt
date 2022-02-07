@@ -6007,6 +6007,7 @@ dublin.ie
 dublin4.com
 dubliner.net
 dubliners.net
+duck.com
 duck2.club
 ducky.co.uk
 dudmail.com
@@ -8032,6 +8033,7 @@ gmail.dz
 gmail.fr
 gmail.ge
 gmail.gr.com
+gmail.hu
 gmail.ie
 gmail.is
 gmail.lu

@@ -8,11 +8,8 @@ termination.*notice
 [ng]-?[io]n .*cancel
 [ng]-?[io]n .*deactiv
 [ng]-?[io]n .*disabl
-\\.wav
-\\aaction.*required
-\\bhoid\\b
-\\bits \\s
-\\d new
+.wav
+action.*required
 abandon.*package
 about.your.account
 acc(ou)?n?t (is )?on ho[li]d
@@ -28,7 +25,7 @@ account.*suspension
 account.has.been
 account.has.expired
 account.will.be.blocked
-account\\ v[il]o[li]at
+account v[il]o[li]at
 activity.*acc(oun)?t
 almost.full
 app[li]e.[il]d
@@ -66,7 +63,7 @@ lock.*security
 ma[il1]{1}[ -]?box.*quo
 ma[il1]{2}[ -]?box.*fu[il1]
 ma[il1]{2}box.*[il1]{2}mit
-ma[il1]{2}box\\ stor
+ma[il1]{2}box stor
 mail on.?hold
 mail.*box.*migration
 mail.*de-?activat
@@ -81,7 +78,7 @@ new voice ?-?mail
 notifications.*pending
 office.*3.*6.*5.*suspend
 office365
-on\\ google\\ docs\\ with\\ you
+on google docs with you
 online doc
 password.*compromised
 periodic maintenance

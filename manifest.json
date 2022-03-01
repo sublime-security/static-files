@@ -1,0 +1,107 @@
+{
+  "lists": [
+    {
+      "file": "alexa_top_1m.csv",
+      "identifier": "alexa_1m",
+      "display_name": "Alexa Top 1 Million Domains",
+      "headers": [
+        "x",
+        "entry"
+      ]
+    },
+    {
+      "file": "disposable_email_providers.txt",
+      "identifier": "disposable_email_providers",
+      "display_name": "Disposable (or Temporary) Email Providers",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "free_email_providers.txt",
+      "identifier": "free_email_providers",
+      "display_name": "Free Email Providers",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "free_file_hosts.txt",
+      "identifier": "free_file_hosts",
+      "display_name": "Free File Hosts",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "free_subdomain_hosts.txt",
+      "identifier": "free_subdomain_hosts",
+      "display_name": "Free Subdomain Hosts",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "majestic_million.csv",
+      "identifier": "majestic_million",
+      "display_name": "Majestic Million (domains with most referring subnets)",
+      "headers": [
+        "x1",
+        "x2",
+        "entry",
+        "x3",
+        "x4",
+        "x5",
+        "x6",
+        "x7",
+        "x8",
+        "x9",
+        "x10",
+        "x11"
+      ]
+    },
+    {
+      "file": "suspicious_tlds.txt",
+      "identifier": "suspicious_tlds",
+      "display_name": "Suspicious Top-Level Domains",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "tranco.csv",
+      "identifier": "tranco_1m",
+      "display_name": "Tranco Top 1 Million Domains",
+      "headers": [
+        "x",
+        "entry"
+      ]
+    },
+    {
+      "file": "umbrella_top_1m.csv",
+      "identifier": "umbrella_1m",
+      "display_name": "Cisco Umbrella Top 1 Million Domains",
+      "headers": [
+        "x",
+        "entry"
+      ]
+    },
+    {
+      "file": "umbrella_top_1m_tld.csv",
+      "identifier": "umbrella_1m_tld",
+      "display_name": "TLDs found in Cisco Umbrella Top 1 Million Domains",
+      "headers": [
+        "x",
+        "entry"
+      ]
+    },
+    {
+      "file": "url_shorteners.txt",
+      "identifier": "url_shorteners",
+      "display_name": "URL Shorteners",
+      "headers": [
+        "entry"
+      ]
+    }
+  ]
+}

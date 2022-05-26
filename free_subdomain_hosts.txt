@@ -144,6 +144,7 @@ npx.de
 on.lc
 online.gp
 oraclecloud.com
+pages.dev
 party.lc
 pc.lc
 ph.tn
@@ -205,6 +206,7 @@ wiki.lc
 windows.net
 wixsite.com
 wordpress.com 
+workers.dev
 world.mu
 wufoo.com
 x.gg

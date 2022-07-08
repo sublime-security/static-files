@@ -24,6 +24,7 @@ files.com
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com
 forms.office.com
+fromsmash.com
 hightail.com
 idrive.com
 jumpshare.com

@@ -8,7 +8,7 @@ A collection of static files maintained by the Sublime team, primarily used for 
 * `disposable_email_providers.txt`: Disposable (or temporary) email providers that generate short-lived email addresses not owned by or attributable to any single user.
 * `free_email_providers.txt`: Free email ("freemail") providers that allow anyone to create an email address. This is important to ensure the email address does not inherit the reputation of the freemail provider's domain. This list also includes the contents of the `disposable_email_providers.txt` list.
 * `free_file_hosts.txt`: Sites that allow anyone to upload and serve arbitrary files or content. Content can include anything from a file preview with a clickable link to rendering HTML.
-* `free_subdomain_hosts.txt`: Sites that allow anyone to create their own subdomain and host arbitrary content. This is important to ensure the subdomains do not inherit the reputation of the root domain. 
+* `free_subdomain_hosts.txt`: Sites that allow anyone to create their own subdomain and host arbitrary content. This is important to ensure the subdomains do not inherit the reputation of the root domain. This includes both subdomains that are auto-generated for users as well as user-controlled named subdomains.
 * `majestic_million.csv`: [Majestic million](https://majestic.com/reports/majestic-million) is a collection of domains that have the most referring subnets.
 * `suspicious_content.txt`: Words or phrases that may be considered suspicious in an email body.
 * `suspicious_subjects.txt`: Words or phrases that may be considered suspicious in an email subject.

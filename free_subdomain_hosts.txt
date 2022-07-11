@@ -38,7 +38,6 @@ biz.ps
 biz.uz
 blog.lc
 blogspot.com
-canva.com
 center.tl
 ch.st
 chat.dj
@@ -51,6 +50,7 @@ clandomain.de
 clandomain.org
 clickfunnels.com
 cloudapp.net
+cloudfront.net
 cloudwaysapps.com
 club.lc
 cn.nf
@@ -93,24 +93,28 @@ euro.lc
 europa.lc
 eventbrite.com
 fif.li
+filecloudonline.com
 filme.lc
 firebaseapp.com
 firm.nu
 fk.gs
 flirt.lc
 flirten.info
+format.com
 forum.lc
 fotos.lc
 fr.gp
 free.lc
 freesubdomain.org
 fun.gg
+fyi.to
 game.lc
 gaming.lc
 github.io
 glide.in
 glitch.me
 godaddysites.com
+googleusercontent.com
 gr.tn
 gratis.lc
 guest.de
@@ -121,6 +125,7 @@ hk.tn
 home.lc
 homepage.cx
 homepage.lc
+hostingerapp.com
 hot.lc
 hp.lc
 hund.in
@@ -128,6 +133,7 @@ id.vg
 info.nu
 infos.cx
 infos.lc
+inmotionhosting.com
 int.ps
 ir.tn
 it.gp
@@ -155,6 +161,7 @@ netlify.app
 netz.tl
 ng.tn
 ngrok.io
+nimbusweb.me
 nl.gp
 nl.tn
 notion.site
@@ -164,6 +171,7 @@ on.lc
 ondigitalocean.app
 online.gp
 oraclecloud.com
+pagecloud.com
 pages.dev
 party.lc
 pc.lc
@@ -223,6 +231,7 @@ user.lc
 vn.tn
 voten.in
 vz.lc
+wasabisys.com
 web.app
 web.gg
 webflow.io

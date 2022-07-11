@@ -8,6 +8,8 @@ app.milanote.com
 appdomain.cloud
 archive.org
 archive.ph
+attachment.outlook.live.net
+attachments.office.net
 backblazeb2.com
 beautiful.ai
 box.com

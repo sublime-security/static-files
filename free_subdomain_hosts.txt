@@ -193,6 +193,7 @@ sg.tn
 share.lc
 sharepoint.com
 shopping.hn
+simple.ink
 sites.google.com
 slab.com
 space.lc

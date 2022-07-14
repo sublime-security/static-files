@@ -58,7 +58,8 @@
         "x9",
         "x10",
         "x11"
-      ]
+      ],
+      "includes_header": true
     },
     {
       "file": "suspicious_tlds.txt",

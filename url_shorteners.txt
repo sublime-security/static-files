@@ -118,6 +118,7 @@ nsfw.in
 o-x.fr
 om.ly
 ow.ly
+parg.co
 pd.am
 pic.gd
 ping.fm
@@ -130,7 +131,9 @@ profile.to
 qicute.com
 qlnk.net
 quip-art.com
+rb.gy
 rb6.me
+rebrand.ly
 redirx.com
 ri.ms
 rickroll.it
@@ -167,6 +170,7 @@ sqrl.it
 starturl.com
 sturly.com
 su.pr
+t.co
 tcrn.ch
 teensy.co.nf
 thrdl.es

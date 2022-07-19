@@ -1,6 +1,8 @@
 7z
 bz2
 gz
+img
+iso
 rar
 tar
 zip

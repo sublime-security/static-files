@@ -6,7 +6,7 @@ A collection of static files maintained by the Sublime team, primarily used for 
 
 * `alexa_top_1m.csv`: [Alexa](https://www.alexa.com/topsites) top 1 million sites.
 * `disposable_email_providers.txt`: Disposable (or temporary) email providers that generate short-lived email addresses not owned by or attributable to any single user.
-* `file_extensions_common_archives.txt`: Common archive file extensions used to smuggle malicious files.
+* `file_extensions_common_archives.txt`: Common archive file extensions, which can be used to deliver malicious files. Uncommon archive extensions are not included in this list because they can typically be blocked holistically.
 * `file_extensions_macros.txt`: File extensions of macro-supported documents, such as Microsoft Office files.
 * `free_email_providers.txt`: Free email ("freemail") providers that allow anyone to create an email address. This is important to ensure the email address does not inherit the reputation of the freemail provider's domain. This list also includes the contents of the `disposable_email_providers.txt` list.
 * `free_file_hosts.txt`: Sites that allow anyone to upload and serve arbitrary files or content. Content can include anything from a file preview with a clickable link to rendering HTML. This may include sites that uses arbitrary subdomains to load balance sites, but those subdomains are re-used for the site's users and are not unique to the owner of the content.

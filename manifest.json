@@ -28,7 +28,7 @@
     {
       "file": "file_extensions_macros.txt",
       "identifier": "file_extensions_macros",
-      "display_name": "File extensions of macro-supported documents",
+      "display_name": "File extensions of documents that can run macros",
       "headers": [
         "entry"
       ]

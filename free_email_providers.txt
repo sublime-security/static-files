@@ -18142,6 +18142,7 @@ simplebox.email
 simpleemail.in
 simpleemail.info
 simpleitsecurity.info
+simplelogin.com
 simplemail.in
 simplemail.top
 simplyamulet.ru
@@ -18211,6 +18212,7 @@ skibbereen.com
 skibuff.co.uk
 skibuff.com
 skicrazy.com
+skiff.com
 skillion.org
 skim.com
 skinadvancedstore.com

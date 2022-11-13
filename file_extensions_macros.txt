@@ -1,0 +1,13 @@
+doc
+docm
+docx
+dot
+dotm
+pptm
+ppsm
+xlm
+xls
+xlsb
+xlsm
+xlt
+xltm

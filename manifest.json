@@ -18,6 +18,22 @@
       ]
     },
     {
+      "file": "file_extensions_common_archives.txt",
+      "identifier": "file_extensions_common_archives",
+      "display_name": "File extensions of common archives",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "file_extensions_macros.txt",
+      "identifier": "file_extensions_macros",
+      "display_name": "File extensions of documents that can run macros",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "free_email_providers.txt",
       "identifier": "free_email_providers",
       "display_name": "Free Email Providers",

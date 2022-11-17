@@ -3,8 +3,12 @@ docm
 docx
 dot
 dotm
+ppa
+ppam
+ppt
 pptm
 ppsm
+wbk
 xlm
 xls
 xlsb

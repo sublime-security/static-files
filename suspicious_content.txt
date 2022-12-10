@@ -8,18 +8,18 @@ clustered messages
 document has been completed
 download as excel
 dropbox file sent
+encrypted document
 exceeded your
 file scanned by avast antivirus
 gift card 
-shared the following document
 help desk
 help-desk
 helpdesk
 how to resolve your email
 important task
-incoming fax
-incoming efax
 incoming e-fax
+incoming efax
+incoming fax
 kindly resend
 let me know
 new documents was sent to you
@@ -33,14 +33,15 @@ our courier attempted
 password reset
 purchase order
 scan result: clean
-secured files link
-security alert
 scanned against virus
 scanned for virus
+secured files link
+security alert
 security message
 share a file
 shared a private document
 shared a secure file
+shared the following document
 shared with you
 suspension
 suspicious activity
@@ -53,6 +54,7 @@ used docu box to
 used docubox to
 verify your
 view click here
+view document
 view invoice in docxn
 will be deleted in a few hours
 will be deleted in few hours

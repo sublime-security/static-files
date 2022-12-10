@@ -42,6 +42,7 @@ out of space
 password reset
 payment status
 pending invoice
+processed
 quick reply
 re: w-2
 required

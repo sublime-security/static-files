@@ -7,7 +7,6 @@
  clustered messages
  document has been completed
  download as excel
- download.as.excel
  dropbox file sent
  exceeded your
  file scanned by avast antivirus
@@ -18,10 +17,16 @@
  helpdesk
  how to resolve your email
  important task
+ incoming fax
+ incoming efax
+ incoming e-fax
  kindly resend
  let me know
  new documents was sent to you
  new documents were sent to you
+ new sign in
+ new sign-in
+ new signin
  no emails reply: no emails
  one drive team
  our courier attempted
@@ -30,10 +35,13 @@
  scan result: clean
  secured files link
  security alert
+ scanned against virus
+ scanned for virus
  security message
  share a file
  shared a private document
  shared a secure file
+ shared with you
  suspension
  suspicious activity
  suspicious login
@@ -41,7 +49,8 @@
  to share some document
  unusual
  update your account
- used docu.?box to
+ used docu box to
+ used docubox to
  verify your
  view click here
  view invoice in docxn

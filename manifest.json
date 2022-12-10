@@ -78,6 +78,22 @@
       "includes_header": true
     },
     {
+      "file": "suspicious_context.txt",
+      "identifier": "suspicious_content",
+      "display_name": "Suspicious content phrases",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "suspicious_subjects.txt",
+      "identifier": "suspicious_subjects",
+      "display_name": "Suspicious subject phrases",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "suspicious_tlds.txt",
       "identifier": "suspicious_tlds",
       "display_name": "Suspicious Top-Level Domains",

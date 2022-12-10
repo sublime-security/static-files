@@ -58,7 +58,6 @@ bee.pl
 bg.tc
 bg.tf
 bi.sh
-bid
 bij.pl
 biz.br.tc
 biz.ly
@@ -358,7 +357,6 @@ sg.tf
 sg.tn
 sge.me
 sh.jp
-shop
 shop.ms
 shop.tc
 slx.nl
@@ -425,7 +423,6 @@ website.tk
 wiggy.me
 win
 wo.tv
-work
 world
 ws
 ww.ai

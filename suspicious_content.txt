@@ -36,7 +36,7 @@
  secured files link
  security alert
  scanned against virus
- scanned for viruses
+ scanned for virus
  security message
  share a file
  shared a private document

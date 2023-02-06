@@ -65,6 +65,7 @@ gurl.es
 hamns.net
 hellotxt.com
 hex.io
+hideuri.com
 hover.com
 href.in
 htxt.it

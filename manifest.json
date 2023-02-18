@@ -18,6 +18,15 @@
       ]
     },
     {
+      "file": "dyn_dns_domains.csv",
+      "identifier": "dyn_dns",
+      "display_name": "Domains offered by Dynamic DNS Providers",
+      "headers": [
+        "entry",
+        "x"
+      ]
+    },
+    {
       "file": "file_extensions_common_archives.txt",
       "identifier": "file_extensions_common_archives",
       "display_name": "File extensions of common archives",

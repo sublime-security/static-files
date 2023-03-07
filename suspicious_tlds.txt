@@ -158,7 +158,6 @@ edu.tc
 edu.tf
 ee.pl
 ee.tn
-email
 en.bz
 enterprises
 es.cx

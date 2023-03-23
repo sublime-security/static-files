@@ -58,6 +58,7 @@ go.9nl.com
 go2.me
 go2cut.com
 go2l.ink
+goo.gl
 goshrink.com
 gowat.ch
 gri.ms

@@ -26,6 +26,14 @@
       ]
     },
     {
+      "file": "file_extensions_executables.txt",
+      "identifier": "file_extensions_executables",
+      "display_name": "File extensions of common executables",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "file_extensions_macros.txt",
       "identifier": "file_extensions_macros",
       "display_name": "File extensions of documents that can run macros",

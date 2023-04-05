@@ -57,6 +57,7 @@ pcloud.com
 quip.com
 raw.githubusercontent.com
 sabercathost.com
+send-anywhere.com
 sendspace.com
 share.hsforms.com
 sharepoint.com

@@ -250,6 +250,7 @@ mm.am
 mo.tl
 mom
 moredns.org
+mov
 mp.sh
 mx.am
 mx.tc

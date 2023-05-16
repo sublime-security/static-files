@@ -10,7 +10,7 @@
       ]
     },
     {
-      "url": "https://raw.githubusercontent.com/hugh-sublime/static-files/hugh.dev/disposable_email_providers.txt",
+      "url": "https://raw.githubusercontent.com/sublime-security/static-files/master/disposable_email_providers.txt",
       "file": "disposable_email_providers.txt",
       "identifier": "disposable_email_providers",
       "display_name": "Disposable (or Temporary) Email Providers",

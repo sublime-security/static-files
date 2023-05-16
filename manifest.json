@@ -1,7 +1,7 @@
 {
   "lists": [
     {
-      "file": "alexa_top_1m.csv",
+      "url": "https://raw.githubusercontent.com/hugh-sublime/static-files/hugh.dev/alexa_top_1m.csv",
       "identifier": "alexa_1m",
       "display_name": "Alexa Top 1 Million Domains",
       "headers": [
@@ -10,6 +10,7 @@
       ]
     },
     {
+      "url": "https://raw.githubusercontent.com/hugh-sublime/static-files/hugh.dev/disposable_email_providers.txt",
       "file": "disposable_email_providers.txt",
       "identifier": "disposable_email_providers",
       "display_name": "Disposable (or Temporary) Email Providers",

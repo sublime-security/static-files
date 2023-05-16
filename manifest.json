@@ -1,6 +1,30 @@
 {
   "lists": [
     {
+      "file": "abusech_malwarebazaar_trusted_reporters_unfiltered_sha256.txt",
+      "identifier": "abusech_malwarebazaar_trusted_reporters_unfiltered_sha256",
+      "display_name": "Abuse.ch: MalwareBazaar [Unfiltered/Raw] Trusted reporters: pr0xylife, abuse_ch, cocaman, James_inthe_box, JAMESWT_MHT",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "abusech_urlhaus_trusted_reporters_unfiltered_domains.txt",
+      "identifier": "abusech_urlhaus_trusted_reporters_unfiltered_domains",
+      "display_name": "Abuse.ch: URLhaus [Unfiltered/Raw] You should NOT use this list on its own - filtering is required. Trusted reporters: Cryptolaemus1, abuse_ch",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "abusech_urlhaus_trusted_reporters_unfiltered_urls.txt",
+      "identifier": "abusech_urlhaus_trusted_reporters_unfiltered_urls",
+      "display_name": "Abuse.ch: URLhaus [Unfiltered/Raw] Trusted reporters: Cryptolaemus1, abuse_ch",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "alexa_top_1m.csv",
       "identifier": "alexa_1m",
       "display_name": "Alexa Top 1 Million Domains",

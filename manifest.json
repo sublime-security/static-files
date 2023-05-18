@@ -1,50 +1,7 @@
 {
   "lists": [
     {
-      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_malwarebazaar_sha256_trusted_reporters.txt",
-      "identifier": "abuse_ch_malwarebazaar_sha256_trusted_reporters",
-      "display_name": "Abuse.ch: MalwareBazaar [Last 90 days Unfiltered/Raw] Trusted reporters: pr0xylife, abuse_ch, cocaman, James_inthe_box, JAMESWT_MHT\"",
-      "headers": [
-        "entry"
-      ]
-    },
-    {
-      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_malwarebazaar_trusted_reporters.csv",
-      "identifier": "abuse_ch_malwarebazaar_trusted_reporters",
-      "display_name": "Abuse.ch: MalwareBazaar [Last 90 days Unfiltered/Raw] Trusted reporters: pr0xylife, abuse_ch, cocaman, James_inthe_box, JAMESWT_MHT\"",
-      "headers": [
-        "x",
-        "entry"
-      ]
-    },
-    {
-      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_urlhaus_trusted_reporters.csv",
-      "identifier": "abuse_ch_urlhaus_trusted_reporters",
-      "display_name": "Abuse.ch: URLhaus [Last 90 days Unfiltered/Raw] Trusted reporters: Cryptolaemus1, abuse_ch",
-      "headers": [
-        "x",
-        "x",
-        "entry"
-      ]
-    },
-    {
-      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_urlhaus_urls_trusted_reporters.txt",
-      "identifier": "abuse_ch_urlhaus_urls_trusted_reporters",
-      "display_name": "Abuse.ch: URLhaus [Last 90 days Unfiltered/Raw] Trusted reporters: Cryptolaemus1, abuse_ch",
-      "headers": [
-        "entry"
-      ]
-    },
-    {
-      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_urlhaus_domains_trusted_reporters.txt",
-      "identifier": "abuse_ch_urlhaus_domains_trusted_reporters",
-      "display_name": "Abuse.ch: URLhaus [Last 90 days Unfiltered/Raw] You should NOT use this list on its own - filtering is required. Trusted reporters: Cryptolaemus1, abuse_ch",
-      "headers": [
-        "entry"
-      ]
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hugh-sublime/static-files/hugh.dev/alexa_top_1m.csv",
+      "file": "alexa_top_1m.csv",
       "identifier": "alexa_1m",
       "display_name": "Alexa Top 1 Million Domains",
       "headers": [
@@ -53,7 +10,6 @@
       ]
     },
     {
-      "url": "https://raw.githubusercontent.com/sublime-security/static-files/master/disposable_email_providers.txt",
       "file": "disposable_email_providers.txt",
       "identifier": "disposable_email_providers",
       "display_name": "Disposable (or Temporary) Email Providers",
@@ -168,6 +124,30 @@
       "file": "url_shorteners.txt",
       "identifier": "url_shorteners",
       "display_name": "URL Shorteners",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_malwarebazaar_sha256_trusted_reporters.txt",
+      "identifier": "abuse_ch_malwarebazaar_sha256_trusted_reporters",
+      "display_name": "Abuse.ch: MalwareBazaar SHA256 hashes. Trusted reporters: pr0xylife, abuse_ch, cocaman, James_inthe_box, JAMESWT_MHT\"",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_urlhaus_urls_trusted_reporters.txt",
+      "identifier": "abuse_ch_urlhaus_urls_trusted_reporters",
+      "display_name": "Abuse.ch: URLhaus URLs. Trusted reporters: Cryptolaemus1, abuse_ch",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_urlhaus_domains_trusted_reporters.txt",
+      "identifier": "abuse_ch_urlhaus_domains_trusted_reporters",
+      "display_name": "Abuse.ch: URLhaus domains derived from trusted reporter URLs. Trusted reporters: Cryptolaemus1, abuse_ch",
       "headers": [
         "entry"
       ]

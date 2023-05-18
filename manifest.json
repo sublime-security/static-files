@@ -131,7 +131,7 @@
     {
       "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_malwarebazaar_sha256_trusted_reporters.txt",
       "identifier": "abuse_ch_malwarebazaar_sha256_trusted_reporters",
-      "display_name": "Abuse.ch: MalwareBazaar SHA256 hashes. Trusted reporters: pr0xylife, abuse_ch, cocaman, James_inthe_box, JAMESWT_MHT\"",
+      "display_name": "Abuse.ch: MalwareBazaar SHA256 hashes. Trusted reporters: pr0xylife, abuse_ch, cocaman, James_inthe_box, JAMESWT_MHT",
       "headers": [
         "entry"
       ]

@@ -127,6 +127,30 @@
       "headers": [
         "entry"
       ]
+    },
+    {
+      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_malwarebazaar_sha256_trusted_reporters.txt",
+      "identifier": "abuse_ch_malwarebazaar_sha256_trusted_reporters",
+      "display_name": "Abuse.ch: MalwareBazaar SHA256 hashes. Note: Entries are limited to the following trusted reporters, but are otherwise unfiltered. We recommend using filtering logic in MQL to reduce potential false positives. Trusted reporters: pr0xylife, abuse_ch, cocaman, James_inthe_box, JAMESWT_MHT",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_urlhaus_urls_trusted_reporters.txt",
+      "identifier": "abuse_ch_urlhaus_urls_trusted_reporters",
+      "display_name": "Abuse.ch: URLhaus URLs. Note: Entries are limited to the following trusted reporters, but are otherwise unfiltered. We recommend using filtering logic in MQL to reduce potential false positives. Trusted reporters: Cryptolaemus1, abuse_ch",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_urlhaus_domains_trusted_reporters.txt",
+      "identifier": "abuse_ch_urlhaus_domains_trusted_reporters",
+      "display_name": "Abuse.ch: Domains derived from $abuse_ch_urlhaus_urls_trusted_reporters. Note: Entries are limited to the following trusted reporters, but are otherwise unfiltered. We recommend using filtering logic in MQL to reduce potential false positives. Trusted reporters: Cryptolaemus1, abuse_ch",
+      "headers": [
+        "entry"
+      ]
     }
   ]
 }

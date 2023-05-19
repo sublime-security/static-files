@@ -1,0 +1,12 @@
+application/vnd.ms-excel
+application/CDFV2
+application/vnd.openxmlformats-officedocument.wordprocessingml.document
+application/msword
+application/vnd.ms-word.document.macroEnabled.12
+application/vnd.openxmlformats-officedocument.wordprocessingml.document
+application/vnd.openxmlformats-officedocument.wordprocessingml.template
+application/vnd.ms-word.template.macroEnabled.12
+olecf_file
+ooxml_file
+mhtml_file
+wordml_file

@@ -58,6 +58,14 @@
       ]
     },
     {
+       "file": "file_flavors_macros.txt",
+       "identifier": "file_flavors_macros",
+       "display_name": "File flavors of documents that can run macros",
+       "headers": [
+         "entry"
+       ]
+     },
+    {
       "file": "free_subdomain_hosts.txt",
       "identifier": "free_subdomain_hosts",
       "display_name": "Free Subdomain Hosts",

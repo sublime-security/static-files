@@ -16,6 +16,7 @@ box.com
 canva.com
 cdn.discordapp.com
 cdn.fbsbx.com
+customervoice.microsoft.com
 datafilehost.com
 depositfiles.com
 d.pr
@@ -49,6 +50,7 @@ mediafire.com
 mega.nz
 megafileupload.com
 my.visme.co
+ncv.microsoft.com
 nethunt.com
 notion.so
 onedrive.live.com

@@ -86,6 +86,14 @@
       "includes_header": true
     },
     {
+      "file": "mass_mailer_tracking_domains.txt",
+      "identifier": "mass_mailer_tracking_domains",
+      "display_name": "Domains used by mass mailers to track clicks (often abused by attackers)",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "suspicious_tlds.txt",
       "identifier": "suspicious_tlds",
       "display_name": "Suspicious Top-Level Domains",

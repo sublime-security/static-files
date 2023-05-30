@@ -60,7 +60,9 @@ pending invoice
 processed
 quick reply
 re: w-2
+remittance
 required
+required: completed docusign
 ringcentral
 scanned image
 secure message

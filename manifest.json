@@ -86,6 +86,14 @@
       "includes_header": true
     },
     {
+      "file": "suspicious_subjects.txt",
+      "identifier": "suspicious_subjects",
+      "display_name": "Suspicious subject phrases. Recommended usage: combine this with other signals, don't use on its own",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "suspicious_tlds.txt",
       "identifier": "suspicious_tlds",
       "display_name": "Suspicious Top-Level Domains",

@@ -90,6 +90,7 @@ ch.tf
 ch.vc
 ch.vu
 check-it-out.nl
+cl
 click
 club
 cm

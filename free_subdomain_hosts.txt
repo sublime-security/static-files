@@ -198,7 +198,6 @@ server.tl
 service.lc
 sg.tn
 share.lc
-sharepoint.com
 shopping.hn
 simple.ink
 sites.google.com

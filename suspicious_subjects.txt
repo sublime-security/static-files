@@ -53,6 +53,7 @@ new sign-in
 new sign in
 new voicemail
 on desk
+one moment
 out of space
 password maintenance
 password reset

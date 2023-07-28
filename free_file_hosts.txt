@@ -2,6 +2,7 @@
 1drv.ms
 4shared.com
 adrive.com
+aliyun.com
 amazonaws.com
 app.getresponse.com
 app.milanote.com

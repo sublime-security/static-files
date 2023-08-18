@@ -1,0 +1,11 @@
+bmp
+cr2
+gif
+heif
+ico
+jp2
+jpg
+jxr
+png
+tif
+webp

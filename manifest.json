@@ -42,6 +42,14 @@
       ]
     },
     {
+      "file": "file_types_images.txt",
+      "identifier": "file_types_images",
+      "display_name": "File types of images, not necessarily matching file extensions but used by checking a file signature",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "free_email_providers.txt",
       "identifier": "free_email_providers",
       "display_name": "Free Email Providers",

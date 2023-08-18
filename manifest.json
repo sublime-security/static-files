@@ -7,7 +7,8 @@
       "headers": [
         "x",
         "entry"
-      ]
+      ],
+      "format": "hostname"
     },
     {
       "file": "disposable_email_providers.txt",
@@ -15,7 +16,8 @@
       "display_name": "Disposable (or Temporary) Email Providers",
       "headers": [
         "entry"
-      ]
+      ],
+      "format": "hostname"
     },
     {
       "file": "file_extensions_common_archives.txt",
@@ -47,7 +49,8 @@
       "display_name": "Free Email Providers",
       "headers": [
         "entry"
-      ]
+      ],
+      "format": "hostname"
     },
     {
       "file": "free_file_hosts.txt",
@@ -55,7 +58,8 @@
       "display_name": "Free File Hosts",
       "headers": [
         "entry"
-      ]
+      ],
+      "format": "hostname"
     },
     {
       "file": "free_subdomain_hosts.txt",
@@ -63,7 +67,8 @@
       "display_name": "Free Subdomain Hosts",
       "headers": [
         "entry"
-      ]
+      ],
+      "format": "hostname"
     },
     {
       "file": "majestic_million.csv",
@@ -83,7 +88,8 @@
         "x10",
         "x11"
       ],
-      "includes_header": true
+      "includes_header": true,
+      "format": "hostname"
     },
     {
       "file": "suspicious_tlds.txt",
@@ -100,7 +106,8 @@
       "headers": [
         "x",
         "entry"
-      ]
+      ],
+      "format": "hostname"
     },
     {
       "file": "umbrella_top_1m.csv",
@@ -109,7 +116,8 @@
       "headers": [
         "x",
         "entry"
-      ]
+      ],
+      "format": "hostname"
     },
     {
       "file": "umbrella_top_1m_tld.csv",
@@ -126,7 +134,8 @@
       "display_name": "URL Shorteners",
       "headers": [
         "entry"
-      ]
+      ],
+      "format": "hostname"
     },
     {
       "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_malwarebazaar_sha256_trusted_reporters.txt",
@@ -150,7 +159,8 @@
       "display_name": "Abuse.ch: Domains derived from $abuse_ch_urlhaus_urls_trusted_reporters. Note: Entries are limited to the following trusted reporters, but are otherwise unfiltered. We recommend using filtering logic in MQL to reduce potential false positives. Trusted reporters: Cryptolaemus1, abuse_ch",
       "headers": [
         "entry"
-      ]
+      ],
+      "format": "hostname"
     }
   ]
 }

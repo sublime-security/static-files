@@ -265,6 +265,7 @@ nc-cs.com
 nc.gs
 nc.ro
 nce.name
+ne.jp
 net.br.tc
 net.ms
 net.ru

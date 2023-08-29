@@ -243,7 +243,6 @@ windows.net
 wixsite.com
 wordpress.com 
 workers.dev
-s.dev
 world.mu
 wufoo.com
 x.gg

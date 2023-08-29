@@ -69,6 +69,7 @@ de.im
 de.ki
 de.pl
 design.tl
+devtunnels.ms
 digitaloceanspaces.com
 domain.lc
 download.ac
@@ -242,6 +243,7 @@ windows.net
 wixsite.com
 wordpress.com 
 workers.dev
+s.dev
 world.mu
 wufoo.com
 x.gg

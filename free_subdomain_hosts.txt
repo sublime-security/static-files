@@ -69,6 +69,7 @@ de.im
 de.ki
 de.pl
 design.tl
+devtunnels.ms
 digitaloceanspaces.com
 domain.lc
 download.ac

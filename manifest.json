@@ -126,6 +126,15 @@
       "format": "hostname"
     },
     {
+      "file": "tranco_top_10k.csv",
+      "identifier": "tranco_10k",
+      "display_name": "Tranco Top 10,000 Domains",
+      "headers": [
+        "x",
+        "entry"
+      ]
+    },
+    {
       "file": "umbrella_top_1m.csv",
       "identifier": "umbrella_1m",
       "display_name": "Cisco Umbrella Top 1 Million Domains",

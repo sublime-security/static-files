@@ -22,6 +22,7 @@ bkite.com
 bloat.me
 boxsign.info
 budurl.com
+buff.ly
 buk.me
 burnurl.com
 c-o.in
@@ -134,6 +135,7 @@ posted.at
 profile.to
 qicute.com
 qlnk.net
+qti.ai
 quip-art.com
 rb.gy
 rb6.me
@@ -175,6 +177,8 @@ starturl.com
 sturly.com
 su.pr
 t.co
+t.ly
+t2m.io
 tcrn.ch
 teensy.co.nf
 thrdl.es
@@ -194,6 +198,7 @@ tr.im
 tr.my
 traceurl.com
 trflk.cc
+trib.al
 turo.us
 tweetburner.com
 twirl.at
@@ -208,6 +213,7 @@ u.nu
 u6e.de
 ub0.cc
 updating.me
+ur1.ai
 ur1.ca
 url.co.uk
 url.ie
@@ -244,6 +250,7 @@ xzb.cc
 yep.it
 yfrog.com
 yweb.com
+zat.ink
 zi.ma
 zi.pe
 zipmyurl.com

@@ -100,6 +100,14 @@
       "format": "hostname"
     },
     {
+      "file": "suspicious_root_domains.txt",
+      "identifier": "suspicious_root_domains",
+      "display_name": "Suspicious Root Domains",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "suspicious_subjects.txt",
       "identifier": "suspicious_subjects",
       "display_name": "Suspicious subject phrases. Recommended usage: combine this with other signals, don't use on its own",

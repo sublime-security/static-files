@@ -186,6 +186,15 @@
         "entry"
       ],
       "format": "hostname"
+    },
+    {
+      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/phishtank_domain_paths_verified.txt.gz",
+      "identifier": "phishtank_domain_paths_verified",
+      "display_name": "PhishTank: Domains with paths appended, from the PhishTank database. Note: Entries are limited to Phishtank-verified, but are otherwise unfiltered. We recommend using filtering logic in MQL to reduce potential false positives.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
     }
   ]
 }

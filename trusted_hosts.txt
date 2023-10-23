@@ -74,6 +74,7 @@ fortune.com
 freshbooks.com
 freshdesk.com
 gartner.com
+geeksquad.com
 glassdoor.com
 github.com
 gitlab.com
@@ -126,6 +127,7 @@ plaid.com
 pwc.com
 quora.com
 ramp.com
+rapid7.com
 remote.com
 res-marriott.com
 reuters.com
@@ -150,6 +152,8 @@ squareup.com
 statefarm.com
 stripe.com
 splunk.com
+splunkcloud.com
+sublimesecurity.com
 substack.com
 svb.com
 synchronybank.com
@@ -175,6 +179,7 @@ washingtonpost.com
 wellsfargo.com
 wikipedia.org
 workday.com
+x.com
 yelp.com
 youtube.com
 zendesk.com

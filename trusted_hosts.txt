@@ -21,6 +21,7 @@ flickr.com
 fortune.com
 freshbooks.com
 freshdesk.com
+github.com
 gravatar.com
 hyatt.com
 knowbe4.com

@@ -81,7 +81,7 @@
     {
       "file": "high_trust_sender_domains.txt",
       "identifier": "high_trust_sender_domains",
-      "display_name": "Highly reputable sending domains with SPF/DMARC enforced",
+      "display_name": "Highly reputable sending domains",
       "headers": [
         "entry"
       ],

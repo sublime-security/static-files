@@ -79,9 +79,9 @@
       "format": "hostname"
     },
     {
-      "file": "high_trust_sender_domains.txt",
-      "identifier": "high_trust_sender_domains",
-      "display_name": "Highly reputable sending domains",
+      "file": "high_trust_sender_root_domains.txt",
+      "identifier": "high_trust_sender_root_domains",
+      "display_name": "Highly reputable sending root domains",
       "headers": [
         "entry"
       ],

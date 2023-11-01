@@ -109,8 +109,10 @@ mercedes-benz.com
 microsoft.com
 morganstanley.com
 myworkday.com
+navyfederal.org
 netflix.com
 netlify.com
+netsuite.com
 newrelic.com
 nextdoor.com
 nfl.com
@@ -173,6 +175,7 @@ usbank.com
 usda.gov
 usps.gov
 verizonwireless.com
+virtru.com
 vmware.com
 walmart.com
 washingtonpost.com

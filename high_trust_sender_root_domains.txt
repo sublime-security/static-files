@@ -122,6 +122,7 @@ okta.com
 openai.com
 opentable.com
 oracle.com
+ozk.com
 pagerduty.com
 pandadoc.net
 paypal.com

@@ -109,6 +109,15 @@
       "format": "hostname"
     },
     {
+      "file": "ms_phishing_simulation_domains.txt",
+      "identifier": "ms_phishing_simulation_domains",
+      "display_name": "Known Microsoft phishing simulation link domains",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
       "file": "suspicious_subjects.txt",
       "identifier": "suspicious_subjects",
       "display_name": "Suspicious subject phrases. Recommended usage: combine this with other signals, don't use on its own",

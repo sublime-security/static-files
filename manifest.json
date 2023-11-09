@@ -117,6 +117,14 @@
       ]
     },
     {
+      "file": "bulk_mailer_url_root_domains.txt",
+      "identifier": "bulk_mailer_url_root_domains",
+      "display_name": "Domains used by mass mailers to track clicks (often abused by attackers)",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "suspicious_tlds.txt",
       "identifier": "suspicious_tlds",
       "display_name": "Suspicious Top-Level Domains",

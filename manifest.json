@@ -86,7 +86,7 @@
       "includes_header": true
     },
     {
-      "file": "mass_mailer_tracking_domains.txt",
+      "file": "bulk_mailer_url_root_domains.txt",
       "identifier": "mass_mailer_tracking_domains",
       "display_name": "Domains used by mass mailers to track clicks (often abused by attackers)",
       "headers": [

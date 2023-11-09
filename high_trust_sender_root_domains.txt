@@ -55,6 +55,7 @@ docusign.net
 doordash.com
 dowjones.com
 dropbox.com
+dtdg.co
 economist.com
 equifax.com
 expensify.com
@@ -99,6 +100,7 @@ ironcladapp.com
 jpmchase.com
 jpmorgan.com
 justice.gov.uk
+lenovo.com
 lever.co
 linkedin.com
 marriott.com

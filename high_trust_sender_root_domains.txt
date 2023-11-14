@@ -99,8 +99,10 @@ intercom.com
 intercom.io
 intercom-mail.com
 ironcladapp.com
+jetbrains.com
 jpmchase.com
 jpmorgan.com
+jpmresearchmail.com
 justice.gov.uk
 lenovo.com
 lever.co
@@ -124,6 +126,7 @@ nfl.com
 nih.gov
 nytimes.com
 okta.com
+onemedical.com
 openai.com
 opentable.com
 oracle.com
@@ -147,6 +150,7 @@ sap.com
 schwab.com
 seetickets.com
 sentinelone.com
+sentinelone.net
 service-now.com
 shop.app
 shopify.com

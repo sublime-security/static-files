@@ -44,6 +44,7 @@ clearbit.com
 cloudflare.com
 coinbase.com
 costco.com
+coupahost.com
 crowdstrike.com
 datadoghq.com
 databricks.com

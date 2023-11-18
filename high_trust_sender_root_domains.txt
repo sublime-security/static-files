@@ -73,6 +73,7 @@ fbi.gov
 fedex.com
 fidelity.com
 figma.com
+firstam.com
 flickr.com
 fortune.com
 freshbooks.com
@@ -118,6 +119,7 @@ microsoft.com
 morganstanley.com
 myworkday.com
 navyfederal.org
+nba.com
 netflix.com
 netlify.com
 netsuite.com
@@ -180,6 +182,7 @@ twilio.com
 twitter.com
 uber.com
 ubs.com
+ukg.com
 united.com
 urbanoutfitters.com
 usbank.com

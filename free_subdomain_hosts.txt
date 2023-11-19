@@ -188,6 +188,7 @@ qu.am
 repl.co
 rf.gd
 ro.tn
+r2.dev
 sa.tn
 se.nf
 search.gp

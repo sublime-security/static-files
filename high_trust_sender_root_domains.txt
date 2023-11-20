@@ -75,6 +75,7 @@ fidelity.com
 figma.com
 firstam.com
 flickr.com
+flutter.com
 fortune.com
 freshbooks.com
 freshdesk.com
@@ -161,6 +162,7 @@ slack.com
 slack-mail.com
 snowflake.com
 spacex.com
+splitwise.com
 spotify.com
 squaremkgt.com
 squareup.com
@@ -178,6 +180,7 @@ tesla.com
 theinformation.com
 trello.com
 tripadvisor.com
+tumblr.com
 twilio.com
 twitter.com
 uber.com

@@ -57,6 +57,7 @@ one moment
 out of space
 password maintenance
 password reset
+payment confirmation
 payment receipt
 payment status
 payroll disbursement

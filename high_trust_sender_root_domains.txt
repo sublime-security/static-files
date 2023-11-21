@@ -14,6 +14,7 @@ arxiv.org
 asana.com
 atlassian.com
 auth0.com
+authentisign.com
 axios.com
 bankofamerica.com
 barclays.com
@@ -29,6 +30,7 @@ bofa.com
 booking.com
 brex.com
 calendly.com
+cardalert.com
 carta.com
 cbinsights.com
 cdc.gov
@@ -144,6 +146,7 @@ quora.com
 ramp.com
 rapid7.com
 remote.com
+rentcafe.com
 res-marriott.com
 reuters.com
 rippling.com
@@ -197,6 +200,7 @@ virtru.com
 vmware.com
 walmart.com
 washingtonpost.com
+webforms.io
 wellsfargo.com
 wikipedia.org
 workday.com

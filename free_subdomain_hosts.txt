@@ -77,6 +77,7 @@ download.sh
 dr.ag
 dropmark.com
 duckdns.org
+dynamics.com
 dvd.lc
 dyndns.dk
 easywp.com

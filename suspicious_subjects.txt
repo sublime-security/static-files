@@ -69,6 +69,7 @@ payment receipt
 payment status
 payroll disbursement
 pending invoice
+please review
 processed
 quick reply
 quick response
@@ -86,6 +87,7 @@ security alert
 shared to you
 sign-in attempt
 sign in attempt
+sign your document
 statement of account
 staff review
 stock transfer

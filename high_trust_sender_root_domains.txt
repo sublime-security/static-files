@@ -151,6 +151,7 @@ personalhealthmessagecenter.com
 php.net
 plaid.com
 pwc.com
+qonto.com
 quora.com
 ramp.com
 rapid7.com
@@ -210,6 +211,7 @@ verizon.com
 verizonwireless.com
 virtru.com
 vmware.com
+volvocars.com
 walmart.com
 washingtonpost.com
 webforms.io

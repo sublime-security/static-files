@@ -155,10 +155,12 @@ rentcafe.com
 res-marriott.com
 reuters.com
 rippling.com
+riskiq.net
 robinhood.com
 salesforce.com
 sans.org
 sap.com
+schneier.com
 schwab.com
 seetickets.com
 sentinelone.com
@@ -185,6 +187,7 @@ synchronybank.com
 techcrunch.com
 tenable.com
 tesla.com
+thecyberwire.com
 theinformation.com
 trello.com
 tripadvisor.com

@@ -54,6 +54,7 @@ datadoghq.com
 databricks.com
 dell.com
 deloitte.com
+depconfirm.com
 dhl.com
 discord.com
 discover.com

@@ -49,6 +49,8 @@ cloudflare.com
 coinbase.com
 costco.com
 coupahost.com
+coursera.org
+crayon.com
 crowdstrike.com
 datadoghq.com
 databricks.com
@@ -87,6 +89,7 @@ freshbooks.com
 freshdesk.com
 gartner.com
 geeksquad.com
+geico.com
 glassdoor.com
 github.com
 gitlab.com
@@ -129,6 +132,7 @@ mercedes-benz.com
 microsoft.com
 morganstanley.com
 myworkday.com
+namecheap.com
 navyfederal.org
 nba.com
 netflix.com

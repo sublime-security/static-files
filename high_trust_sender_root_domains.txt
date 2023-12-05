@@ -62,6 +62,7 @@ depconfirm.com
 dhl.com
 discord.com
 discover.com
+docusign.com
 docusign.net
 doordash.com
 dowjones.com

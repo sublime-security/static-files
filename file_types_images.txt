@@ -4,6 +4,7 @@ gif
 heif
 ico
 jp2
+jpeg
 jpg
 jxr
 png

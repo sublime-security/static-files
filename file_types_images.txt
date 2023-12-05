@@ -9,3 +9,4 @@ jxr
 png
 tif
 webp
+svg

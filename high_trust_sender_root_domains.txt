@@ -135,6 +135,7 @@ medium.com
 meetup.com
 mercedes-benz.com
 microsoft.com
+microsoftemail.com
 morganstanley.com
 morningbrew.com
 myworkday.com

@@ -216,6 +216,7 @@ trello.com
 tripadvisor.com
 tumblr.com
 twilio.com
+twingate.com
 twitter.com
 uber.com
 ubs.com

@@ -16,6 +16,7 @@ ariba.com
 arxiv.org
 asana.com
 atlassian.com
+atlassian.net
 auth0.com
 authentisign.com
 axios.com
@@ -101,6 +102,7 @@ gitlab.com
 google.com
 gravatar.com
 greenhouse.io
+greythr.com
 groupon.com
 hashicorp.com
 hellosign.com

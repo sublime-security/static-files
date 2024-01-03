@@ -5543,6 +5543,7 @@ mailback.com
 mailbidon.com
 mailbiz.biz
 mailblocks.com
+mailbox.zip
 mailbox2go.de
 mailbox52.ga
 mailbox72.biz
@@ -7925,6 +7926,7 @@ safetypost.de
 sagheh.com
 saharanightstempe.com
 sakanasoft.com
+sailmail.io
 sakurina.online
 salamfilm.xyz
 sald.de

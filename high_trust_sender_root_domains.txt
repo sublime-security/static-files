@@ -141,6 +141,7 @@ melio.com
 mercedes-benz.com
 microsoft.com
 microsoftemail.com
+microsoftonline.com
 morganstanley.com
 morningbrew.com
 myworkday.com

@@ -153,6 +153,7 @@ safe.mn
 sharein.com
 sharetabs.com
 shorl.com
+short.gy
 short.ie
 short.to
 shortlinks.co.uk

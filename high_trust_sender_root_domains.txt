@@ -71,6 +71,8 @@ doordash.com
 dowjones.com
 dropbox.com
 dtdg.co
+duo.com
+duosecurity.com
 economist.com
 equifax.com
 expensify.com

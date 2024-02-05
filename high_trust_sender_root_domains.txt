@@ -35,6 +35,7 @@ bofa.com
 booking.com
 box.com
 brex.com
+byspotify.com
 calendly.com
 canada.gc.ca
 cardalert.com

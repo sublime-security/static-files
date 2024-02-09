@@ -90,6 +90,7 @@ fedex.com
 fidelity.com
 figma.com
 firstam.com
+fishbowlapp.co
 flickr.com
 flutter.com
 fortune.com
@@ -134,8 +135,11 @@ justice.gov.uk
 lenovo.com
 lever.co
 linkedin.com
+lookermail.com
 marriott.com
+mailchimp.com
 mastercard.com
+mastercard-email.com
 medallia.com
 medium.com
 meetup.com
@@ -157,11 +161,13 @@ newrelic.com
 nextdoor.com
 nfl.com
 nih.gov
+nordvpn.com
 nvoicepay.com
 nytimes.com
 officedepot.com
 okta.com
 onemedical.com
+ongoody.com
 openai.com
 opentable.com
 optummessenger.com
@@ -174,6 +180,7 @@ personalhealthmessagecenter.com
 php.net
 plaid.com
 pwc.com
+q4inc.com
 qonto.com
 quora.com
 ramp.com
@@ -221,6 +228,7 @@ tesla.com
 thecyberwire.com
 theinformation.com
 trello.com
+tremendous.com
 tripadvisor.com
 tumblr.com
 twilio.com
@@ -238,6 +246,7 @@ venmo.com
 verizon.com
 verizonwireless.com
 virtru.com
+vivint.com
 vmware.com
 volvocars.com
 walmart.com

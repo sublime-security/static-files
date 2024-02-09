@@ -26,6 +26,7 @@ doc.clickup.com
 docs.google.com
 drive.google.com
 dropbox.com
+ecv.microsoft.com
 egnyte.com
 elephantdrive.com
 evernote.com
@@ -59,6 +60,7 @@ notion.so
 onedrive.live.com
 onenoteonlinesync.onenote.com
 pcloud.com
+publuu.com
 quip.com
 raw.githubusercontent.com
 sabercathost.com

@@ -41,6 +41,7 @@ filetransfer.io
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com
 forms.office.com
+frame.io
 fromsmash.com
 gofile.io
 hightail.com

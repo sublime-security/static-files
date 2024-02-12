@@ -2,6 +2,7 @@ accountants
 ac.th
 am
 cf
+cfd
 cl
 click
 club
@@ -13,9 +14,11 @@ consulting
 country
 cricket
 date
+digital
 directory
 domains
 download
+finance
 enterprises
 free
 ga

@@ -97,6 +97,7 @@ flutter.com
 fortune.com
 freshbooks.com
 freshdesk.com
+fsisac.com
 gartner.com
 geeksquad.com
 geico.com
@@ -155,6 +156,7 @@ myworkday.com
 namecheap.com
 navyfederal.org
 nba.com
+ncfta.net
 netflix.com
 netlify.com
 netsuite.com
@@ -171,6 +173,7 @@ onemedical.com
 ongoody.com
 openai.com
 opentable.com
+ops-trust.net
 optummessenger.com
 oracle.com
 ozk.com

@@ -3,9 +3,10 @@ aarp.org
 adobe.com
 adobesign.com
 adp.com
+airbnb.com
 airtable.com
 allstate.com
-airbnb.com
+amazonaws.com
 americanexpress.com
 amplitude.com
 apache.org
@@ -94,6 +95,7 @@ firstam.com
 fishbowlapp.co
 flickr.com
 flutter.com
+fontawesome.com
 fortune.com
 freshbooks.com
 freshdesk.com
@@ -246,6 +248,7 @@ urbanoutfitters.com
 usbank.com
 usda.gov
 usps.gov
+vanta.com
 venmo.com
 verizon.com
 verizonwireless.com

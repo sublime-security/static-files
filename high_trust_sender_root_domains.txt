@@ -60,6 +60,7 @@ crayon.com
 crowdstrike.com
 datadoghq.com
 databricks.com
+datasite.com
 dell.com
 deloitte.com
 depconfirm.com
@@ -263,6 +264,7 @@ wellsfargo.com
 wikipedia.org
 workday.com
 works.com
+wynnlasvegas.com
 x.com
 xmatters.com
 yelp.com

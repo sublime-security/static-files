@@ -3,9 +3,10 @@ aarp.org
 adobe.com
 adobesign.com
 adp.com
+airbnb.com
 airtable.com
 allstate.com
-airbnb.com
+amazonaws.com
 americanexpress.com
 amplitude.com
 apache.org
@@ -60,12 +61,14 @@ crayon.com
 crowdstrike.com
 datadoghq.com
 databricks.com
+datasite.com
 dell.com
 deloitte.com
 depconfirm.com
 dhl.com
 discord.com
 discover.com
+docsend.com
 docusign.com
 docusign.net
 doordash.com
@@ -94,9 +97,11 @@ firstam.com
 fishbowlapp.co
 flickr.com
 flutter.com
+fontawesome.com
 fortune.com
 freshbooks.com
 freshdesk.com
+fsisac.com
 gartner.com
 geeksquad.com
 geico.com
@@ -156,6 +161,7 @@ myworkday.com
 namecheap.com
 navyfederal.org
 nba.com
+ncfta.net
 netflix.com
 netlify.com
 netsuite.com
@@ -172,6 +178,7 @@ onemedical.com
 ongoody.com
 openai.com
 opentable.com
+ops-trust.net
 optummessenger.com
 oracle.com
 ozk.com
@@ -244,6 +251,7 @@ urbanoutfitters.com
 usbank.com
 usda.gov
 usps.gov
+vanta.com
 venmo.com
 verizon.com
 verizonwireless.com
@@ -258,6 +266,7 @@ wellsfargo.com
 wikipedia.org
 workday.com
 works.com
+wynnlasvegas.com
 x.com
 xmatters.com
 yelp.com

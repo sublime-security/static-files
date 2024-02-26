@@ -68,7 +68,9 @@ de.gp
 de.im
 de.ki
 de.pl
+deno.dev
 design.tl
+deta.dev
 devtunnels.ms
 digitaloceanspaces.com
 domain.lc
@@ -77,8 +79,8 @@ download.sh
 dr.ag
 dropmark.com
 duckdns.org
-dynamics.com
 dvd.lc
+dynamics.com
 dyndns.dk
 easywp.com
 ee.tn
@@ -101,6 +103,7 @@ firm.nu
 fk.gs
 flirt.lc
 flirten.info
+fly.dev
 format.com
 forum.lc
 fotos.lc
@@ -167,6 +170,7 @@ nl.gp
 nl.tn
 notion.site
 now.lc
+now.sh
 npx.de
 on.lc
 ondigitalocean.app
@@ -186,10 +190,10 @@ privat.lc
 pro.ac
 pro.vg
 qu.am
+r2.dev
 repl.co
 rf.gd
 ro.tn
-r2.dev
 sa.tn
 se.nf
 search.gp
@@ -231,6 +235,8 @@ us.gg
 us.nf
 usa.gg
 user.lc
+vercel.app
+vercel.dev
 vn.tn
 voten.in
 vz.lc

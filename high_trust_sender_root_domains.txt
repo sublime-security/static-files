@@ -185,6 +185,7 @@ oracle.com
 ozk.com
 pagerduty.com
 pandadoc.net
+paperspace.com
 paypal.com
 personalhealthmessagecenter.com
 php.net

@@ -109,6 +109,7 @@ glassdoor.com
 github.com
 gitlab.com
 google.com
+graphiteconnect.com
 gravatar.com
 greenhouse.io
 greythr.com
@@ -185,6 +186,7 @@ oracle.com
 ozk.com
 pagerduty.com
 pandadoc.net
+paperspace.com
 paypal.com
 personalhealthmessagecenter.com
 php.net

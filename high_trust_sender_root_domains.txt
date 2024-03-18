@@ -217,6 +217,7 @@ sentinelone.net
 service-now.com
 shop.app
 shopify.com
+signin.aws
 slack.com
 slack-mail.com
 snowflake.com

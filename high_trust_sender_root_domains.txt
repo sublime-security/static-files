@@ -68,6 +68,7 @@ depconfirm.com
 dhl.com
 discord.com
 discover.com
+drifttmail.com
 docsend.com
 docusign.com
 docusign.net

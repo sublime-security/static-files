@@ -152,6 +152,7 @@ mailchimp.com
 malaysiaairlines.com
 mastercard.com
 mastercard-email.com
+mda.mil
 medallia.com
 medium.com
 metamail.com

@@ -163,6 +163,7 @@ mercer.com
 microsoft.com
 microsoftemail.com
 microsoftonline.com
+mongodb.com
 morganstanley.com
 morningbrew.com
 myworkday.com
@@ -284,6 +285,7 @@ workday.com
 works.com
 wynnlasvegas.com
 x.com
+xfinitymobile.com
 xmatters.com
 yelp.com
 youtube.com

@@ -80,6 +80,7 @@ dtdg.co
 duo.com
 duosecurity.com
 economist.com
+elastic.co
 equifax.com
 expensify.com
 experian.com

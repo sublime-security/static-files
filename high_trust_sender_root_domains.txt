@@ -229,6 +229,7 @@ service-now.com
 shop.app
 shopify.com
 signin.aws
+sktelecom.com
 slack.com
 slack-mail.com
 snowflake.com

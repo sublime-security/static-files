@@ -6,6 +6,7 @@ adp.com
 airbnb.com
 airtable.com
 allstate.com
+amazon.com
 amazonaws.com
 americanexpress.com
 amplitude.com

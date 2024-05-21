@@ -6,6 +6,7 @@ aliyun.com
 amazonaws.com
 app.getresponse.com
 app.milanote.com
+app.wishloop.com
 appdomain.cloud
 archive.org
 archive.ph
@@ -92,6 +93,5 @@ view.storydoc.com
 viewer.joomag.com
 wetransfer.com
 wikisend.com
-wishloop.com
 workflowy.com
 zippyshare.com

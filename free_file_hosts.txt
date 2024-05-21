@@ -92,5 +92,6 @@ view.storydoc.com
 viewer.joomag.com
 wetransfer.com
 wikisend.com
+wishloop.com
 workflowy.com
 zippyshare.com

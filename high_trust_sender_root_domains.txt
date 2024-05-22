@@ -54,6 +54,7 @@ cisa.gov
 citi.com
 cisco.com
 clearbit.com
+cloudappsecurity.com
 cloudflare.com
 coinbase.com
 costco.com
@@ -230,6 +231,7 @@ service-now.com
 shop.app
 shopify.com
 signin.aws
+signup.aws
 sktelecom.com
 slack.com
 slack-mail.com

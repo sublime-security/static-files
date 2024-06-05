@@ -6,6 +6,7 @@ aliyun.com
 amazonaws.com
 app.getresponse.com
 app.milanote.com
+app.wishloop.com
 appdomain.cloud
 archive.org
 archive.ph
@@ -88,6 +89,7 @@ ufile.io
 uploaded.net
 uploadfiles.io
 uplooder.net
+view.storydoc.com
 viewer.joomag.com
 wetransfer.com
 wikisend.com

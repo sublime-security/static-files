@@ -73,6 +73,7 @@ hideuri.com
 hover.com
 href.in
 htxt.it
+hubs.ly
 hugeurl.com
 hurl.it
 hurl.me

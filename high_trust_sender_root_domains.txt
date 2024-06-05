@@ -51,6 +51,8 @@ citi.com
 cisco.com
 clearbit.com
 cloudflare.com
+cloudlabsai.net
+cloudlabs.ai
 coinbase.com
 costco.com
 coupahost.com
@@ -59,6 +61,7 @@ crayon.com
 crowdstrike.com
 datadoghq.com
 databricks.com
+dataminr.com
 dell.com
 deloitte.com
 depconfirm.com
@@ -150,6 +153,7 @@ microsoftemail.com
 microsoftonline.com
 morganstanley.com
 morningbrew.com
+myisolved.com
 myworkday.com
 namecheap.com
 navyfederal.org
@@ -167,6 +171,7 @@ nytimes.com
 officedepot.com
 okta.com
 onemedical.com
+onetrust.com
 ongoody.com
 openai.com
 opentable.com
@@ -179,6 +184,7 @@ paypal.com
 personalhealthmessagecenter.com
 php.net
 plaid.com
+primevideo.com
 pwc.com
 q4inc.com
 qonto.com
@@ -252,6 +258,7 @@ volvocars.com
 walmart.com
 washingtonpost.com
 webforms.io
+webrootanywhere.com
 wellsfargo.com
 wikipedia.org
 workday.com

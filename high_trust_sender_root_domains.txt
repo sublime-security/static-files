@@ -172,6 +172,7 @@ mercer.com
 microsoft.com
 microsoftemail.com
 microsoftonline.com
+microsoftsupport.com
 mongodb.com
 morganstanley.com
 morningbrew.com

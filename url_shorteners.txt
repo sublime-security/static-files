@@ -98,6 +98,7 @@ lin.cr
 linkbee.com
 linkbun.ch
 linkfollowservice.com
+lnk.sk
 linksrtnr.com
 liurl.cn
 ln-s.net
@@ -105,6 +106,7 @@ ln-s.ru
 ln.run
 lnk.gd
 lnk.in
+lnk.sk
 lnkd.in
 loopt.us
 lru.jp

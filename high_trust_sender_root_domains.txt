@@ -33,6 +33,7 @@ bestbuy.com
 bbc.com
 bill.com
 bloomberg.com
+bloomberg.net
 bmo.com
 bmofg.com
 bofa.com

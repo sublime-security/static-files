@@ -6,6 +6,7 @@ aliyun.com
 amazonaws.com
 app.getresponse.com
 app.milanote.com
+app.wishloop.com
 appdomain.cloud
 archive.org
 archive.ph
@@ -36,6 +37,7 @@ filefactory.com
 fileflyer.com
 filehosting.org
 files.com
+filemail.com
 files.delivrto.me
 filetransfer.io
 firebasehostingproxy.page.link
@@ -61,6 +63,7 @@ notion.so
 onedrive.live.com
 onenoteonlinesync.onenote.com
 pcloud.com
+pixeldrain.com
 publuu.com
 quip.com
 raw.githubusercontent.com
@@ -88,7 +91,9 @@ ufile.io
 uploaded.net
 uploadfiles.io
 uplooder.net
+view.storydoc.com
 viewer.joomag.com
+we.tl
 wetransfer.com
 wikisend.com
 workflowy.com

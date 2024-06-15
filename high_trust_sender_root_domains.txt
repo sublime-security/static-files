@@ -54,6 +54,7 @@ cloudflare.com
 cloudlabsai.net
 cloudlabs.ai
 coinbase.com
+connectyourcare.com
 costco.com
 coupahost.com
 coursera.org
@@ -82,6 +83,7 @@ expensify.com
 experian.com
 ebay.com
 echosign.com
+empforce.com
 etsy.com
 eventbrite.com
 evernote.com
@@ -135,6 +137,7 @@ jpmchase.com
 jpmorgan.com
 jpmresearchmail.com
 justice.gov.uk
+kpmg.com
 lenovo.com
 lever.co
 linkedin.com
@@ -233,6 +236,7 @@ tenable.com
 tesla.com
 thecyberwire.com
 theinformation.com
+thomsonreuters.com
 trello.com
 tremendous.com
 tripadvisor.com

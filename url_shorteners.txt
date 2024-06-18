@@ -12,6 +12,8 @@ a.nf
 a2a.me
 abbrr.com
 adjix.com
+acesse.one
+acesse.dev
 alturl.com
 atu.ca
 b23.ru
@@ -44,6 +46,8 @@ e.vg
 easyuri.com
 easyurl.net
 eepurl.com
+encr.pw
+encurtador.dev
 esyurl.com
 ewerl.com
 fa.b
@@ -92,6 +96,8 @@ kl.am
 klck.me
 korta.nu
 krunchd.com
+l1nk.dev
+l1nq.com
 liip.to
 liltext.com
 lin.cr

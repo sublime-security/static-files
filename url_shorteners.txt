@@ -105,6 +105,7 @@ ln-s.ru
 ln.run
 lnk.gd
 lnk.in
+lnk.sk
 lnkd.in
 loopt.us
 lru.jp

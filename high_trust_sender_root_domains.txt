@@ -5,12 +5,14 @@ adobe.com
 adobesign.com
 adp.com
 airbnb.com
+airmason.com
 airtable.com
 allstate.com
 amazon.com
 amazonaws.com
 americanexpress.com
 amplitude.com
+anthem.com
 apache.org
 appfolio.com
 apple.com
@@ -136,6 +138,7 @@ hrblock.com
 hilton.com
 hired.com
 house.gov
+homeoffice.gov.uk
 hpe.com
 hyatt.com
 knowbe4.com
@@ -148,6 +151,7 @@ infotrack.co.uk
 intercom.com
 intercom.io
 intercom-mail.com
+intermountainhealth.org
 internationalsos.com
 intuit.com
 ironcladapp.com
@@ -158,6 +162,7 @@ jpmresearchmail.com
 justice.gov.uk
 kpmg.com
 lenovo.com
+leo.gov
 lever.co
 linkedin.com
 lookermail.com
@@ -207,6 +212,7 @@ opentable.com
 ops-trust.net
 optummessenger.com
 oracle.com
+oracleindustry.com
 ozk.com
 pagerduty.com
 pandadoc.net
@@ -239,6 +245,7 @@ sans.org
 sap.com
 schneier.com
 schwab.com
+schoolmessengermail.com
 seetickets.com
 sentinelone.com
 sentinelone.net
@@ -311,6 +318,7 @@ wynnlasvegas.com
 x.com
 xfinitymobile.com
 xmatters.com
+xpertsuite.nl
 yelp.com
 youtube.com
 zendesk.com

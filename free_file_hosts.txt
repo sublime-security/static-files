@@ -46,6 +46,7 @@ firebasestorage.googleapis.com
 forms.office.com
 frame.io
 fromsmash.com
+getfoureyes.com
 gofile.io
 hightail.com
 idrive.com

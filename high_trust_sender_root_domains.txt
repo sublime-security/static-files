@@ -25,6 +25,7 @@ atlassian.com
 atlassian.net
 auth0.com
 authentisign.com
+aws.training
 axios.com
 bankofamerica.com
 barclays.com

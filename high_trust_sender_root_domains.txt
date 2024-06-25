@@ -25,6 +25,7 @@ atlassian.com
 atlassian.net
 auth0.com
 authentisign.com
+aws.training
 axios.com
 bankofamerica.com
 barclays.com
@@ -222,6 +223,7 @@ paypal.com
 pay1040.com
 personalhealthmessagecenter.com
 php.net
+pilot.com
 plaid.com
 pnmac.com
 primevideo.com

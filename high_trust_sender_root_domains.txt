@@ -279,6 +279,7 @@ stytch.com
 splunk.com
 splunkcloud.com
 sprinklr.com
+statuspage.io
 sublime.security
 sublimesecurity.com
 substack.com

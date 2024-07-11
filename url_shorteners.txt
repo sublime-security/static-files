@@ -2,6 +2,7 @@
 1link.in
 1url.com
 2big.at
+2ly.link
 2pl.us
 2tu.us
 2ya.com
@@ -15,6 +16,7 @@ adjix.com
 acesse.one
 acesse.dev
 alturl.com
+artist.link
 atu.ca
 b23.ru
 bacn.me
@@ -35,6 +37,7 @@ clickmeter.com
 cort.as
 cutt.ly
 cuturl.com
+cuty.io
 decenturl.com
 dfl8.me
 digbig.com
@@ -141,6 +144,7 @@ pnt.me
 poprl.com
 post.ly
 posted.at
+postly.link
 profile.to
 qicute.com
 qlnk.net
@@ -219,6 +223,8 @@ twitthis.com
 twiturl.de
 twurl.cc
 twurl.nl
+twixar.me
+tyny.to
 u.mavrev.com
 u.nu
 u.to

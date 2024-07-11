@@ -221,6 +221,7 @@ twurl.cc
 twurl.nl
 u.mavrev.com
 u.nu
+u.to
 u6e.de
 ub0.cc
 updating.me

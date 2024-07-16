@@ -138,6 +138,7 @@ groupon.com
 hashicorp.com
 hdfcbank.com
 hellosign.com
+hellofax.com
 hr.com
 hrblock.com
 hilton.com

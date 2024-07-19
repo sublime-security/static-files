@@ -2,6 +2,7 @@
 aarp.org
 acronis.com
 adobe.com
+adobe-presents.com
 adobesign.com
 adp.com
 airbnb.com
@@ -138,6 +139,7 @@ groupon.com
 hashicorp.com
 hdfcbank.com
 hellosign.com
+hellofax.com
 hr.com
 hrblock.com
 hilton.com
@@ -165,6 +167,7 @@ jpmchase.com
 jpmorgan.com
 jpmresearchmail.com
 justice.gov.uk
+kahoot.com
 kpmg.com
 lenovo.com
 leo.gov

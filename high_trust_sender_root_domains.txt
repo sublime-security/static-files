@@ -267,6 +267,7 @@ shop.app
 shopify.com
 signin.aws
 signup.aws
+simplelegal.com
 sktelecom.com
 slack.com
 slack-mail.com

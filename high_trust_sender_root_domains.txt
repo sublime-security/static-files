@@ -125,6 +125,7 @@ fsisac.com
 gartner.com
 geeksquad.com
 geico.com
+gem.com
 glassdoor.com
 github.com
 gitlab.com

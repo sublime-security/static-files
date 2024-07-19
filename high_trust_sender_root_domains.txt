@@ -126,6 +126,7 @@ fsisac.com
 gartner.com
 geeksquad.com
 geico.com
+gem.com
 glassdoor.com
 github.com
 gitlab.com
@@ -223,6 +224,7 @@ optummessenger.com
 oracle.com
 oracleindustry.com
 ozk.com
+paddle.com
 pagerduty.com
 pandadoc.net
 paperspace.com
@@ -268,6 +270,7 @@ shop.app
 shopify.com
 signin.aws
 signup.aws
+simplelegal.com
 sktelecom.com
 slack.com
 slack-mail.com
@@ -331,6 +334,7 @@ workday.com
 works.com
 wynnlasvegas.com
 x.com
+xoom.com
 xfinitymobile.com
 xmatters.com
 xpertsuite.nl

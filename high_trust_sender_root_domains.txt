@@ -222,6 +222,7 @@ optummessenger.com
 oracle.com
 oracleindustry.com
 ozk.com
+paddle.com
 pagerduty.com
 pandadoc.net
 paperspace.com
@@ -331,6 +332,7 @@ workday.com
 works.com
 wynnlasvegas.com
 x.com
+xoom.com
 xfinitymobile.com
 xmatters.com
 xpertsuite.nl

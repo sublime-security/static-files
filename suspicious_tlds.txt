@@ -27,6 +27,7 @@ gq
 gu
 i2p
 ing
+ir
 jetzt
 kim
 link
@@ -45,8 +46,10 @@ ooo
 party
 photos
 pictures
+pw
 racing
 ren
+rest
 review
 review
 ru

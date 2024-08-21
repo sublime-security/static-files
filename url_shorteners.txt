@@ -223,6 +223,7 @@ twit.ac
 twitterpan.com
 twitthis.com
 twiturl.de
+twtr.to
 twurl.cc
 twurl.nl
 twixar.me

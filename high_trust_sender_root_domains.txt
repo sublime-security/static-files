@@ -48,6 +48,7 @@ booking.com
 box.com
 brex.com
 byspotify.com
+ca.gov
 calendly.com
 canada.ca
 canada.gc.ca

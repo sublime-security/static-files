@@ -239,6 +239,7 @@ pandadoc.net
 paperspace.com
 pay1040.com
 paypal.com
+paypal.com.mx
 personalhealthmessagecenter.com
 php.net
 pilot.com

@@ -240,6 +240,7 @@ paddle.com
 pagerduty.com
 pandadoc.net
 paperspace.com
+patient-message.com
 pay1040.com
 paypal.com
 paypal.com.mx

@@ -63,6 +63,7 @@ cdc.gov
 chase.com
 checkpoint.com
 checkr.com
+chorus.ai
 cigna.com
 circleci.com
 cisa.gov

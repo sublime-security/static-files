@@ -24,6 +24,7 @@ arkia.co.il
 army.mil
 arxiv.org
 asana.com
+associatedpress.com
 atlassian.com
 atlassian.net
 auth0.com

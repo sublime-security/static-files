@@ -301,6 +301,7 @@ sktelecom.com
 slack-mail.com
 slack.com
 snowflake.com
+socradar.com
 spacex.com
 splitwise.com
 splunk.com

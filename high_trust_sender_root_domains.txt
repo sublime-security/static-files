@@ -24,6 +24,7 @@ arkia.co.il
 army.mil
 arxiv.org
 asana.com
+associatedpress.com
 atlassian.com
 atlassian.net
 auth0.com
@@ -328,6 +329,7 @@ thecyberwire.com
 theinformation.com
 thinkific.com
 thomsonreuters.com
+ticketstripe.com
 trello.com
 tremendous.com
 tripadvisor.com

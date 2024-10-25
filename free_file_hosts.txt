@@ -6,6 +6,7 @@ aliyun.com
 amazonaws.com
 app.getresponse.com
 app.milanote.com
+app.powerbi.com
 app.wishloop.com
 appdomain.cloud
 archive.org

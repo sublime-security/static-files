@@ -299,6 +299,7 @@ service-now.com
 shop.app
 shopify.com
 signin.aws
+signnow.com
 signup.aws
 simplelegal.com
 sktelecom.com

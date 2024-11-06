@@ -95,6 +95,7 @@ deloitte.com
 delta.com
 depconfirm.com
 dhl.com
+dialpad.com
 discord.com
 discover.com
 docsend.com

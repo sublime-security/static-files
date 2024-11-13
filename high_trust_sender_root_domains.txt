@@ -387,5 +387,6 @@ yelp.com
 youtube.com
 zendesk.com
 zillow.com
+ziphq.com
 zoom.us
 zoominfo.com

@@ -304,6 +304,7 @@ sentinelone.com
 sentinelone.net
 sertifi.net
 service-now.com
+service-webroot.com
 shop.app
 shopify.com
 signin.aws

@@ -315,6 +315,7 @@ slack-mail.com
 slack.com
 snowflake.com
 socradar.com
+sony.com
 spacex.com
 splitwise.com
 splunk.com

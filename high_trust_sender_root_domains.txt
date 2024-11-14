@@ -10,6 +10,7 @@ airmason.com
 airtable.com
 alertmedia.com
 allstate.com
+ally.com
 amazon.com
 amazonaws.com
 americanexpress.com

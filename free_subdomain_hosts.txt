@@ -38,6 +38,7 @@ biz.ps
 biz.uz
 blog.lc
 blogspot.com
+canva.site
 center.tl
 ch.st
 chat.dj

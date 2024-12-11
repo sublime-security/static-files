@@ -18,6 +18,7 @@ all.lc
 amazonaws.com
 amplifyapp.com
 anschauen.in
+app.droplet.io
 app.link
 appdomain.cloud
 appspot.com

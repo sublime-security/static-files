@@ -22,6 +22,7 @@ apache.org
 appfolio.com
 apple.com
 appomni.com
+aramark.com
 ariba.com
 arkia.co.il
 army.mil

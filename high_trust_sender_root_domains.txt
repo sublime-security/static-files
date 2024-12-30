@@ -40,6 +40,7 @@ axios.com
 bakermckenzie.com
 bankofamerica.com
 barclays.com
+barclayscorp.com
 barracuda.com
 basecamp.com
 bbc.com

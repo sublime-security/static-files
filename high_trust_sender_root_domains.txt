@@ -295,6 +295,8 @@ patient-message.com
 pay1040.com
 paypal.com
 paypal.com.mx
+paypal.de
+paypal.nl
 peopleadmin.com
 personalhealthmessagecenter.com
 php.net

@@ -117,6 +117,7 @@ dhl.com
 dialpad.com
 discord.com
 discover.com
+doc2sign.com
 docsend.com
 docusign.com
 docusign.net

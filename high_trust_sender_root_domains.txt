@@ -104,6 +104,7 @@ costco.com
 coupahost.com
 coursera.org
 crayon.com
+creditkarma.com
 crowdstrike.com
 databricks.com
 datadoghq.com

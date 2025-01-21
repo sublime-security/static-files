@@ -175,6 +175,7 @@ short.to
 shorturl.at
 shortlinks.co.uk
 shortna.me
+shorturl.asia
 shorturl.com
 shoturl.us
 shrinkify.com

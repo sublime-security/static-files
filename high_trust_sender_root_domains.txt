@@ -12,6 +12,7 @@ airtable.com
 alertmedia.com
 allstate.com
 ally.com
+amazon.ca
 amazon.com
 amazonaws.com
 americanexpress.com

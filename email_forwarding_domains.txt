@@ -1,0 +1,9 @@
+33mail.com
+anonaddy.com
+duck.com
+mozmail.com
+privaterelay.appleid.com
+relay.cloudflare.com
+relay.duck.com
+relay.firefox.com
+simplelogin.com

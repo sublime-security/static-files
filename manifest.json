@@ -20,6 +20,15 @@
       "format": "hostname"
     },
     {
+      "file": "email_forwarding_domains.txt",
+      "identifier": "email_forwarding_domains",
+      "display_name": "Domains used for forwarding emails to a user inbox, typically to add a layer of privacy. These domains should not be able to send email on behalf of a user, they are solely for forwarding email.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
       "file": "file_extensions_common_archives.txt",
       "identifier": "file_extensions_common_archives",
       "display_name": "File extensions of common archives",

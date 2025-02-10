@@ -123,6 +123,7 @@ dhl.com
 dialpad.com
 discord.com
 discover.com
+disneyplus.com
 doc2sign.com
 docsend.com
 docusign.com

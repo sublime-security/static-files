@@ -20,6 +20,7 @@ canva.com
 cdn.discordapp.com
 cdn.fbsbx.com
 cloudflarestorage.com
+coda.io
 customer-oci.com
 customervoice.microsoft.com
 datafilehost.com

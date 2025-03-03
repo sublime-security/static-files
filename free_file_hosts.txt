@@ -19,6 +19,7 @@ box.com
 canva.com
 cdn.discordapp.com
 cdn.fbsbx.com
+claude.site
 cloudflarestorage.com
 coda.io
 customer-oci.com

@@ -47,6 +47,7 @@ files.delivrto.me
 filetransfer.io
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com
+form.jotform.com
 forms.office.com
 frame.io
 fromsmash.com

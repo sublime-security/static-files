@@ -122,6 +122,7 @@ depconfirm.com
 dhl.com
 dhs.gov
 dialpad.com
+digicert.com
 discord.com
 discover.com
 disneyplus.com

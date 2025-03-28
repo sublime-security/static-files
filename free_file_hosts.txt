@@ -51,6 +51,7 @@ form.jotform.com
 forms.office.com
 frame.io
 fromsmash.com
+gamma.app
 getfoureyes.com
 gofile.io
 hidrive.ionos.com

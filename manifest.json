@@ -1,7 +1,7 @@
 {
   "lists": [
     {
-      "file": "replyto_root_domains.txt",
+      "file": "replyto_service_root_domains.txt",
       "identifier": "replyto_service_root_domains",
       "display_name": "These service domains send emails from their own system addresses while automatically inserting the original user's email address into the reply-to field. Useful in conjunction with reply-to sender profiles.",
       "headers": [

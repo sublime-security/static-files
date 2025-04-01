@@ -1,4 +1,4 @@
 appsheet.com
 docusign.com
 docsend.com
-intuit.com
+notifications.intuit.com

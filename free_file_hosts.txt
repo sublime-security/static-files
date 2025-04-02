@@ -92,6 +92,7 @@ stonly.com
 storage.cloud.google.com
 storage.googleapis.com
 solidfiles.com
+sufybkt.com
 sugarsync.com
 surveymonkey.com
 sway.office.com

@@ -2,5 +2,6 @@ appsheet.com
 docusign.net
 docsend.com
 notifications.intuit.com
+skyslope.com
 fb02.freshbooks.com
 surveymonkeyuser.com

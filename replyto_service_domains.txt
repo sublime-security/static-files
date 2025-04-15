@@ -6,6 +6,7 @@ bizbuysell.com
 clover.com
 cnb.com
 ctmecontracts.com
+discoverhorizon.com
 docsend.com
 docsight.net
 docusign.net
@@ -22,12 +23,15 @@ mail.beehiiv.com
 mailchimpapp.com
 mailsuite.com
 myleads.io
+notification.intuit.com
 notifications.intuit.com
 qemailserver.com
 racereachmailer.com
 real-estate-request.com
 sender.zohobooks.com
 shared1.ccsend.com
+sharepointonline.com
+shipstation.com
 skyslope.com
 surveymonkeyuser.com
 txn.getjobber.com

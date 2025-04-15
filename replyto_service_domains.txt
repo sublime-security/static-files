@@ -64,6 +64,7 @@ shipstation.com
 shopifyemail.com
 simplyvoting.com
 skyslope.com
+sumup.com
 surveymonkeyuser.com
 toast-restaurants.com
 txn.getjobber.com

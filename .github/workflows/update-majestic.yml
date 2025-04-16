@@ -1,0 +1,141 @@
+name: Update Majestic Million CSV
+
+on:
+  schedule:
+    # Runs at 00:00 UTC on the 1st of every month
+    - cron: '0 0 1 * *'
+  # Allow manual triggering
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  
+jobs:
+  update-majestic:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Set up date variables
+        id: date
+        run: |
+          echo "today=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "timestamp=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+      
+      - name: Download Majestic Million list
+        id: download-majestic
+        run: |
+          # Maximum retry count
+          MAX_RETRIES=5
+          RETRY_COUNT=0
+          SUCCESS=false
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+            echo "Attempt $(($RETRY_COUNT + 1)) of $MAX_RETRIES: Downloading Majestic Million list..."
+            
+            # Use -w to capture HTTP status code
+            HTTP_STATUS=$(curl -s -L -o majestic_million.csv -w "%{http_code}" \
+              --retry 3 --retry-delay 10 --retry-max-time 300 \
+              --connect-timeout 15 --max-time 300 \
+              "https://downloads.majestic.com/majestic_million.csv")
+            
+            echo "HTTP Status Code: $HTTP_STATUS"
+            
+            # Check if HTTP status code is 200 (OK)
+            if [ "$HTTP_STATUS" -eq 200 ]; then
+              # Check if file was actually downloaded and has content
+              if [ -s majestic_million.csv ]; then
+                echo "Successfully downloaded Majestic Million list"
+                SUCCESS=true
+              else
+                echo "Downloaded file is empty despite HTTP 200"
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "Retrying in 15 seconds..."
+                  sleep 15
+                fi
+              fi
+            else
+              echo "Download failed with HTTP status code: $HTTP_STATUS"
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Retrying in 15 seconds..."
+                sleep 15
+              fi
+            fi
+          done
+          
+          if [ "$SUCCESS" = "false" ]; then
+            echo "Failed to download Majestic Million list after $MAX_RETRIES attempts"
+            exit 1
+          fi
+      
+      - name: Validate Majestic Million list
+        id: validate-majestic
+        run: |
+          # Count lines to verify it's at least 1 million (plus header)
+          LINE_COUNT=$(wc -l < majestic_million.csv)
+          
+          # Check if there's a header row
+          HEADER=$(head -n 1 majestic_million.csv)
+          
+          # Count the number of columns in the header
+          COLUMN_COUNT=$(head -n 1 majestic_million.csv | awk -F, '{print NF}')
+          
+          # Verify the file contains data by checking the second line
+          FIRST_DATA_LINE=$(head -n 2 majestic_million.csv | tail -n 1)
+          
+          if [ "$LINE_COUNT" -gt 1000000 ] && [[ "$HEADER" == *"GlobalRank"* ]] && [ ! -z "$FIRST_DATA_LINE" ] && [ "$COLUMN_COUNT" -eq 12 ]; then
+            echo "File validation passed for majestic_million.csv:"
+            echo "- Contains $LINE_COUNT lines (at least 1,000,000 expected)"
+            echo "- Header found: $HEADER"
+            echo "- Column count: $COLUMN_COUNT (expected 12)"
+            echo "- Data found in file"
+          else
+            echo "File validation failed for majestic_million.csv:"
+            echo "- Line count: $LINE_COUNT (expected > 1,000,000)"
+            echo "- Header: $HEADER (should contain 'GlobalRank')"
+            echo "- Column count: $COLUMN_COUNT (expected 12)"
+            echo "- First data line: $FIRST_DATA_LINE (should not be empty)"
+            exit 1
+          fi
+      
+      - name: Configure Git
+        run: |
+          git config --local user.email "hello@sublimesecurity.com"
+          git config --local user.name "Majestic Process Bot"
+      
+      - name: Create and push branch
+        id: create-branch
+        run: |
+          # Create a unique branch name with timestamp
+          BRANCH_NAME="majestic_update-${{ steps.date.outputs.today }}-${{ steps.date.outputs.timestamp }}"
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          
+          git checkout -b "$BRANCH_NAME"
+          git add majestic_million.csv
+
+          git commit -m "Update Majestic Million list for ${{ steps.date.outputs.today }}"
+          git push origin "$BRANCH_NAME"
+      
+      - name: Create Pull Request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --title "Update Majestic Million list - ${{ steps.date.outputs.today }}" \
+            --body "This PR updates the Majestic Million domains list.
+            
+            - Date: ${{ steps.date.outputs.today }}
+            - Files updated:
+              - majestic_million.csv
+            - Automated update via GitHub Actions" \
+            --head "$BRANCH_NAME" \
+            --base "master"

@@ -1,0 +1,244 @@
+name: Update Umbrella CSV
+
+on:
+  schedule:
+    # Runs at 00:00 UTC on the 1st of every month
+    - cron: '0 0 1 * *'
+  # Allow manual triggering
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  
+jobs:
+  update-umbrella:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Set up date variables
+        id: date
+        run: |
+          echo "today=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "timestamp=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+      
+      - name: Download Umbrella top 1 million list
+        id: download-top-1m
+        run: |
+          # Maximum retry count
+          MAX_RETRIES=5
+          RETRY_COUNT=0
+          SUCCESS=false
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+            echo "Attempt $(($RETRY_COUNT + 1)) of $MAX_RETRIES: Downloading Umbrella top 1 million list..."
+            
+            # Use -w to capture HTTP status code
+            HTTP_STATUS=$(curl -s -L -o umbrella-top-1m.zip -w "%{http_code}" \
+              --retry 3 --retry-delay 10 --retry-max-time 300 \
+              --connect-timeout 15 --max-time 300 \
+              "http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip")
+            
+            echo "HTTP Status Code: $HTTP_STATUS"
+            
+            # Check if HTTP status code is 200 (OK)
+            if [ "$HTTP_STATUS" -eq 200 ]; then
+              # Check if file was actually downloaded and has content
+              if [ -s umbrella-top-1m.zip ]; then
+                echo "Successfully downloaded Umbrella top 1 million list"
+                SUCCESS=true
+              else
+                echo "Downloaded file is empty despite HTTP 200"
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "Retrying in 15 seconds..."
+                  sleep 15
+                fi
+              fi
+            else
+              echo "Download failed with HTTP status code: $HTTP_STATUS"
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Retrying in 15 seconds..."
+                sleep 15
+              fi
+            fi
+          done
+          
+          if [ "$SUCCESS" = "false" ]; then
+            echo "Failed to download Umbrella top 1 million list after $MAX_RETRIES attempts"
+            exit 1
+          fi
+
+      - name: Download Umbrella top TLDs list
+        id: download-top-tld
+        run: |
+          # Maximum retry count
+          MAX_RETRIES=5
+          RETRY_COUNT=0
+          SUCCESS=false
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+            echo "Attempt $(($RETRY_COUNT + 1)) of $MAX_RETRIES: Downloading Umbrella top TLDs list..."
+            
+            # Use -w to capture HTTP status code
+            HTTP_STATUS=$(curl -s -L -o umbrella-top-1m-tld.zip -w "%{http_code}" \
+              --retry 3 --retry-delay 10 --retry-max-time 300 \
+              --connect-timeout 15 --max-time 300 \
+              "http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m-TLD.csv.zip")
+            
+            echo "HTTP Status Code: $HTTP_STATUS"
+            
+            # Check if HTTP status code is 200 (OK)
+            if [ "$HTTP_STATUS" -eq 200 ]; then
+              # Check if file was actually downloaded and has content
+              if [ -s umbrella-top-1m-tld.zip ]; then
+                echo "Successfully downloaded Umbrella top TLDs list"
+                SUCCESS=true
+              else
+                echo "Downloaded file is empty despite HTTP 200"
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "Retrying in 15 seconds..."
+                  sleep 15
+                fi
+              fi
+            else
+              echo "Download failed with HTTP status code: $HTTP_STATUS"
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Retrying in 15 seconds..."
+                sleep 15
+              fi
+            fi
+          done
+          
+          if [ "$SUCCESS" = "false" ]; then
+            echo "Failed to download Umbrella top TLDs list after $MAX_RETRIES attempts"
+            exit 1
+          fi
+      
+      - name: Extract Umbrella top 1 million list
+        id: extract-top-1m
+        run: |
+          if unzip -o umbrella-top-1m.zip; then
+            if [ -f "top-1m.csv" ]; then
+              echo "Successfully extracted Umbrella top 1 million list"
+              # Rename the file to the desired output name
+              mv top-1m.csv umbrella_top_1m.csv
+            else
+              echo "Expected file 'top-1m.csv' not found in the zip archive"
+              ls -la
+              exit 1
+            fi
+          else
+            echo "Failed to extract zip file"
+            exit 1
+          fi
+
+      - name: Extract Umbrella top TLDs list
+        id: extract-top-tld
+        run: |
+          if unzip -o umbrella-top-1m-tld.zip; then
+            if [ -f "top-1m-TLD.csv" ]; then
+              echo "Successfully extracted Umbrella top TLDs list"
+              # Rename the file to the desired output name
+              mv top-1m-TLD.csv umbrella_top_1m_tld.csv
+            else
+              echo "Expected file 'top-1m-TLD.csv' not found in the zip archive"
+              ls -la
+              exit 1
+            fi
+          else
+            echo "Failed to extract zip file"
+            exit 1
+          fi
+      
+      - name: Validate Umbrella top 1 million list
+        id: validate-top-1m
+        run: |
+          # Count lines to verify it's exactly 1 million
+          LINE_COUNT=$(wc -l < umbrella_top_1m.csv)
+          
+          # Verify the first line starts with "1,"
+          FIRST_LINE=$(head -n 1 umbrella_top_1m.csv)
+          
+          # Verify the last line starts with "1000000,"
+          LAST_LINE=$(tail -n 1 umbrella_top_1m.csv)
+          
+          if [ "$LINE_COUNT" -eq 1000000 ] && [[ "$FIRST_LINE" =~ ^1, ]] && [[ "$LAST_LINE" =~ ^1000000, ]]; then
+            echo "File validation passed for umbrella_top_1m.csv:"
+            echo "- Exactly 1,000,000 lines"
+            echo "- First line: $FIRST_LINE"
+            echo "- Last line: $LAST_LINE"
+          else
+            echo "File validation failed for umbrella_top_1m.csv:"
+            echo "- Line count: $LINE_COUNT (expected 1,000,000)"
+            echo "- First line: $FIRST_LINE (should start with '1,')"
+            echo "- Last line: $LAST_LINE (should start with '1000000,')"
+            exit 1
+          fi
+
+      - name: Validate Umbrella top TLDs list
+        id: validate-top-tld
+        run: |
+          # Count lines
+          LINE_COUNT=$(wc -l < umbrella_top_1m_tld.csv)
+          
+          # Verify the first line starts with "1,"
+          FIRST_LINE=$(head -n 1 umbrella_top_1m_tld.csv)
+          
+          if [ "$LINE_COUNT" -gt 0 ] && [[ "$FIRST_LINE" =~ ^1, ]]; then
+            echo "File validation passed for umbrella_top_1m_tld.csv:"
+            echo "- Contains $LINE_COUNT lines"
+            echo "- First line: $FIRST_LINE"
+          else
+            echo "File validation failed for umbrella_top_1m_tld.csv:"
+            echo "- Line count: $LINE_COUNT (expected > 0)"
+            echo "- First line: $FIRST_LINE (should start with '1,')"
+            exit 1
+          fi
+      
+      - name: Configure Git
+        run: |
+          git config --local user.email "hello@sublimesecurity.com"
+          git config --local user.name "Umbrella Process Bot"
+      
+      - name: Create and push branch
+        id: create-branch
+        run: |
+          # Create a unique branch name with timestamp
+          BRANCH_NAME="umbrella_update-${{ steps.date.outputs.today }}-${{ steps.date.outputs.timestamp }}"
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          
+          git checkout -b "$BRANCH_NAME"
+          git add umbrella_top_1m.csv
+          git add umbrella_top_1m_tld.csv
+
+          git commit -m "Update Umbrella lists for ${{ steps.date.outputs.today }}"
+          git push origin "$BRANCH_NAME"
+      
+      - name: Create Pull Request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --title "Update Umbrella lists - ${{ steps.date.outputs.today }}" \
+            --body "This PR updates the Umbrella top 1 million domains list and top TLDs list.
+            
+            - Date: ${{ steps.date.outputs.today }}
+            - Files updated:
+              - umbrella_top_1m.csv
+              - umbrella_top_1m_tld.csv
+            - Automated update via GitHub Actions" \
+            --head "$BRANCH_NAME" \
+            --base "master"

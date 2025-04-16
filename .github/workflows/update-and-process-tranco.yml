@@ -286,4 +286,4 @@ jobs:
             - Automated update via GitHub Actions" \
             --head "$BRANCH_NAME" \
             --base "master" \
-            --reviewer @sublime-security/detection
+            --reviewer sublime-security/detection

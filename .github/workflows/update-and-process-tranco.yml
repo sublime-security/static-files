@@ -285,5 +285,4 @@ jobs:
             - List URL: https://tranco-list.eu/list/${{ steps.tranco-id.outputs.id }}
             - Automated update via GitHub Actions" \
             --head "$BRANCH_NAME" \
-            --base "master" \
-            --reviewer sublime-security/detection
+            --base "master" 

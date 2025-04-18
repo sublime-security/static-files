@@ -148,6 +148,7 @@ jixx.de
 jixx.net
 jp.tn
 k1.cx
+kinsta.page
 kr.tn
 kr3w.de
 l4n.contains_regexname.vg

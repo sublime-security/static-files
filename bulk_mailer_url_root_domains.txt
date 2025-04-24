@@ -3,3 +3,4 @@ mandrillapp.com
 sendgrid.net
 rs6.net
 spoton.com
+list-manage.com

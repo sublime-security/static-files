@@ -42,6 +42,7 @@ filefactory.com
 fileflyer.com
 filehosting.org
 files.com
+file.io
 filemail.com
 files.delivrto.me
 filetransfer.io

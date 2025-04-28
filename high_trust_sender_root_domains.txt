@@ -224,6 +224,7 @@ indeedemail.com
 infinitecampus.com
 infotrack.co.uk
 instagram.com
+insiders.vscode.dev
 intercom.com
 intercom.io
 intercom-mail.com

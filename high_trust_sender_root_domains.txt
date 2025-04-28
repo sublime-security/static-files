@@ -320,6 +320,7 @@ paypal.com
 paypal.com.mx
 paypal.de
 paypal.nl
+payspan.com
 peopleadmin.com
 personalhealthmessagecenter.com
 php.net

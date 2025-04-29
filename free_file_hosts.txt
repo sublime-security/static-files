@@ -36,6 +36,7 @@ ecv.microsoft.com
 egnyte.com
 elephantdrive.com
 evernote.com
+figma.com
 filebin.net
 filedropper.com
 filefactory.com

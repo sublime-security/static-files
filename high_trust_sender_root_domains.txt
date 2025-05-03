@@ -94,6 +94,7 @@ cisa.gov
 cisco.com
 citi.com
 clearbit.com
+clixsign.com
 cloudappsecurity.com
 cloudflare.com
 cloudlabs.ai

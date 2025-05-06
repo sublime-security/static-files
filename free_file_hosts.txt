@@ -15,6 +15,7 @@ attachment.outlook.live.net
 attachments.office.net
 backblazeb2.com
 beautiful.ai
+bitbucket.com
 box.com
 canva.com
 cdn.discordapp.com

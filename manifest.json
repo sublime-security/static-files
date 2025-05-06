@@ -230,14 +230,15 @@
         "entry"
       ],
       "format": "hostname"
-     ]
     },
     {
       "file": "file_extensions_suspicious.txt",
       "identifier": "file_extensions_suspicious",
-      "display_name": "File_Extensions_Suspicious",
+      "display_name": "A list of observed extensions known to be abused by threat actors in malicious message content.",
       "headers": [
         "entry"
       ],
       "format": "hostname"
     },
+  ]
+}

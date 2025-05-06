@@ -230,6 +230,14 @@
         "entry"
       ],
       "format": "hostname"
-    }
-  ]
-}
+     ]
+    },
+    {
+      "file": "file_extensions_suspicious.txt",
+      "identifier": "file_extensions_suspicious",
+      "display_name": "File_Extensions_Suspicious",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },

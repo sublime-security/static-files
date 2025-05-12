@@ -5,6 +5,7 @@ adrive.com
 aliyun.com
 amazonaws.com
 app.getresponse.com
+app.ludus.one
 app.milanote.com
 app.powerbi.com
 app.wishloop.com

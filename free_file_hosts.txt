@@ -101,6 +101,7 @@ solidfiles.com
 sufybkt.com
 sugarsync.com
 surveymonkey.com
+sway.cloud.microsoft
 sway.office.com
 telegra.ph
 teletype.in

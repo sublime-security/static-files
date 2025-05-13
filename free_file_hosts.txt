@@ -82,6 +82,7 @@ onedrive.live.com
 onenoteonlinesync.onenote.com
 pcloud.com
 pixeldrain.com
+powr.io
 publuu.com
 quip.com
 raw.githubusercontent.com

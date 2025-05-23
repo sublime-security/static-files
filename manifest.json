@@ -160,6 +160,15 @@
       ]
     },
     {
+      "file": "tenant_domains.txt",
+      "identifier": "tenant_domains",
+      "display_name": "Subdomains or custom domains provided by third-party SaaS platforms that your organization controls and manages (e.g., yourcompany.atlassian.net, yourteam.slack.com, yourorg.sharepoint.com). This list can be used to reduce false positives by excluding these trusted tenant domains within detection logic.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
       "file": "tranco.csv",
       "identifier": "tranco_1m",
       "display_name": "Tranco Top 1 Million Domains",

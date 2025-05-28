@@ -4006,6 +4006,7 @@ harvard-ac-uk.tk
 harysetiabudi.site
 hasanatilan.xyz
 hasanmail.ml
+hash.fyi
 hashicorp.world
 hassyaku.tk
 hat-geld.de
@@ -4088,6 +4089,7 @@ hhmel.com
 hi2.in
 hi5.si
 hicloud.life
+hideaddress.net
 hiddentragedy.com
 hide-mail.net
 hidebox.org
@@ -5719,6 +5721,7 @@ mailshell.com
 mailshiv.com
 mailshiv.me
 mailsiphon.com
+mailsire.com
 mailslapping.com
 mailslite.com
 mailslurp.com

@@ -313,6 +313,7 @@ ops-trust.net
 optummessenger.com
 oracle.com
 oracleindustry.com
+otter.ai
 ozk.com
 paddle.com
 pagerduty.com

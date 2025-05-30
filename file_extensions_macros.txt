@@ -3,6 +3,7 @@ docm
 docx
 dot
 dotm
+odt
 ppa
 ppam
 ppsm

@@ -142,6 +142,7 @@ infos.lc
 inmotionhosting.com
 instawp.xyz
 int.ps
+infinityfree.com
 ir.tn
 it.gp
 jimdosite.com
@@ -158,6 +159,8 @@ m.vu
 ma.tn
 mobi.ps
 mp3.gp
+mockbin.org
+mocky.io
 musik.cx
 musik.lc
 my.vg
@@ -254,6 +257,7 @@ web.app
 web.gg
 webflow.io
 webcindario.com
+webhook.site
 website.tk
 weebly.com
 welt.tl

@@ -81,6 +81,7 @@ new.express.adobe.com
 notion.so
 onedrive.live.com
 onenoteonlinesync.onenote.com
+padlet.com
 pcloud.com
 pixeldrain.com
 powr.io

@@ -16,6 +16,7 @@ attachment.outlook.live.net
 attachments.office.net
 backblazeb2.com
 beautiful.ai
+behance.net
 bitbucket.com
 box.com
 buildin.ai

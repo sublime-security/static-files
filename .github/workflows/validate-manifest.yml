@@ -12,20 +12,26 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+      - name: Validate manifest.json
+        id: validate_manifest
+        run: |
+          echo "Validating manifest files"
+          for item in $(jq -c -r '.lists.[].file | select( . != null )' manifest.json); do
+            if test -f $item; then
+              echo "$item exists"
+            else
+              echo "Error: $item does not exist"
+              exit 1
+            fi
+          done
 
-      - name: Install dependencies
-        run: python -m pip install requests
+          echo "Validating manifest urls"
+          for item in $(jq -c -r '.lists.[].url | select( . != null )' manifest.json); do
+            urlstatus=$(curl -H 'Cache-Control: no-cache' -o /dev/null --silent --head --write-out "$URL %{http_code}" "$item")
+            if [ $urlstatus -ne 200 ]; then
+              echo "$item has HTTP status $urlstatus"
+              exit 1
+            fi
+          done
 
-      - name: Load and Validate
-        id: validate
-        run:
-          python ./scripts/validate.py
-
-      - name: Check for errors
-        if: ${{ failure() }}
-        run:
-          echo "Error validating manifest $GITHUB_OUTPUT"
+          echo "Validation complete"

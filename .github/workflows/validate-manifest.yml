@@ -1,0 +1,24 @@
+name: Validate manifest.json
+
+on: push
+
+defaults:
+  run:
+    shell: python
+    working-directory: ./scripts
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+    
+      - name: Load and Validate
+        run:
+          pip3 install requests
+
+          python validate.py

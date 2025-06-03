@@ -26,6 +26,6 @@ jobs:
           python ./scripts/validate.py
 
       - name: Check for errors
-        if: steps.validate.outputs.errors != ""
+        if: ${{ failure() }}
         run:
           echo "Error validating manifest $GITHUB_OUTPUT"

@@ -76,6 +76,7 @@ msh1xml
 msh2
 msh2xml
 mshxml
+mht
 msi
 msix
 msixbundle
@@ -116,6 +117,7 @@ sh
 shb
 shortcut
 shs
+slk
 sys
 theme
 url
@@ -131,6 +133,7 @@ vxd
 webpnp
 website
 ws
+wll
 wsc
 wsf
 wsh

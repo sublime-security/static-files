@@ -18,9 +18,9 @@ jobs:
           echo "Validating manifest files"
           for item in $(jq -c -r '.lists.[].file | select( . != null )' manifest.json); do
             if test -f $item; then
-              echo "$item exists"
+              echo "$item file is listed in the manifest, and exists in the repository"
             else
-              echo "::error file=manifest.json,title=Invalid-Manifest::$item does not exist"
+              echo "::error file=manifest.json,title=Invalid-Manifest::$item file is listed in the manifest, but the file does not exist"
               exit 1
             fi
           done
@@ -29,7 +29,7 @@ jobs:
           for item in $(jq -c -r '.lists.[].url | select( . != null )' manifest.json); do
             urlstatus=$(curl -H 'Cache-Control: no-cache' -o /dev/null --silent --head --write-out "$URL %{http_code}" "$item")
             if [ $urlstatus -ne 200 ]; then
-              echo "::error file=manifest.json,title=Invalid-Manifest::$item has HTTP status of $urlstatus"
+              echo "::error file=manifest.json,title=Invalid-Manifest::$item URL is listed in the manifest, but the received HTTP status of $urlstatus"
               exit 1
             fi
           done

@@ -216,7 +216,7 @@
       "format": "hostname"
     },
     {
-      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_malwarebazaar_sha256_trusted_reporters.txt.gz",
+      "url": "https://global-sublime-static-lists.s3.amazonaws.com/latest/abuse_ch_malwarebazaporters.txt.gz",
       "identifier": "abuse_ch_malwarebazaar_sha256_trusted_reporters",
       "display_name": "Abuse.ch: MalwareBazaar SHA256 hashes. Note: Entries are limited to the following trusted reporters, but are otherwise unfiltered. We recommend using filtering logic in MQL to reduce potential false positives. Trusted reporters: abuse_ch, zbetcheckin, SecuriteInfoCom, elfdigest, cocaman, andretavare5, James_inthe_box, JAMESWT_MHT, TeamDreier, pr0xylife",
       "headers": [

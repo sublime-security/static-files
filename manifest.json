@@ -152,6 +152,14 @@
       ]
     },
     {
+      "file": "social_landing_hosts.txt",
+      "identifier": "social_landing_hosts",
+      "display_name": "Root domains of social landing pages, also known as 'link-in-bio' pages.",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "suspicious_tlds.txt",
       "identifier": "suspicious_tlds",
       "display_name": "Suspicious Top-Level Domains",

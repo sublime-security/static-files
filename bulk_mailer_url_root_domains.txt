@@ -1,6 +1,6 @@
 hubspotlinks.com
-mandrillapp.com
-sendgrid.net
-rs6.net
-spoton.com
 list-manage.com
+mandrillapp.com
+rs6.net
+sendgrid.net
+spoton.com

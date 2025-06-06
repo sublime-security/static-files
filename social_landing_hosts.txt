@@ -1,6 +1,7 @@
 allmylinks.com
 beacons.ai
 bento.me
+bio.box
 bio.fm
 bio.site
 biolinky.co

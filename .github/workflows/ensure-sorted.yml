@@ -113,7 +113,7 @@ jobs:
 
           git config user.name 'Sorted Order Validation'
           git config user.email 'hello@sublimesecurity.com'
-          git add **/*.txt
+          git add '*.txt'
           git commit -m "Auto sorting static files"
           # This will only work when running for a pull_request_target, but rather than filter we'll let this expose
           # any issues.

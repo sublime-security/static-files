@@ -109,6 +109,7 @@ sugarsync.com
 surveymonkey.com
 sway.cloud.microsoft
 sway.office.com
+tana.pub
 telegra.ph
 teletype.in
 tinyupload.com

@@ -27,6 +27,7 @@ cdn.fbsbx.com
 claude.site
 cloudflarestorage.com
 coda.io
+curipod.com
 customer-oci.com
 customervoice.microsoft.com
 datafilehost.com

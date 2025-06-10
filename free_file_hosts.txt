@@ -37,6 +37,7 @@ d.pr
 digitaloceanspaces.com
 doc.clickup.com
 docs.google.com
+docs.zoom.us
 drive.google.com
 dropbox.com
 ecv.microsoft.com

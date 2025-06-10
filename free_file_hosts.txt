@@ -43,6 +43,7 @@ dropbox.com
 ecv.microsoft.com
 egnyte.com
 elephantdrive.com
+eu.jotform.com
 evernote.com
 figma.com
 filebin.net

@@ -6,6 +6,7 @@ airtable.com
 aliyun.com
 amazonaws.com
 app.getresponse.com
+app.jotform.com
 app.ludus.one
 app.milanote.com
 app.powerbi.com

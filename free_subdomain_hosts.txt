@@ -247,8 +247,8 @@ up.railway.app
 urlaub.lc
 us.gg
 us.nf
-atlassian.net
 usa.gg
+atlassian.net
 user.lc
 vercel.app
 vercel.dev

@@ -54,9 +54,9 @@ filefactory.com
 fileflyer.com
 filehosting.org
 filemail.com
+files.catbox.moe
 files.com
 files.delivrto.me
-files.catbox.moe
 filetransfer.io
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com
@@ -77,8 +77,8 @@ jumpshare.com
 kiwi6.com
 larksuite.com
 link.storjshare.io
-livedrive.com
 litterbox.catbox.moe
+livedrive.com
 mediafire.com
 mega.nz
 megafileupload.com

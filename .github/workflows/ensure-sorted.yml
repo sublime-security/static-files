@@ -99,7 +99,7 @@ jobs:
       - name: Sort file content order
         if: github.event_name != 'issue_comment'
         run: |
-          python scripts/sorter.py
+          python ./scripts/sorter.py
 
       - name: Commit & Push Results, if needed
         if: github.event_name != 'issue_comment'

@@ -24,6 +24,7 @@ appdomain.cloud
 appspot.com
 asia.gp
 at.st
+atlassian.net
 auto.lc
 aw3.de
 axshare.com
@@ -174,7 +175,6 @@ netz.tl
 ng.tn
 ngrok.io
 nimbusweb.me
-atlassian.net
 nl.gp
 nl.tn
 notion.site

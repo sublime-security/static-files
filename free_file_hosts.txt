@@ -23,6 +23,7 @@ bitbucket.com
 box.com
 buildin.ai
 canva.com
+catbox.moe
 cdn.discordapp.com
 cdn.fbsbx.com
 claude.site
@@ -55,6 +56,7 @@ filehosting.org
 filemail.com
 files.com
 files.delivrto.me
+files.catbox.moe
 filetransfer.io
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com
@@ -76,6 +78,7 @@ kiwi6.com
 larksuite.com
 link.storjshare.io
 livedrive.com
+litterbox.catbox.moe
 mediafire.com
 mega.nz
 megafileupload.com

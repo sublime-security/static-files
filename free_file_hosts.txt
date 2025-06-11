@@ -55,6 +55,7 @@ files.com
 file.io
 filemail.com
 files.delivrto.me
+files.catbox.moe
 filetransfer.io
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com

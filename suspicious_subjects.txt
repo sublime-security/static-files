@@ -12,13 +12,13 @@ bankofamerica
 bill for payment
 closing statement invoice
 complete:
-completed: docusign
 completed via
 completed with
+completed: docusign
 de-activation of
+deactivation
 delivery attempt
 delivery stopped for shipment
-deactivation
 detected suspicious
 detected suspicious actvity
 docshare
@@ -27,10 +27,10 @@ document for you
 document has been sent to you via docusign
 document is ready for signature
 docusign
+e-sign
+efax
 encrypted message
 encrypted secured
-efax
-e-sign
 expir
 failed delivery
 fedex tracking
@@ -39,9 +39,9 @@ final reminder
 freefax
 fwd: due invoice paid
 has shared
-important information
 important docs
 important eDocs
+important information
 inbox is full
 incoming document
 infected
@@ -52,13 +52,13 @@ left you a message
 low storage
 message from
 message received
-new evoice
 new document
+new evoice
 new fax
 new file
 new message
-new sign-in
 new sign in
+new sign-in
 new voicemail
 on desk
 one moment
@@ -86,11 +86,11 @@ secured files
 secured pdf 
 security alert
 shared to you
-sign-in attempt
 sign in attempt
 sign your document
-statement of account
+sign-in attempt
 staff review
+statement of account
 stock transfer
 suspicious activity
 unrecognized login attempt
@@ -98,9 +98,9 @@ unreleased message
 upgrade immediately
 urgent
 verify your account
+w2
 wants to share
 will expire
-w2
 you have notifications pending
 your account
 your amazon order

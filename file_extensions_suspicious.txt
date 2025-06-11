@@ -69,6 +69,7 @@ mde
 mdt
 mdw
 mdz
+mht
 msc
 msh
 msh1
@@ -76,7 +77,6 @@ msh1xml
 msh2
 msh2xml
 mshxml
-mht
 msi
 msix
 msixbundle
@@ -132,8 +132,8 @@ vsw
 vxd
 webpnp
 website
-ws
 wll
+ws
 wsc
 wsf
 wsh

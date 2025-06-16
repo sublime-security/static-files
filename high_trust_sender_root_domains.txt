@@ -13,6 +13,7 @@ alertmedia.com
 allstate.com
 ally.com
 amazon.ca
+amazon.co.uk
 amazon.com
 amazonaws.com
 americanexpress.com
@@ -138,6 +139,7 @@ dowjones.com
 drifttmail.com
 dropbox.com
 dtdg.co
+dtdg.eu
 duo.com
 duosecurity.com
 e-paycapita.com

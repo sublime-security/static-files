@@ -168,6 +168,7 @@ my.vg
 mybluehost.me
 mybluemix.net
 myportfolio.com
+mystrikingly.com
 name.ac
 name.vu
 netlify.app

@@ -39,8 +39,8 @@ digitaloceanspaces.com
 doc.clickup.com
 docs.google.com
 docs.zoom.us
-drive.google.com
 drime.cloud
+drive.google.com
 dropbox.com
 ecv.microsoft.com
 egnyte.com

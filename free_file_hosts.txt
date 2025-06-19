@@ -39,6 +39,7 @@ digitaloceanspaces.com
 doc.clickup.com
 docs.google.com
 docs.zoom.us
+drime.cloud
 drive.google.com
 dropbox.com
 ecv.microsoft.com
@@ -100,6 +101,7 @@ raw.githubusercontent.com
 sabercathost.com
 scribd.com
 send-anywhere.com
+sendgb.com
 sendspace.com
 share.hsforms.com
 sharepoint.com
@@ -121,6 +123,7 @@ telegra.ph
 teletype.in
 tinyupload.com
 transfer.sh
+transfernow.net
 ufile.io
 uploaded.net
 uploadfiles.io

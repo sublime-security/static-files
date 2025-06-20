@@ -41,6 +41,7 @@ cutt.ly
 cuturl.com
 cuty.io
 dalt.in
+dub.sh
 decenturl.com
 dfl8.me
 digbig.com

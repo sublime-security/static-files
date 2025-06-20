@@ -36,6 +36,7 @@ hlp
 hpj
 hta
 htc
+hwp
 img
 inf
 ins

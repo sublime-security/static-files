@@ -1,6 +1,8 @@
 ac.th
 accountants
 am
+best
+beauty
 cf
 cfd
 cl
@@ -20,7 +22,9 @@ domains
 download
 enterprises
 expert
+fashion
 finance
+fit
 free
 ga
 gdn
@@ -28,6 +32,7 @@ gq
 gu
 i2p
 ing
+info
 ir
 jetzt
 kim
@@ -49,6 +54,7 @@ ooo
 party
 photos
 pictures
+pro
 pub
 pw
 racing

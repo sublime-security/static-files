@@ -74,6 +74,7 @@ go2.me
 go2cut.com
 go2l.ink
 goo.gl
+goo.su
 goshrink.com
 gowat.ch
 gri.ms

@@ -17,6 +17,7 @@ acesse.one
 adjix.com
 alturl.com
 artist.link
+amlink.pro
 atu.ca
 b.link
 b23.ru
@@ -26,6 +27,7 @@ bit.do
 bit.ly
 bkite.com
 bloat.me
+bl.ink
 boxsign.info
 budurl.com
 buff.ly
@@ -46,6 +48,7 @@ dfl8.me
 digbig.com
 digg.com
 doiop.com
+dub.co
 dub.sh
 dwarfurl.com
 dy.fi
@@ -91,6 +94,7 @@ hugeurl.com
 hurl.it
 hurl.me
 hurl.ws
+ht.ly
 icanhaz.com
 idek.net
 inreply.to
@@ -175,11 +179,14 @@ s7y.us
 safe.mn
 sharein.com
 sharetabs.com
+shrtcnl.com
 shorl.com
 short.gy
 short.ie
+short.io
 short.to
 shortlinks.co.uk
+shorter.gg
 shortna.me
 shorturl.asia
 shorturl.at
@@ -218,6 +225,7 @@ tinytw.it
 tinyuri.ca
 tinyurl.com
 tinyvid.io
+tli.su
 tnij.org
 to.ly
 togoto.us

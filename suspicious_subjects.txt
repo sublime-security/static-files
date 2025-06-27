@@ -51,8 +51,8 @@ invitation to comment
 invitation to edit
 invoice due
 left you a message
-low storage
 login attempt
+low storage
 message from
 message received
 new document
@@ -74,8 +74,8 @@ payment status
 payroll disbursement
 pending invoice
 please review
-processed
 prime membership
+processed
 quick reply
 quick response
 re: w-2

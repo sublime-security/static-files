@@ -16,6 +16,7 @@ acesse.dev
 acesse.one
 adjix.com
 alturl.com
+amlink.pro
 artist.link
 atu.ca
 b.link
@@ -25,6 +26,7 @@ bc5.io
 bit.do
 bit.ly
 bkite.com
+bl.ink
 bloat.me
 boxsign.info
 budurl.com
@@ -46,6 +48,7 @@ dfl8.me
 digbig.com
 digg.com
 doiop.com
+dub.co
 dub.sh
 dwarfurl.com
 dy.fi
@@ -85,6 +88,7 @@ hex.io
 hideuri.com
 hover.com
 href.in
+ht.ly
 htxt.it
 hubs.ly
 hugeurl.com
@@ -178,7 +182,9 @@ sharetabs.com
 shorl.com
 short.gy
 short.ie
+short.io
 short.to
+shorter.gg
 shortlinks.co.uk
 shortna.me
 shorturl.asia
@@ -188,6 +194,7 @@ shoturl.us
 shrinkify.com
 shrinkster.com
 shrt.st
+shrtcnl.com
 shrten.com
 shrunkin.com
 shw.me
@@ -218,6 +225,7 @@ tinytw.it
 tinyuri.ca
 tinyurl.com
 tinyvid.io
+tli.su
 tnij.org
 to.ly
 togoto.us

@@ -168,6 +168,15 @@
       ]
     },
     {
+      "file": "tenant_domains.txt",
+      "identifier": "tenant_domains",
+      "display_name": "Domains (including the SaaS provider's root domain) allocated to your organization by third-party SaaS providers.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
       "file": "tranco.csv",
       "identifier": "tranco_1m",
       "display_name": "Tranco Top 1 Million Domains",

@@ -10,6 +10,7 @@ attached file to docusign
 banking is temporarily unavailable
 bankofamerica
 bill for payment
+booking confirmation
 closing statement invoice
 complete:
 completed via
@@ -40,6 +41,7 @@ freefax
 fwd: due invoice paid
 has shared
 important docs
+important documents
 important eDocs
 important information
 inbox is full
@@ -49,6 +51,7 @@ invitation to comment
 invitation to edit
 invoice due
 left you a message
+login attempt
 low storage
 message from
 message received
@@ -71,6 +74,7 @@ payment status
 payroll disbursement
 pending invoice
 please review
+prime membership
 processed
 quick reply
 quick response

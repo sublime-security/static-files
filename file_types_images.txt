@@ -1,8 +1,8 @@
 bmp
 cr2
 gif
-heif
 heic
+heif
 ico
 jp2
 jpg

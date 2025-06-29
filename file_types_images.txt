@@ -1,11 +1,13 @@
 bmp
 cr2
 gif
+heic
 heif
 ico
 jp2
 jpg
 jxr
 png
+svg
 tif
 webp

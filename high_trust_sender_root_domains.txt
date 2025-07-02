@@ -1,4 +1,3 @@
-mail.microsoft
 1password.com
 aarp.org
 acronis.com
@@ -254,6 +253,7 @@ leo.gov
 lever.co
 linkedin.com
 lookermail.com
+mail.microsoft
 mailchimp.com
 mailhippo.com
 mailsuite.com

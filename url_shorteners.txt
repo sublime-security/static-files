@@ -247,6 +247,7 @@ twtr.to
 twurl.cc
 twurl.nl
 tyny.to
+t.ly
 u.mavrev.com
 u.nu
 u.to

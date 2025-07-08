@@ -1,4 +1,3 @@
-turkishairlines.com
 1password.com
 aarp.org
 acronis.com
@@ -443,6 +442,7 @@ tremendous.com
 tripadvisor.com
 tsheets.com
 tumblr.com
+turkishairlines.com
 twilio.com
 twingate.com
 twitter.com

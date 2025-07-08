@@ -1,4 +1,3 @@
-researchgatemail.net
 1password.com
 aarp.org
 acronis.com
@@ -361,6 +360,7 @@ regions.com
 remote.com
 rentcafe.com
 res-marriott.com
+researchgatemail.net
 reuters.com
 rightsignature.com
 ringcentral.com

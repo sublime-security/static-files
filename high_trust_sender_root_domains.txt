@@ -1,4 +1,3 @@
-betterstack.com
 1password.com
 aarp.org
 acronis.com
@@ -61,6 +60,7 @@ bbvauk.com
 bedbathandbeyond.com
 behance.com
 bestbuy.com
+betterstack.com
 beyondtrust.com
 bill.com
 blazeo.com

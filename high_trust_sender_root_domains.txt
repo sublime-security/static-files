@@ -1,4 +1,3 @@
-fordcredit.com
 1password.com
 aarp.org
 acronis.com
@@ -184,6 +183,7 @@ flickr.com
 flutter.com
 fontawesome.com
 forbes.com
+fordcredit.com
 fortinet.com
 fortune.com
 foxitsign.com

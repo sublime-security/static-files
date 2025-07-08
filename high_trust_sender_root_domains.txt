@@ -1,4 +1,3 @@
-tiktok.com
 1password.com
 aarp.org
 acronis.com
@@ -437,6 +436,7 @@ thinkific.com
 thomsonreuters.com
 ticketmaster.com
 ticketstripe.com
+tiktok.com
 transunion.com
 transunionsapps.com
 trello.com

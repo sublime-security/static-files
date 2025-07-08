@@ -125,6 +125,7 @@ sync.com
 tana.pub
 telegra.ph
 teletype.in
+temp.sh
 tinyupload.com
 transfer.sh
 transfernow.net

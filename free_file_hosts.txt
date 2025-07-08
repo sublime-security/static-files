@@ -119,9 +119,9 @@ storage.googleapis.com
 sufybkt.com
 sugarsync.com
 surveymonkey.com
-sync.com
 sway.cloud.microsoft
 sway.office.com
+sync.com
 tana.pub
 telegra.ph
 teletype.in

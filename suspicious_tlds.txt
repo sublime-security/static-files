@@ -9,6 +9,7 @@ cf
 cfd
 cl
 click
+cloud
 club
 cm
 co.cl
@@ -81,6 +82,7 @@ solutions
 stream
 su
 sx
+tech
 tk
 tokyo
 top
@@ -92,6 +94,7 @@ vu
 wang
 website
 win
+work
 works
 world
 ws

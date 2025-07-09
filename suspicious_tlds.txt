@@ -9,6 +9,7 @@ cf
 cfd
 cl
 click
+cloud
 club
 cm
 co.cl
@@ -85,6 +86,7 @@ tk
 tokyo
 top
 trade
+tech
 tt
 ua
 vip
@@ -93,6 +95,7 @@ wang
 website
 win
 works
+work
 world
 ws
 xin

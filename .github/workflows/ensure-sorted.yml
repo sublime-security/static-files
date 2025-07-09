@@ -1,9 +1,8 @@
 name: Ensure lists are sorted
 
 on:
-  push:
   pull_request_target:
-    branches: [ "**" ]
+    branches: [ "master" ]
   workflow_dispatch: {}
   issue_comment:
     types: [ created ]

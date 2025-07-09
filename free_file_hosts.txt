@@ -1,5 +1,6 @@
 1drv.com
 1drv.ms
+1fichier.com
 4shared.com
 adrive.com
 airtable.com
@@ -35,6 +36,7 @@ customer-oci.com
 customervoice.microsoft.com
 d.pr
 datafilehost.com
+dailyuploads.net
 depositfiles.com
 digitaloceanspaces.com
 doc.clickup.com
@@ -60,6 +62,7 @@ files.catbox.moe
 files.com
 files.delivrto.me
 filetransfer.io
+fireload.com
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com
 form.jotform.com
@@ -86,8 +89,10 @@ livedrive.com
 mediafire.com
 mega.nz
 megafileupload.com
+megaup.net
 mockflow.com
 my.visme.co
+mixdrop.ag
 ncv.microsoft.com
 nethunt.com
 new.express.adobe.com
@@ -136,6 +141,7 @@ uplooder.net
 view.genially.com
 view.storydoc.com
 viewer.joomag.com
+vikingfile.com
 we.tl
 wetransfer.com
 wikisend.com

@@ -43,6 +43,7 @@ docs.zoom.us
 drime.cloud
 drive.google.com
 dropbox.com
+dropmefiles.com
 ecv.microsoft.com
 egnyte.com
 elephantdrive.com

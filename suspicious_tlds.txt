@@ -82,11 +82,11 @@ solutions
 stream
 su
 sx
+tech
 tk
 tokyo
 top
 trade
-tech
 tt
 ua
 vip
@@ -94,8 +94,8 @@ vu
 wang
 website
 win
-works
 work
+works
 world
 ws
 xin

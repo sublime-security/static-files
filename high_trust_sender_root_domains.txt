@@ -1,4 +1,3 @@
-ups.com
 1password.com
 aarp.org
 acronis.com
@@ -463,6 +462,7 @@ uhc.com
 ukg.com
 ultipro.com
 united.com
+ups.com
 urbanoutfitters.com
 usaa.com
 usbank.com

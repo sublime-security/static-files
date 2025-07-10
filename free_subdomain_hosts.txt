@@ -159,6 +159,7 @@ l4n.contains_regexname.vg
 liebe.lc
 m.vu
 ma.tn
+mjt.lu
 mobi.ps
 mockbin.org
 mocky.io
@@ -166,7 +167,6 @@ mp3.gp
 musik.cx
 musik.lc
 my.vg
-mjt.lu
 mybluehost.me
 mybluemix.net
 myportfolio.com

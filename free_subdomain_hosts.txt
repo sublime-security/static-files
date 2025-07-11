@@ -1,4 +1,3 @@
-softr.app
 000webhost.com
 000webhostapp.com
 18.lc
@@ -226,6 +225,7 @@ simple.ink
 sites.google.com
 sitew.us
 slab.com
+softr.app
 somee.com
 space.lc
 splashthat.com

@@ -18,6 +18,7 @@ company
 consulting
 country
 cricket
+cyou
 date
 dev
 digital

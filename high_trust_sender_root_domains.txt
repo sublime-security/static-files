@@ -1,4 +1,3 @@
-verizonenterprise.com
 1password.com
 aarp.org
 acronis.com
@@ -475,6 +474,7 @@ usps.gov
 vanta.com
 venmo.com
 verizon.com
+verizonenterprise.com
 verizonwireless.com
 virginatlantic.com
 virtru.com

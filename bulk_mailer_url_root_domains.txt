@@ -4,3 +4,4 @@ mandrillapp.com
 rs6.net
 sendgrid.net
 spoton.com
+beehiiv.com

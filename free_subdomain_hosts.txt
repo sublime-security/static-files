@@ -225,6 +225,7 @@ simple.ink
 sites.google.com
 sitew.us
 slab.com
+softr.app
 somee.com
 space.lc
 splashthat.com

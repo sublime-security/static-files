@@ -1,4 +1,3 @@
-lastpass.com
 1password.com
 aarp.org
 acronis.com
@@ -254,6 +253,7 @@ justice.gov.uk
 kahoot.com
 knowbe4.com
 kpmg.com
+lastpass.com
 lenovo.com
 leo.gov
 lever.co

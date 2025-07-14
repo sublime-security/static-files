@@ -1,4 +1,3 @@
-atriushealth.org
 1password.com
 aarp.org
 acronis.com
@@ -35,6 +34,7 @@ aspireapp.com
 associatedpress.com
 atlassian.com
 atlassian.net
+atriushealth.org
 att-mail.com
 auth0.com
 authentisign.com

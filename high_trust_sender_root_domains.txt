@@ -1,4 +1,3 @@
-virginaustralia.com
 1password.com
 aarp.org
 acronis.com
@@ -480,6 +479,7 @@ venmo.com
 verizon.com
 verizonwireless.com
 virginatlantic.com
+virginaustralia.com
 virtru.com
 visa.com
 vivint.com

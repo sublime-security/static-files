@@ -8,9 +8,9 @@ best
 bio
 cf
 cfd
+chat
 cl
 click
-chat
 cloud
 club
 cm
@@ -77,9 +77,9 @@ review
 ro
 rsvp
 ru
+sale
 sbs
 science
-sale
 site
 so
 social

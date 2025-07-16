@@ -85,7 +85,6 @@ capitalone.com
 cardalert.com
 carta.com
 cbinsights.com
-gc.ca
 cdc.gov
 chase.com
 checkpoint.com
@@ -195,6 +194,7 @@ freshdesk.com
 fsisac.com
 garmin.com
 gartner.com
+gc.ca
 geeksquad.com
 geico.com
 gem.com
@@ -203,6 +203,8 @@ gitlab.com
 glassdoor.com
 godaddy.com
 google.com
+gov.uk
+gov.uk
 graphiteconnect.com
 gravatar.com
 greenhouse.io
@@ -217,7 +219,6 @@ hellofax.com
 hellosign.com
 hilton.com
 hired.com
-gov.uk
 house.gov
 hpe.com
 hr.com
@@ -251,7 +252,6 @@ jpmchase.com
 jpmorgan.com
 jpmresearchmail.com
 jumpcloud.com
-gov.uk
 kahoot.com
 knowbe4.com
 kpmg.com

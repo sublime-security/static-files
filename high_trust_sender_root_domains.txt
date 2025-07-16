@@ -1,4 +1,3 @@
-jnj.com
 1password.com
 aarp.org
 acronis.com
@@ -247,6 +246,7 @@ intuit.com
 ironcladapp.com
 japantimes.co.jp
 jetbrains.com
+jnj.com
 joinhandshake.com
 jpmchase.com
 jpmorgan.com

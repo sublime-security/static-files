@@ -85,7 +85,7 @@ capitalone.com
 cardalert.com
 carta.com
 cbinsights.com
-cbsa-asfc.gc.ca
+gc.ca
 cdc.gov
 chase.com
 checkpoint.com
@@ -217,7 +217,7 @@ hellofax.com
 hellosign.com
 hilton.com
 hired.com
-homeoffice.gov.uk
+gov.uk
 house.gov
 hpe.com
 hr.com
@@ -251,7 +251,7 @@ jpmchase.com
 jpmorgan.com
 jpmresearchmail.com
 jumpcloud.com
-justice.gov.uk
+gov.uk
 kahoot.com
 knowbe4.com
 kpmg.com

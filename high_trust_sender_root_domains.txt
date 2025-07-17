@@ -198,6 +198,7 @@ gartner.com
 geeksquad.com
 geico.com
 gem.com
+getpostman.com
 github.com
 gitlab.com
 glassdoor.com

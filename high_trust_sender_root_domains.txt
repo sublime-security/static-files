@@ -413,6 +413,7 @@ sktelecom.com
 slack-mail.com
 slack.com
 snowflake.com
+snyk.io
 socradar.com
 sony.com
 spacex.com

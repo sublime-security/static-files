@@ -5,8 +5,10 @@ app
 ar
 beauty
 best
+bio
 cf
 cfd
+chat
 cl
 click
 cloud
@@ -75,6 +77,7 @@ review
 ro
 rsvp
 ru
+sale
 sbs
 science
 site
@@ -91,6 +94,7 @@ top
 trade
 tt
 ua
+us
 vip
 vu
 wang

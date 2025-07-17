@@ -1,4 +1,3 @@
-wiz.io
 1password.com
 aarp.org
 acronis.com
@@ -501,6 +500,7 @@ westjet.com
 wetransfer.com
 wfadvisors.com
 wikipedia.org
+wiz.io
 workday.com
 works.com
 wynnlasvegas.com

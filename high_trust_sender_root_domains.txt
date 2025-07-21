@@ -482,6 +482,7 @@ usps.gov
 vanta.com
 venmo.com
 verizon.com
+verizonenterprise.com
 verizonwireless.com
 virginatlantic.com
 virginaustralia.com

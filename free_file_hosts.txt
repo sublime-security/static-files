@@ -1,3 +1,4 @@
+0x0.st
 1drv.com
 1drv.ms
 1fichier.com
@@ -100,7 +101,6 @@ ncv.microsoft.com
 nethunt.com
 new.express.adobe.com
 notion.so
-0x0.st
 onedrive.live.com
 onenoteonlinesync.onenote.com
 padlet.com

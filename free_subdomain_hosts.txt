@@ -283,6 +283,7 @@ xx.lc
 xxl.lc
 yj.ae
 you.lc
+ydns.eu
 za.tn
 zendesk.com
 zx9.de

@@ -7,13 +7,13 @@ beauty
 best
 bio
 biz
+cc
 cf
+cfd
 cfd
 chat
 cl
-cc
 click
-cfd
 cloud
 club
 cm
@@ -27,7 +27,6 @@ cyou
 date
 dev
 digital
-gdn
 directory
 domains
 download
@@ -40,6 +39,7 @@ fit
 free
 fun
 ga
+gdn
 gdn
 gq
 gu
@@ -57,12 +57,12 @@ live
 loan
 ltd
 ly
+me
 meme
 men
 ml
 mom
 monster
-me
 mov
 ne.jp
 net.ms
@@ -87,10 +87,10 @@ rsvp
 ru
 sale
 sbs
+sbs
 science
 site
 so
-sbs
 social
 solutions
 stream
@@ -98,8 +98,8 @@ su
 sx
 tech
 tk
-tokyo
 today
+tokyo
 top
 trade
 tt

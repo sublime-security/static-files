@@ -1,5 +1,3 @@
-bitly.cx
-n9.cl
 1in.me
 1link.in
 1url.com
@@ -27,6 +25,7 @@ bacn.me
 bc5.io
 bit.do
 bit.ly
+bitly.cx
 bkite.com
 bl.ink
 bloat.me
@@ -145,6 +144,7 @@ minurl.fr
 mjt.lu
 moourl.com
 myurl.in
+n9.cl
 ne1.net
 njx.me
 nn.nf

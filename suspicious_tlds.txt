@@ -40,7 +40,6 @@ free
 fun
 ga
 gdn
-gdn
 gq
 gu
 i2p
@@ -81,12 +80,10 @@ re
 ren
 rest
 review
-review
 ro
 rsvp
 ru
 sale
-sbs
 sbs
 science
 site

@@ -102,8 +102,8 @@ nethunt.com
 new.express.adobe.com
 notion.so
 onedrive.live.com
-onenoteonlinesync.onenote.com
 onehub.one
+onenoteonlinesync.onenote.com
 padlet.com
 pcloud.com
 pixeldrain.com
@@ -135,8 +135,8 @@ sync.com
 tana.pub
 telegra.ph
 teletype.in
-terabox.com
 temp.sh
+terabox.com
 tinyupload.com
 transfer.sh
 transfernow.net

@@ -103,6 +103,7 @@ new.express.adobe.com
 notion.so
 onedrive.live.com
 onenoteonlinesync.onenote.com
+onehub.one
 padlet.com
 pcloud.com
 pixeldrain.com
@@ -134,6 +135,7 @@ sync.com
 tana.pub
 telegra.ph
 teletype.in
+terabox.com
 temp.sh
 tinyupload.com
 transfer.sh

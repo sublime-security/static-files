@@ -47,6 +47,7 @@ drime.cloud
 drive.google.com
 dropbox.com
 dropmefiles.com
+dropsend.com
 ecv.microsoft.com
 egnyte.com
 elephantdrive.com

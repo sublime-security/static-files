@@ -418,6 +418,7 @@ slack.com
 snowflake.com
 snyk.io
 socradar.com
+sofi.com
 sony.com
 spacex.com
 splitwise.com

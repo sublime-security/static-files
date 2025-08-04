@@ -1,4 +1,3 @@
-thanx.com
 1password.com
 aarp.org
 acronis.com
@@ -450,6 +449,7 @@ techcrunch.com
 telzio.com
 tenable.com
 tesla.com
+thanx.com
 thecyberwire.com
 theinformation.com
 thinkific.com

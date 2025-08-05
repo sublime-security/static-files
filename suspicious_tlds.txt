@@ -102,6 +102,7 @@ trade
 tt
 ua
 us
+uno
 vip
 vu
 wang

@@ -31,8 +31,8 @@ catbox.moe
 cdn.discordapp.com
 cdn.fbsbx.com
 claude.site
-cloudflarestorage.com
 clicknupload.com
+cloudflarestorage.com
 coda.io
 curipod.com
 customer-oci.com
@@ -48,10 +48,10 @@ docs.zoom.us
 down.mdiaload.com
 drime.cloud
 drive.google.com
+drop.download
 dropbox.com
 dropmefiles.com
 dropsend.com
-drop.download
 ecv.microsoft.com
 egnyte.com
 elephantdrive.com

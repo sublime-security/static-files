@@ -1,4 +1,3 @@
-bell.ca
 1password.com
 aarp.org
 acronis.com
@@ -62,6 +61,7 @@ bbva.mx
 bbvauk.com
 bedbathandbeyond.com
 behance.com
+bell.ca
 bestbuy.com
 betterstack.com
 beyondtrust.com

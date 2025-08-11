@@ -119,6 +119,7 @@ fun.gg
 fyi.to
 game.lc
 gaming.lc
+ghost.io
 github.io
 glide.in
 glitch.me

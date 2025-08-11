@@ -25,11 +25,13 @@ behance.net
 bitbucket.com
 box.com
 buildin.ai
+bunkr.site
 canva.com
 catbox.moe
 cdn.discordapp.com
 cdn.fbsbx.com
 claude.site
+clicknupload.com
 cloudflarestorage.com
 coda.io
 curipod.com
@@ -43,8 +45,10 @@ digitaloceanspaces.com
 doc.clickup.com
 docs.google.com
 docs.zoom.us
+down.mdiaload.com
 drime.cloud
 drive.google.com
+drop.download
 dropbox.com
 dropmefiles.com
 dropsend.com

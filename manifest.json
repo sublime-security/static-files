@@ -19,6 +19,14 @@
       "format": "hostname"
     },
     {
+      "file": "org_brand_names.txt",
+      "identifier": "org_brand_names",
+      "display_name": "This list should contain the various names, brands, trade names, or identifiers that your company uses or is commonly known by in business operations. This includes your official business name, any Doing Business As (DBA) names, brand names, shortened versions, common abbreviations, or industry nicknames that customers, partners, vendors, and the public use to identify and reference your organization.",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "alexa_top_1m.csv",
       "identifier": "alexa_1m",
       "display_name": "Alexa Top 1 Million Domains",

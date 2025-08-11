@@ -10,6 +10,15 @@
       "format": "hostname"
     },
     {
+      "file": "self_service_creation_platform_domains.txt",
+      "identifier": "self_service_creation_platform_domains",
+      "display_name": "These service domains allow users to easily create hosted content such as websites, presentations, survey, contact forms, etc. These are often abused by threat actors to host initial landing pages which link to the actual phishing page.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
       "file": "alexa_top_1m.csv",
       "identifier": "alexa_1m",
       "display_name": "Alexa Top 1 Million Domains",

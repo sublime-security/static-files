@@ -72,6 +72,7 @@ if __name__ == "__main__":
         'free_subdomain_hosts.txt',
         'high_trust_sender_root_domains.txt',
         'replyto_service_domains.txt',
+        'self_service_creation_platform_domains.txt',
         'suspicious_content.txt',
         'suspicious_subjects.txt',
         'suspicious_tlds.txt',

@@ -27,3 +27,5 @@ app.jotform.com
 soloist.ai
 copyfol.io
 webflow.io
+jensi.io
+seesaw.me

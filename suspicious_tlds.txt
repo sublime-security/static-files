@@ -70,10 +70,10 @@ nom.za
 online
 ooo
 party
-press
 photos
 pictures
 pizza
+press
 pro
 pub
 pw

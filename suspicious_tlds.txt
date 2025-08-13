@@ -73,6 +73,7 @@ party
 photos
 pictures
 pizza
+press
 pro
 pub
 pw

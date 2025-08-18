@@ -1,4 +1,3 @@
-expressvpn.com
 1password.com
 aarp.org
 acronis.com
@@ -171,6 +170,7 @@ evernote.com
 expensify.com
 experian.co.uk
 experian.com
+expressvpn.com
 ey.com
 facebookenterprise.com
 facebookmail.com

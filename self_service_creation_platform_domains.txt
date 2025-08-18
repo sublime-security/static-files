@@ -22,6 +22,7 @@ mockflow.com
 padlet.com
 powr.io
 publuu.com
+riddle.com
 seesaw.me
 soloist.ai
 surveymonkey.com
@@ -29,4 +30,3 @@ tana.pub
 view.genially.com
 webflow.io
 workflowy.com
-riddle.com

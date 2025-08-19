@@ -155,6 +155,7 @@ jixx.net
 jp.tn
 k1.cx
 kinsta.page
+kinsta.cloud
 kr.tn
 kr3w.de
 l4n.contains_regexname.vg

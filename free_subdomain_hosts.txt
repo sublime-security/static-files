@@ -198,8 +198,8 @@ pages.dev
 party.lc
 pc.lc
 ph.tn
-phplist.com
 photos.lc
+phplist.com
 pk.tn
 pl.tn
 planet.tl

@@ -1,4 +1,3 @@
-dcv.ms
 1in.me
 1link.in
 1url.com
@@ -45,6 +44,7 @@ cutt.ly
 cuturl.com
 cuty.io
 dalt.in
+dcv.ms
 decenturl.com
 dfl8.me
 digbig.com

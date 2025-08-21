@@ -154,6 +154,7 @@ jixx.de
 jixx.net
 jp.tn
 k1.cx
+kinsta.cloud
 kinsta.page
 kr.tn
 kr3w.de
@@ -199,6 +200,7 @@ party.lc
 pc.lc
 ph.tn
 photos.lc
+phplist.com
 pk.tn
 pl.tn
 planet.tl

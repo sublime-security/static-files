@@ -18,7 +18,6 @@ gamma.app
 issuu.com
 jensi.io
 mockflow.com
-mockflow.com
 padlet.com
 powr.io
 publuu.com

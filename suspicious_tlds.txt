@@ -8,9 +8,10 @@ beauty
 best
 bio
 biz
+bond
+cam
 cc
 cf
-cfd
 cfd
 chat
 cl
@@ -51,6 +52,7 @@ ink
 ir
 jetzt
 kim
+lat
 life
 limited
 link
@@ -87,6 +89,7 @@ review
 ro
 rsvp
 ru
+run
 sale
 sbs
 science

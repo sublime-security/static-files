@@ -29,3 +29,8 @@ tana.pub
 view.genially.com
 webflow.io
 workflowy.com
+weavely.ai
+forms.weavely.ai
+typeform.com
+formstack.com
+cognito.com

@@ -23,7 +23,6 @@ ana.co.jp
 anthem.com
 apache.org
 appfolio.com
-signable.com
 apple.com
 appomni.com
 aramark.com
@@ -412,6 +411,7 @@ sharp.com
 shop.app
 shopify.com
 shutterstock.com
+signable.com
 signin.aws
 signnow.com
 signup.aws

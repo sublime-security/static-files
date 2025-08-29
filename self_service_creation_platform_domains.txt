@@ -1,3 +1,4 @@
+app.smartsuite.com
 airtable.com
 app.flutterflow.io
 app.jotform.com

@@ -122,8 +122,8 @@ datadoghq.com
 dataminr.com
 datasite.com
 dell.com
-deloitte.com
 deloitte.co.uk
+deloitte.com
 delta.com
 depconfirm.com
 dhl.com

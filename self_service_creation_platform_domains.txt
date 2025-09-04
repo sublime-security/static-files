@@ -1,6 +1,7 @@
 airtable.com
 app.eraser.io
 app.flutterflow.io
+app.hex.tech
 app.jotform.com
 app.ludus.one
 app.smartsuite.com

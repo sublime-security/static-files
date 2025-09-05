@@ -5,3 +5,4 @@ mandrillapp.com
 rs6.net
 sendgrid.net
 spoton.com
+omnisend.com

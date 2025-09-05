@@ -143,11 +143,11 @@ sync.com
 tana.pub
 telegra.ph
 teletype.in
-transfergb.com
 temp.sh
 terabox.com
 tinyupload.com
 transfer.sh
+transfergb.com
 transfernow.net
 transferxl.com
 ufile.io

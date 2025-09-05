@@ -15,6 +15,7 @@ app.milanote.com
 app.powerbi.com
 app.wishloop.com
 appdomain.cloud
+appsheet.com
 archive.org
 archive.ph
 attachment.outlook.live.net

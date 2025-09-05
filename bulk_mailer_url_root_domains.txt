@@ -2,7 +2,7 @@ beehiiv.com
 hubspotlinks.com
 list-manage.com
 mandrillapp.com
+omnisend.com
 rs6.net
 sendgrid.net
 spoton.com
-omnisend.com

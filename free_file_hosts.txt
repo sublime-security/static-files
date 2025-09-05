@@ -89,6 +89,7 @@ issuu.com
 jumpshare.com
 kiwi6.com
 koofr.eu
+koofr.net
 krakenfiles.com
 larksuite.com
 limewire.com
@@ -142,6 +143,7 @@ sync.com
 tana.pub
 telegra.ph
 teletype.in
+transfergb.com
 temp.sh
 terabox.com
 tinyupload.com

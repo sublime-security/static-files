@@ -52,6 +52,7 @@ ink
 ir
 jetzt
 kim
+kz
 lat
 life
 limited

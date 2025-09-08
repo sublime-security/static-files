@@ -6,3 +6,4 @@ omnisend.com
 rs6.net
 sendgrid.net
 spoton.com
+postmarkapp.com

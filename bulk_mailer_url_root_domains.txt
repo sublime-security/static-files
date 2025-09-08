@@ -3,6 +3,7 @@ hubspotlinks.com
 list-manage.com
 mandrillapp.com
 omnisend.com
+postmarkapp.com
 rs6.net
 sendgrid.net
 spoton.com

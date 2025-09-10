@@ -5,6 +5,7 @@ app.hex.tech
 app.jotform.com
 app.ludus.one
 app.smartsuite.com
+appsheet.com
 archbee.com
 beautiful.ai
 behance.net

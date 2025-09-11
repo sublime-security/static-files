@@ -22,6 +22,7 @@ form.jotform.com
 forms.weavely.ai
 formstack.com
 frame.io
+freshdesk.com
 gamma.app
 issuu.com
 jensi.io

@@ -4,6 +4,7 @@ app.flutterflow.io
 app.hex.tech
 app.jotform.com
 app.ludus.one
+app.mural.co
 app.smartsuite.com
 appsheet.com
 archbee.com

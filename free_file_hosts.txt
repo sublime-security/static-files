@@ -110,6 +110,7 @@ new.express.adobe.com
 notion.so
 onedrive.live.com
 onehub.com
+od.lk
 onenoteonlinesync.onenote.com
 padlet.com
 pcloud.com

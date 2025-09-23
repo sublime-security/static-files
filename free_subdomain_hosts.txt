@@ -196,6 +196,7 @@ onrender.com
 oraclecloud.com
 pagecloud.com
 pages.dev
+papershift.com
 party.lc
 pc.lc
 ph.tn
@@ -204,7 +205,6 @@ phplist.com
 pk.tn
 pl.tn
 planet.tl
-papershift.com
 portal.lc
 privat.lc
 pro.ac

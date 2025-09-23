@@ -140,13 +140,13 @@ hot.lc
 hp.lc
 hund.in
 id.vg
+ignorelist.com
 infinityfree.com
 info.nu
 infos.cx
 infos.lc
 inmotionhosting.com
 instawp.xyz
-ignorelist.com
 int.ps
 ir.tn
 it.gp

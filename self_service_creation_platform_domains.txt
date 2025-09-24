@@ -48,3 +48,4 @@ view.genially.com
 weavely.ai
 webflow.io
 workflowy.com
+amplifyapp.com

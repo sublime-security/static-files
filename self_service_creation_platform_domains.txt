@@ -43,3 +43,6 @@ view.genially.com
 weavely.ai
 webflow.io
 workflowy.com
+vercel.app
+netlify.app
+lovable.app

@@ -28,7 +28,9 @@ freshdesk.com
 gamma.app
 issuu.com
 jensi.io
+lovable.app
 mockflow.com
+netlify.app
 padlet.com
 powr.io
 publuu.com
@@ -39,10 +41,8 @@ soloist.ai
 surveymonkey.com
 tana.pub
 typeform.com
+vercel.app
 view.genially.com
 weavely.ai
 webflow.io
 workflowy.com
-vercel.app
-netlify.app
-lovable.app

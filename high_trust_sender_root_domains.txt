@@ -98,6 +98,7 @@ circleci.com
 cisa.gov
 cisco.com
 citi.com
+citibanamex.com
 clearbit.com
 clixsign.com
 cloudappsecurity.com

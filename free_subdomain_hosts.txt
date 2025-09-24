@@ -197,6 +197,7 @@ onrender.com
 oraclecloud.com
 pagecloud.com
 pages.dev
+papershift.com
 party.lc
 pc.lc
 ph.tn

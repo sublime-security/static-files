@@ -1,4 +1,3 @@
-citibanamex.com
 1password.com
 aarp.org
 acronis.com
@@ -99,6 +98,7 @@ circleci.com
 cisa.gov
 cisco.com
 citi.com
+citibanamex.com
 clearbit.com
 clixsign.com
 cloudappsecurity.com

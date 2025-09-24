@@ -1,5 +1,6 @@
 acrobat.adobe.com
 airtable.com
+amplifyapp.com
 app.eraser.io
 app.flutterflow.io
 app.hex.tech
@@ -48,4 +49,3 @@ view.genially.com
 weavely.ai
 webflow.io
 workflowy.com
-amplifyapp.com

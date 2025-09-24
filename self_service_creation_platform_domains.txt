@@ -1,5 +1,6 @@
 acrobat.adobe.com
 airtable.com
+amplifyapp.com
 app.eraser.io
 app.flutterflow.io
 app.hex.tech
@@ -29,10 +30,14 @@ freshdesk.com
 gamma.app
 issuu.com
 jensi.io
+lovable.app
 mockflow.com
+netlify.app
+onrender.com
 padlet.com
 powr.io
 publuu.com
+railway.app
 riddle.com
 scribehow.com
 seesaw.me
@@ -40,6 +45,7 @@ soloist.ai
 surveymonkey.com
 tana.pub
 typeform.com
+vercel.app
 view.genially.com
 weavely.ai
 webflow.io

@@ -1,4 +1,5 @@
 acrobat.adobe.com
+cognitoforms.com
 airtable.com
 app.eraser.io
 app.flutterflow.io

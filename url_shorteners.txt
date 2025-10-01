@@ -38,6 +38,7 @@ c-o.in
 chilp.it
 clck.ru
 cli.gs
+cli.re
 clickmeter.com
 cort.as
 cutt.ly

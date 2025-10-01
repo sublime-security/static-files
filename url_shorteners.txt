@@ -25,7 +25,6 @@ bacn.me
 bc5.io
 bit.do
 bit.ly
-cli.re
 bitly.cx
 bkite.com
 bl.ink
@@ -39,6 +38,7 @@ c-o.in
 chilp.it
 clck.ru
 cli.gs
+cli.re
 clickmeter.com
 cort.as
 cutt.ly

@@ -42,6 +42,7 @@ auth0.com
 authentisign.com
 aws.training
 axios.com
+ba.com
 bakermckenzie.com
 bankofamerica.com
 barclays.com
@@ -78,6 +79,7 @@ boldsign.com
 booking.com
 box.com
 brex.com
+britishairways.com
 bynder.com
 byspotify.com
 ca.gov

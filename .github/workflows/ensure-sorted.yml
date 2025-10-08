@@ -45,4 +45,4 @@ jobs:
           git config user.email 'hello@sublimesecurity.com'
           git add '*.txt'
           git commit -m "Auto sorting static files"
-          git push origin ${{ github.head_ref }}
+          git push origin HEAD:${{ github.head_ref }}

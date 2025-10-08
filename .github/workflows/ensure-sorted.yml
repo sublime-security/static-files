@@ -4,9 +4,7 @@ on:
   pull_request:
 
 concurrency:
-  # For pull_request_target workflows we want to use head_ref -- the branch triggering the workflow. Otherwise,
-  # use ref, which is the branch for a push event or workflow trigger. And for an issue comment just give up grouping.
-  group: ${{ github.ref }}
+  group: ${{ github.pull_request.head.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -47,4 +45,4 @@ jobs:
           git config user.email 'hello@sublimesecurity.com'
           git add '*.txt'
           git commit -m "Auto sorting static files"
-          git push origin ${{ github.ref }}
+          git push origin ${{ github.pull_request.head.ref }}

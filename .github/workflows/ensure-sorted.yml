@@ -34,8 +34,6 @@ jobs:
       - name: Commit & Push Results, if needed
         id: push_results
         run: |
-          echo "Using fresh workflow"
-          
           if [ -z "$(git status --porcelain)" ]; then
             echo "No files changed, nothing to do"
             exit 0

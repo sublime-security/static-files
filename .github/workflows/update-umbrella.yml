@@ -24,8 +24,8 @@ jobs:
       - name: Set up date variables
         id: date
         run: |
-          echo "today=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
-          echo "timestamp=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+          echo "today=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "timestamp=$(date +'%Y%m%d%H%M%S')" >> "$GITHUB_OUTPUT"
       
       - name: Download Umbrella top 1 million list
         id: download-top-1m
@@ -215,27 +215,31 @@ jobs:
       
       - name: Create and push branch
         id: create-branch
+        env:
+          STEPS_DATE_OUTPUTS_TODAY: ${{ steps.date.outputs.today }}
+          STEPS_DATE_OUTPUTS_TIMESTAMP: ${{ steps.date.outputs.timestamp }}
         run: |
           # Create a unique branch name with timestamp
-          BRANCH_NAME="umbrella_update-${{ steps.date.outputs.today }}-${{ steps.date.outputs.timestamp }}"
-          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          BRANCH_NAME="umbrella_update-${STEPS_DATE_OUTPUTS_TODAY}-${STEPS_DATE_OUTPUTS_TIMESTAMP}"
+          echo "branch_name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
           
           git checkout -b "$BRANCH_NAME"
           git add umbrella_top_1m.csv
           git add umbrella_top_1m_tld.csv
 
-          git commit -m "Update Umbrella lists for ${{ steps.date.outputs.today }}"
+          git commit -m "Update Umbrella lists for ${STEPS_DATE_OUTPUTS_TODAY}"
           git push origin "$BRANCH_NAME"
       
       - name: Create Pull Request
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STEPS_DATE_OUTPUTS_TODAY: ${{ steps.date.outputs.today }}
         run: |
           gh pr create \
-            --title "Update Umbrella lists - ${{ steps.date.outputs.today }}" \
+            --title "Update Umbrella lists - ${STEPS_DATE_OUTPUTS_TODAY}" \
             --body "This PR updates the Umbrella top 1 million domains list and top TLDs list.
             
-            - Date: ${{ steps.date.outputs.today }}
+            - Date: ${STEPS_DATE_OUTPUTS_TODAY}
             - Files updated:
               - umbrella_top_1m.csv
               - umbrella_top_1m_tld.csv

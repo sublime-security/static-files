@@ -144,6 +144,7 @@ sway.office.com
 sync.com
 tana.pub
 telegra.ph
+telegram.org
 teletype.in
 temp.sh
 terabox.com

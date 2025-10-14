@@ -203,6 +203,7 @@ fortune.com
 foxitsign.com
 freshbooks.com
 freshdesk.com
+freshservice.com
 fsisac.com
 garmin.com
 gartner.com
@@ -302,6 +303,7 @@ microsoft.com
 microsoftemail.com
 microsoftonline.com
 microsoftsupport.com
+monday.com
 mongodb.com
 morganstanley.com
 morningbrew.com

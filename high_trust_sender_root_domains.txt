@@ -302,6 +302,7 @@ microsoft.com
 microsoftemail.com
 microsoftonline.com
 microsoftsupport.com
+monday.com
 mongodb.com
 morganstanley.com
 morningbrew.com

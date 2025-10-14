@@ -203,6 +203,7 @@ fortune.com
 foxitsign.com
 freshbooks.com
 freshdesk.com
+freshservice.com
 fsisac.com
 garmin.com
 gartner.com

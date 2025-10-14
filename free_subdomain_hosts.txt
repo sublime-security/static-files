@@ -40,6 +40,7 @@ bitbucket.io
 biz.ps
 biz.uz
 blog.lc
+blogspot.ai
 blogspot.com
 canva.site
 center.tl

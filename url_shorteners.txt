@@ -38,6 +38,7 @@ c-o.in
 chilp.it
 clck.ru
 cli.gs
+cli.re
 clickmeter.com
 cort.as
 cutt.ly
@@ -99,6 +100,7 @@ hugeurl.com
 hurl.it
 hurl.me
 hurl.ws
+ibit.ly
 icanhaz.com
 idek.net
 inreply.to
@@ -153,6 +155,7 @@ njx.me
 nn.nf
 notlong.com
 nsfw.in
+nz.sa
 o-x.fr
 om.ly
 ow.ly

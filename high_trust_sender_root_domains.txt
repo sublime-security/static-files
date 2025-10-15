@@ -42,6 +42,7 @@ auth0.com
 authentisign.com
 aws.training
 axios.com
+ba.com
 bakermckenzie.com
 bankofamerica.com
 barclays.com
@@ -67,6 +68,7 @@ bestbuy.com
 betterstack.com
 beyondtrust.com
 bill.com
+bitdefender.com
 blazeo.com
 bloomberg.com
 bloomberg.net
@@ -77,6 +79,7 @@ boldsign.com
 booking.com
 box.com
 brex.com
+britishairways.com
 bynder.com
 byspotify.com
 ca.gov
@@ -98,6 +101,7 @@ circleci.com
 cisa.gov
 cisco.com
 citi.com
+citibanamex.com
 clearbit.com
 clixsign.com
 cloudappsecurity.com
@@ -126,6 +130,7 @@ dell.com
 deloitte.co.uk
 deloitte.com
 delta.com
+deluxe.com
 depconfirm.com
 dhl.com
 dhs.gov
@@ -198,6 +203,7 @@ fortune.com
 foxitsign.com
 freshbooks.com
 freshdesk.com
+freshservice.com
 fsisac.com
 garmin.com
 gartner.com
@@ -297,6 +303,7 @@ microsoft.com
 microsoftemail.com
 microsoftonline.com
 microsoftsupport.com
+monday.com
 mongodb.com
 morganstanley.com
 morningbrew.com

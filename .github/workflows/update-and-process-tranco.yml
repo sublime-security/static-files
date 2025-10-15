@@ -24,8 +24,8 @@ jobs:
       - name: Set up date variables
         id: date
         run: |
-          echo "today=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
-          echo "timestamp=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_OUTPUT
+          echo "today=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "timestamp=$(date +'%Y%m%d%H%M%S')" >> "$GITHUB_OUTPUT"
       
       - name: Fetch Tranco list ID
         id: tranco-id
@@ -55,7 +55,7 @@ jobs:
               
               # Check if we got a valid ID (non-empty and contains alphanumeric characters)
               if [[ ! -z "$TRANCO_ID" && "$TRANCO_ID" =~ ^[A-Za-z0-9]+$ ]]; then
-                echo "id=$TRANCO_ID" >> $GITHUB_OUTPUT
+                echo "id=$TRANCO_ID" >> "$GITHUB_OUTPUT"
                 echo "Successfully fetched Tranco list ID: $TRANCO_ID"
                 SUCCESS=true
               else
@@ -85,6 +85,8 @@ jobs:
       
       - name: Download Tranco list
         id: download
+        env:
+          STEPS_TRANCO_ID_OUTPUTS_ID: ${{ steps.tranco-id.outputs.id }}
         run: |
           # Maximum retry count
           MAX_RETRIES=5
@@ -92,13 +94,13 @@ jobs:
           SUCCESS=false
           
           while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
-            echo "Attempt $(($RETRY_COUNT + 1)) of $MAX_RETRIES: Downloading Tranco list ${{ steps.tranco-id.outputs.id }}..."
+            echo "Attempt $(($RETRY_COUNT + 1)) of $MAX_RETRIES: Downloading Tranco list ${STEPS_TRANCO_ID_OUTPUTS_ID}..."
             
             # Use -w to capture HTTP status code
             HTTP_STATUS=$(curl -s -L -o tranco.zip -w "%{http_code}" \
               --retry 3 --retry-delay 10 --retry-max-time 300 \
               --connect-timeout 15 --max-time 300 \
-              "https://tranco-list.eu/download_daily/${{ steps.tranco-id.outputs.id }}")
+              "https://tranco-list.eu/download_daily/${STEPS_TRANCO_ID_OUTPUTS_ID}")
             
             echo "HTTP Status Code: $HTTP_STATUS"
             
@@ -106,7 +108,7 @@ jobs:
             if [ "$HTTP_STATUS" -eq 200 ]; then
               # Check if file was actually downloaded and has content
               if [ -s tranco.zip ]; then
-                echo "Successfully downloaded Tranco list ${{ steps.tranco-id.outputs.id }}"
+                echo "Successfully downloaded Tranco list ${STEPS_TRANCO_ID_OUTPUTS_ID}"
                 SUCCESS=true
               else
                 echo "Downloaded file is empty despite HTTP 200"
@@ -182,7 +184,7 @@ jobs:
         run: |
           # Configuration is defined here
           CONFIG='[{"count": 10000, "filename": "tranco_top_10k.csv"}, {"count": 50000, "filename": "tranco_top_50k.csv"}]'
-          echo "CONFIG=$CONFIG" >> $GITHUB_ENV
+          echo "CONFIG=$CONFIG" >> "$GITHUB_ENV"
           echo "Using configuration: $CONFIG"
       
       - name: Validate manifest.json
@@ -198,26 +200,26 @@ jobs:
           TEMP_FILE=$(mktemp)
           
           # Check each output file in the configuration
-          echo $CONFIG | jq -c '.[]' | while read -r config; do
-            filename=$(echo $config | jq -r '.filename')
+          echo "$CONFIG" | jq -c '.[]' | while read -r config; do
+            filename=$(echo "$config" | jq -r '.filename')
             
             # Check if the filename is in manifest.json
             if ! grep -q "\"file\": \"$filename\"" manifest.json; then
               echo "Error: $filename is not defined in manifest.json"
-              echo "VALIDATION_FAILED=true" >> $TEMP_FILE
+              echo "VALIDATION_FAILED=true" >> "$TEMP_FILE"
             else
               echo "✓ $filename is defined in manifest.json"
             fi
           done
           
           # Exit if any file is not defined in manifest.json
-          if grep -q "VALIDATION_FAILED=true" $TEMP_FILE; then
+          if grep -q "VALIDATION_FAILED=true" "$TEMP_FILE"; then
             echo "One or more output files are not defined in manifest.json. Please update manifest.json first."
-            rm $TEMP_FILE
+            rm "$TEMP_FILE"
             exit 1
           fi
           
-          rm $TEMP_FILE
+          rm "$TEMP_FILE"
       
       - name: Process Tranco CSV
         id: process
@@ -231,9 +233,9 @@ jobs:
           fi
           
           # Parse the JSON configuration and process each output
-          echo $CONFIG | jq -c '.[]' | while read -r config; do
-            count=$(echo $config | jq -r '.count')
-            filename=$(echo $config | jq -r '.filename')
+          echo "$CONFIG" | jq -c '.[]' | while read -r config; do
+            count=$(echo "$config" | jq -r '.count')
+            filename=$(echo "$config" | jq -r '.filename')
             
             if [ -z "$count" ] || [ -z "$filename" ]; then
               echo "Skipping invalid configuration: $config"
@@ -241,7 +243,7 @@ jobs:
             fi
             
             # Get exactly the requested number of lines from the file
-            head -n $count tranco.csv > "$filename"
+            head -n "$count" tranco.csv > "$filename"
             
             lines=$(wc -l < "$filename")
             echo "Successfully created $filename with $lines rows"
@@ -254,35 +256,41 @@ jobs:
       
       - name: Create and push branch
         id: create-branch
+        env:
+          STEPS_DATE_OUTPUTS_TODAY: ${{ steps.date.outputs.today }}
+          STEPS_DATE_OUTPUTS_TIMESTAMP: ${{ steps.date.outputs.timestamp }}
+          STEPS_TRANCO_ID_OUTPUTS_ID: ${{ steps.tranco-id.outputs.id }}
         run: |
           # Create a unique branch name with timestamp
-          BRANCH_NAME="tranco_update-${{ steps.date.outputs.today }}-${{ steps.date.outputs.timestamp }}"
-          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          BRANCH_NAME="tranco_update-${STEPS_DATE_OUTPUTS_TODAY}-${STEPS_DATE_OUTPUTS_TIMESTAMP}"
+          echo "branch_name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
           
           git checkout -b "$BRANCH_NAME"
           git add tranco.csv
 
           # Parse the configuration to get the filenames
-          echo $CONFIG | jq -c '.[]' | while read -r config; do
-            filename=$(echo $config | jq -r '.filename')
+          echo "$CONFIG" | jq -c '.[]' | while read -r config; do
+            filename=$(echo "$config" | jq -r '.filename')
             # Add each generated file individually
             git add "$filename"
           done
 
-          git commit -m "Update Tranco list for ${{ steps.date.outputs.today }} (ID: ${{ steps.tranco-id.outputs.id }})"
+          git commit -m "Update Tranco list for ${STEPS_DATE_OUTPUTS_TODAY} (ID: ${STEPS_TRANCO_ID_OUTPUTS_ID})"
           git push origin "$BRANCH_NAME"
-      
+
       - name: Create Pull Request
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STEPS_DATE_OUTPUTS_TODAY: ${{ steps.date.outputs.today }}
+          STEPS_TRANCO_ID_OUTPUTS_ID: ${{ steps.tranco-id.outputs.id }}
         run: |
           gh pr create \
-            --title "Update Tranco list and derived files - ${{ steps.date.outputs.today }}" \
+            --title "Update Tranco list and derived files - ${STEPS_DATE_OUTPUTS_TODAY}" \
             --body "This PR updates the Tranco top 1 million domains list and all derived files.
             
-            - Date: ${{ steps.date.outputs.today }}
-            - Tranco List ID: ${{ steps.tranco-id.outputs.id }}
-            - List URL: https://tranco-list.eu/list/${{ steps.tranco-id.outputs.id }}
+            - Date: ${STEPS_DATE_OUTPUTS_TODAY}
+            - Tranco List ID: ${STEPS_TRANCO_ID_OUTPUTS_ID}
+            - List URL: https://tranco-list.eu/list/${STEPS_TRANCO_ID_OUTPUTS_ID}
             - Automated update via GitHub Actions" \
             --head "$BRANCH_NAME" \
             --base "master" 

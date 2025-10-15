@@ -40,6 +40,7 @@ bitbucket.io
 biz.ps
 biz.uz
 blog.lc
+blogspot.ai
 blogspot.com
 canva.site
 center.tl
@@ -140,6 +141,7 @@ hot.lc
 hp.lc
 hund.in
 id.vg
+ignorelist.com
 infinityfree.com
 info.nu
 infos.cx
@@ -196,6 +198,7 @@ onrender.com
 oraclecloud.com
 pagecloud.com
 pages.dev
+papershift.com
 party.lc
 pc.lc
 ph.tn

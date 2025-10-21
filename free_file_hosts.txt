@@ -68,6 +68,7 @@ filehosting.org
 filemail.com
 files.catbox.moe
 files.com
+files.fm
 files.delivrto.me
 filetransfer.io
 firebasehostingproxy.page.link

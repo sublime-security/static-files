@@ -39,6 +39,7 @@ padlet.com
 powr.io
 publuu.com
 railway.app
+replit.app
 riddle.com
 scribehow.com
 seesaw.me

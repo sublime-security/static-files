@@ -214,6 +214,7 @@ pro.vg
 qu.am
 r2.dev
 repl.co
+replit.app
 rf.gd
 ro.tn
 sa.tn

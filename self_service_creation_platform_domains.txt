@@ -37,9 +37,9 @@ netlify.app
 onrender.com
 padlet.com
 powr.io
-replit.app
 publuu.com
 railway.app
+replit.app
 riddle.com
 scribehow.com
 seesaw.me

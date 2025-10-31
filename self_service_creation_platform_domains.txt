@@ -37,6 +37,7 @@ netlify.app
 onrender.com
 padlet.com
 powr.io
+replit.app
 publuu.com
 railway.app
 riddle.com

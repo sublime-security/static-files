@@ -1,10 +1,10 @@
 beehiiv.com
 hubspotlinks.com
 list-manage.com
+mail.notifyvisitors.com
 mandrillapp.com
 omnisend.com
 postmarkapp.com
 rs6.net
 sendgrid.net
 spoton.com
-mail.notifyvisitors.com

@@ -8,3 +8,4 @@ postmarkapp.com
 rs6.net
 sendgrid.net
 spoton.com
+redirectingherenow.com

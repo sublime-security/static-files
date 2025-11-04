@@ -2,6 +2,7 @@ beehiiv.com
 hubspotlinks.com
 list-manage.com
 mandrillapp.com
+notifyvisitors.com
 omnisend.com
 postmarkapp.com
 rs6.net

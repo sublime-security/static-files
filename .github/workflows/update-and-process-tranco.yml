@@ -179,6 +179,94 @@ jobs:
             exit 1
           fi
 
+      - name: Remove Public Suffix List entries
+        id: remove_psl_entries
+        run: |
+          echo "Fetching Public Suffix List..."
+
+          # Download and process the Public Suffix List with error handling
+          # Remove comments, empty lines, wildcards, exceptions, and leading/trailing whitespace
+          if ! curl -sL https://publicsuffix.org/list/public_suffix_list.dat | \
+            grep -v '^//' | \
+            grep -v '^$' | \
+            grep -v '^\*' | \
+            grep -v '^!' | \
+            sed 's/^[ \t]*//;s/[ \t]*$//' > psl.txt; then
+            echo "Error: Failed to download or process Public Suffix List"
+            exit 1
+          fi
+
+          # Verify the PSL file has content
+          if [ ! -s psl.txt ]; then
+            echo "Error: Public Suffix List file is empty"
+            exit 1
+          fi
+
+          PSL_COUNT=$(wc -l < psl.txt | tr -d ' ')
+          echo "Loaded $PSL_COUNT public suffixes from PSL"
+
+          echo ""
+          echo "Removing PSL entries from tranco.csv..."
+
+          # First, normalize line endings by removing all carriage returns
+          # This handles both Unix (\n) and Windows (\r\n) line endings uniformly
+          tr -d '\r' < tranco.csv > tranco_normalized.csv
+          mv tranco_normalized.csv tranco.csv
+
+          # Build a single awk script for efficient filtering
+          # This processes the file in one pass instead of O(n×m) complexity
+          # Using exact string matching avoids regex escaping issues
+          awk 'BEGIN {
+            # Read all PSL entries into an associative array
+            while ((getline line < "psl.txt") > 0) {
+              if (line != "") {
+                psl[line] = 1
+              }
+            }
+            close("psl.txt")
+            removed = 0
+          }
+          {
+            # Extract domain from "rank,domain" format
+            n = index($0, ",")
+            if (n > 0) {
+              domain = substr($0, n + 1)
+
+              # Check if domain in PSL (exact string match)
+              if (domain in psl) {
+                removed++
+                print "✓ Removed: " domain > "/dev/stderr"
+              } else {
+                # Keep this line
+                print $0
+              }
+            } else {
+              # Malformed line, keep it
+              print $0
+            }
+          }
+          END {
+            # Write count to a separate file for easy extraction
+            print removed > "removal_count.txt"
+          }' tranco.csv > tranco_filtered.csv
+
+          # Read the removal count
+          TOTAL_REMOVED=$(cat removal_count.txt)
+
+          # Replace original file with filtered version
+          mv tranco_filtered.csv tranco.csv
+
+          # Clean up
+          rm -f removal_count.txt psl.txt
+          # Report final statistics
+          FINAL_COUNT=$(wc -l < tranco.csv | tr -d ' ')
+          echo ""
+          echo "=== Summary ==="
+          echo "PSL entries checked: $PSL_COUNT"
+          echo "PSL entries found in Tranco: $TOTAL_REMOVED"
+          echo "Total domains removed: $TOTAL_REMOVED"
+          echo "Final line count: $FINAL_COUNT"
+
       - name: Set configuration for top files
         id: set_config_top
         run: |

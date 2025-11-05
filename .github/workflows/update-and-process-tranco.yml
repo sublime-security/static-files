@@ -179,35 +179,25 @@ jobs:
             exit 1
           fi
 
-      - name: Remove excluded domains
-        id: remove_excluded_domains
+      - name: Remove Public Suffix List entries
+        id: remove_psl_entries
         run: |
-          # List of domains to exclude from the Tranco list
-          EXCLUDED_DOMAINS=(
-            "net.ru"
-            "za.bz"
-            "br.com"
-            "cn.com"
-            "de.com"
-            "eu.com"
-            "jpn.com"
-            "mex.com"
-            "ru.com"
-            "sa.com"
-            "uk.com"
-            "us.com"
-            "za.com"
-            "com.de"
-            "gb.net"
-            "hu.net"
-            "jp.net"
-            "se.net"
-            "uk.net"
-            "ae.org"
-            "com.se"
-          )
+          echo "Fetching Public Suffix List..."
 
-          echo "Removing excluded domains from tranco.csv..."
+          # Download and process the Public Suffix List
+          # Remove comments, empty lines, wildcards, exceptions, and leading/trailing whitespace
+          curl -sL https://publicsuffix.org/list/public_suffix_list.dat | \
+            grep -v '^//' | \
+            grep -v '^$' | \
+            grep -v '^\*' | \
+            grep -v '^!' | \
+            sed 's/^[ \t]*//;s/[ \t]*$//' > psl.txt
+
+          PSL_COUNT=$(wc -l < psl.txt | tr -d ' ')
+          echo "Loaded $PSL_COUNT public suffixes from PSL"
+
+          echo ""
+          echo "Removing PSL entries from tranco.csv..."
 
           # First, normalize line endings by removing all carriage returns
           # This handles both Unix (\n) and Windows (\r\n) line endings uniformly
@@ -219,33 +209,39 @@ jobs:
           cp tranco.csv "$TEMP_FILE"
 
           TOTAL_REMOVED=0
+          FOUND_COUNT=0
 
-          # Remove each excluded domain
-          for domain in "${EXCLUDED_DOMAINS[@]}"; do
-            # Escape dots for regex matching
-            ESCAPED_DOMAIN=$(echo "$domain" | sed 's/\./\\./g')
+          # Remove each PSL entry that appears as an exact match in Tranco
+          while IFS= read -r suffix; do
+            # Skip empty lines
+            [ -z "$suffix" ] && continue
 
-            # Count occurrences before removal (use pipeline to ensure clean integer)
-            BEFORE_COUNT=$(grep -E ",${ESCAPED_DOMAIN}$" "$TEMP_FILE" | wc -l | tr -d ' ' || echo "0")
+            # Escape dots and other special regex characters
+            ESCAPED_SUFFIX=$(echo "$suffix" | sed 's/\./\\./g')
 
-            if [ "$BEFORE_COUNT" -gt 0 ]; then
-              # Remove lines containing the domain (exact match at end of line)
-              grep -v -E ",${ESCAPED_DOMAIN}$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
+            # Check if this suffix exists as an exact domain match in Tranco
+            if grep -q -E ",${ESCAPED_SUFFIX}$" "$TEMP_FILE"; then
+              # Remove it
+              grep -v -E ",${ESCAPED_SUFFIX}$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
               mv "${TEMP_FILE}.tmp" "$TEMP_FILE"
-              echo "✓ Removed $BEFORE_COUNT occurrence(s) of $domain"
-              TOTAL_REMOVED=$((TOTAL_REMOVED + BEFORE_COUNT))
-            else
-              echo "- $domain not found in list"
+              echo "✓ Removed: $suffix"
+              TOTAL_REMOVED=$((TOTAL_REMOVED + 1))
+              FOUND_COUNT=$((FOUND_COUNT + 1))
             fi
-          done
+          done < psl.txt
 
           # Replace original file with filtered version
           mv "$TEMP_FILE" tranco.csv
+
+          # Clean up
+          rm -f psl.txt
 
           # Report final statistics
           FINAL_COUNT=$(wc -l < tranco.csv | tr -d ' ')
           echo ""
           echo "=== Summary ==="
+          echo "PSL entries checked: $PSL_COUNT"
+          echo "PSL entries found in Tranco: $FOUND_COUNT"
           echo "Total domains removed: $TOTAL_REMOVED"
           echo "Final line count: $FINAL_COUNT"
 

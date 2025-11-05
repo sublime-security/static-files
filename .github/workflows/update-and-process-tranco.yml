@@ -209,6 +209,11 @@ jobs:
 
           echo "Removing excluded domains from tranco.csv..."
 
+          # First, normalize line endings by removing all carriage returns
+          # This handles both Unix (\n) and Windows (\r\n) line endings uniformly
+          tr -d '\r' < tranco.csv > tranco_normalized.csv
+          mv tranco_normalized.csv tranco.csv
+
           # Create a temporary file
           TEMP_FILE=$(mktemp)
           cp tranco.csv "$TEMP_FILE"
@@ -217,15 +222,15 @@ jobs:
 
           # Remove each excluded domain
           for domain in "${EXCLUDED_DOMAINS[@]}"; do
-            # Escape dots for regex and handle both Unix (\n) and Windows (\r\n) line endings
+            # Escape dots for regex matching
             ESCAPED_DOMAIN=$(echo "$domain" | sed 's/\./\\./g')
 
-            # Count occurrences before removal (handle both \n and \r\n line endings)
-            BEFORE_COUNT=$(grep -E ",${ESCAPED_DOMAIN}(\r)?$" "$TEMP_FILE" | wc -l | tr -d ' ')
+            # Count occurrences before removal
+            BEFORE_COUNT=$(grep -c -E ",${ESCAPED_DOMAIN}$" "$TEMP_FILE" || echo "0")
 
             if [ "$BEFORE_COUNT" -gt 0 ]; then
-              # Remove lines containing the domain (matching end of line with optional \r)
-              grep -v -E ",${ESCAPED_DOMAIN}(\r)?$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
+              # Remove lines containing the domain (exact match at end of line)
+              grep -v -E ",${ESCAPED_DOMAIN}$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
               mv "${TEMP_FILE}.tmp" "$TEMP_FILE"
               echo "✓ Removed $BEFORE_COUNT occurrence(s) of $domain"
               TOTAL_REMOVED=$((TOTAL_REMOVED + BEFORE_COUNT))

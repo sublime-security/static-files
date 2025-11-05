@@ -217,12 +217,15 @@ jobs:
 
           # Remove each excluded domain
           for domain in "${EXCLUDED_DOMAINS[@]}"; do
-            # Count occurrences before removal (use wc -l to avoid grep -c issues)
-            BEFORE_COUNT=$(grep -E ",${domain}$" "$TEMP_FILE" | wc -l | tr -d ' ')
+            # Escape dots for regex and handle both Unix (\n) and Windows (\r\n) line endings
+            ESCAPED_DOMAIN=$(echo "$domain" | sed 's/\./\\./g')
+
+            # Count occurrences before removal (handle both \n and \r\n line endings)
+            BEFORE_COUNT=$(grep -E ",${ESCAPED_DOMAIN}(\r)?$" "$TEMP_FILE" | wc -l | tr -d ' ')
 
             if [ "$BEFORE_COUNT" -gt 0 ]; then
-              # Remove lines containing the domain (matching end of line to avoid partial matches)
-              grep -v -E ",${domain}$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
+              # Remove lines containing the domain (matching end of line with optional \r)
+              grep -v -E ",${ESCAPED_DOMAIN}(\r)?$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
               mv "${TEMP_FILE}.tmp" "$TEMP_FILE"
               echo "✓ Removed $BEFORE_COUNT occurrence(s) of $domain"
               TOTAL_REMOVED=$((TOTAL_REMOVED + BEFORE_COUNT))

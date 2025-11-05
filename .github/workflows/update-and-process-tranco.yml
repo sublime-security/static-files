@@ -213,16 +213,19 @@ jobs:
           TEMP_FILE=$(mktemp)
           cp tranco.csv "$TEMP_FILE"
 
+          TOTAL_REMOVED=0
+
           # Remove each excluded domain
           for domain in "${EXCLUDED_DOMAINS[@]}"; do
-            # Count occurrences before removal
-            BEFORE_COUNT=$(grep -c ",${domain}$" "$TEMP_FILE" || echo "0")
+            # Count occurrences before removal (use wc -l to avoid grep -c issues)
+            BEFORE_COUNT=$(grep -E ",${domain}$" "$TEMP_FILE" | wc -l | tr -d ' ')
 
             if [ "$BEFORE_COUNT" -gt 0 ]; then
               # Remove lines containing the domain (matching end of line to avoid partial matches)
-              grep -v ",${domain}$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
+              grep -v -E ",${domain}$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
               mv "${TEMP_FILE}.tmp" "$TEMP_FILE"
               echo "✓ Removed $BEFORE_COUNT occurrence(s) of $domain"
+              TOTAL_REMOVED=$((TOTAL_REMOVED + BEFORE_COUNT))
             else
               echo "- $domain not found in list"
             fi
@@ -231,9 +234,12 @@ jobs:
           # Replace original file with filtered version
           mv "$TEMP_FILE" tranco.csv
 
-          # Report final line count
-          FINAL_COUNT=$(wc -l < tranco.csv)
-          echo "Final line count after exclusions: $FINAL_COUNT"
+          # Report final statistics
+          FINAL_COUNT=$(wc -l < tranco.csv | tr -d ' ')
+          echo ""
+          echo "=== Summary ==="
+          echo "Total domains removed: $TOTAL_REMOVED"
+          echo "Final line count: $FINAL_COUNT"
 
       - name: Set configuration for top files
         id: set_config_top

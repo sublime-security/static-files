@@ -225,8 +225,8 @@ jobs:
             # Escape dots for regex matching
             ESCAPED_DOMAIN=$(echo "$domain" | sed 's/\./\\./g')
 
-            # Count occurrences before removal
-            BEFORE_COUNT=$(grep -c -E ",${ESCAPED_DOMAIN}$" "$TEMP_FILE" || echo "0")
+            # Count occurrences before removal (use pipeline to ensure clean integer)
+            BEFORE_COUNT=$(grep -E ",${ESCAPED_DOMAIN}$" "$TEMP_FILE" | wc -l | tr -d ' ' || echo "0")
 
             if [ "$BEFORE_COUNT" -gt 0 ]; then
               # Remove lines containing the domain (exact match at end of line)

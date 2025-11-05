@@ -257,11 +257,7 @@ jobs:
           mv tranco_filtered.csv tranco.csv
 
           # Clean up
-          rm -f removal_count.txt
-
-          # Clean up
-          rm -f psl.txt
-
+          rm -f removal_count.txt psl.txt
           # Report final statistics
           FINAL_COUNT=$(wc -l < tranco.csv | tr -d ' ')
           echo ""

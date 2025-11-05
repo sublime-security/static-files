@@ -179,6 +179,62 @@ jobs:
             exit 1
           fi
 
+      - name: Remove excluded domains
+        id: remove_excluded_domains
+        run: |
+          # List of domains to exclude from the Tranco list
+          EXCLUDED_DOMAINS=(
+            "net.ru"
+            "za.bz"
+            "br.com"
+            "cn.com"
+            "de.com"
+            "eu.com"
+            "jpn.com"
+            "mex.com"
+            "ru.com"
+            "sa.com"
+            "uk.com"
+            "us.com"
+            "za.com"
+            "com.de"
+            "gb.net"
+            "hu.net"
+            "jp.net"
+            "se.net"
+            "uk.net"
+            "ae.org"
+            "com.se"
+          )
+
+          echo "Removing excluded domains from tranco.csv..."
+
+          # Create a temporary file
+          TEMP_FILE=$(mktemp)
+          cp tranco.csv "$TEMP_FILE"
+
+          # Remove each excluded domain
+          for domain in "${EXCLUDED_DOMAINS[@]}"; do
+            # Count occurrences before removal
+            BEFORE_COUNT=$(grep -c ",${domain}$" "$TEMP_FILE" || echo "0")
+
+            if [ "$BEFORE_COUNT" -gt 0 ]; then
+              # Remove lines containing the domain (matching end of line to avoid partial matches)
+              grep -v ",${domain}$" "$TEMP_FILE" > "${TEMP_FILE}.tmp"
+              mv "${TEMP_FILE}.tmp" "$TEMP_FILE"
+              echo "✓ Removed $BEFORE_COUNT occurrence(s) of $domain"
+            else
+              echo "- $domain not found in list"
+            fi
+          done
+
+          # Replace original file with filtered version
+          mv "$TEMP_FILE" tranco.csv
+
+          # Report final line count
+          FINAL_COUNT=$(wc -l < tranco.csv)
+          echo "Final line count after exclusions: $FINAL_COUNT"
+
       - name: Set configuration for top files
         id: set_config_top
         run: |

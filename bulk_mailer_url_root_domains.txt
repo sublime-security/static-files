@@ -1,4 +1,5 @@
 beehiiv.com
+convertkit-mail2.com
 hubspotlinks.com
 list-manage.com
 mandrillapp.com
@@ -10,4 +11,3 @@ rs6.net
 sendgrid.net
 sendsay.ru
 spoton.com
-convertkit-mail2.com

@@ -7,4 +7,5 @@ omnisend.com
 postmarkapp.com
 rs6.net
 sendgrid.net
+sendsay.ru
 spoton.com

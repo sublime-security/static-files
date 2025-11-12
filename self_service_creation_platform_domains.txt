@@ -1,4 +1,3 @@
-tithelysetup.com
 acrobat.adobe.com
 airtable.com
 amplifyapp.com
@@ -47,6 +46,7 @@ seesaw.me
 soloist.ai
 surveymonkey.com
 tana.pub
+tithelysetup.com
 typeform.com
 vercel.app
 view.genially.com

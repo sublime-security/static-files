@@ -31,8 +31,8 @@ gamma.app
 intakeq.com
 issuu.com
 jensi.io
-lovable.app
 larksuite.com
+lovable.app
 mockflow.com
 netlify.app
 onrender.com

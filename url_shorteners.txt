@@ -36,6 +36,7 @@ buk.me
 burnurl.com
 c-o.in
 chilp.it
+chl.li
 clck.ru
 cli.gs
 cli.re

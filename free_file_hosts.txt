@@ -88,6 +88,7 @@ icedrive.net
 idrive.com
 indd.adobe.com
 issuu.com
+isu.pub
 jumpshare.com
 kiwi6.com
 koofr.eu
@@ -169,4 +170,3 @@ wikisend.com
 workflowy.com
 xara.com
 zippyshare.com
-isu.pub

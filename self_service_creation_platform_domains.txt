@@ -31,6 +31,7 @@ gamma.app
 heyflow.site
 intakeq.com
 issuu.com
+isu.pub
 jensi.io
 larksuite.com
 lovable.app
@@ -56,4 +57,3 @@ view.genially.com
 weavely.ai
 webflow.io
 workflowy.com
-isu.pub

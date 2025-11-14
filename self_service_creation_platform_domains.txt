@@ -4,7 +4,6 @@ amplifyapp.com
 app.eraser.io
 app.flutterflow.io
 app.hex.tech
-app.jotform.com
 app.ludus.one
 app.mural.co
 app.smartsuite.com
@@ -20,9 +19,7 @@ cognitoforms.com
 contact.kaktusapp.com
 copyfol.io
 curipod.com
-eu.jotform.com
 figma.com
-form.jotform.com
 forms.weavely.ai
 formstack.com
 frame.io
@@ -33,6 +30,7 @@ intakeq.com
 issuu.com
 isu.pub
 jensi.io
+jotform.com
 larksuite.com
 lovable.app
 mixpanel.com

@@ -10,3 +10,4 @@ rs6.net
 sendgrid.net
 sendsay.ru
 spoton.com
+stonly.com

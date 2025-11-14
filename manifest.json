@@ -177,6 +177,15 @@
       ]
     },
     {
+      "file": "parked_domain_nameservers.txt",
+      "identifier": "parked_domain_nameservers",
+      "display_name": "Nameservers commonly used by parked domains",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
       "file": "suspicious_tlds.txt",
       "identifier": "suspicious_tlds",
       "display_name": "Suspicious Top-Level Domains",

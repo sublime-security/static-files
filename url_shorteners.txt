@@ -206,6 +206,7 @@ shorturl.asia
 shorturl.at
 shorturl.com
 shoturl.us
+shorturl.fm
 shrinkify.com
 shrinkster.com
 shrt.st

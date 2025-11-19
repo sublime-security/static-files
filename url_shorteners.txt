@@ -1,4 +1,3 @@
-urlr.me
 1in.me
 1link.in
 1url.com
@@ -284,6 +283,7 @@ urlhawk.com
 urlkiss.com
 urlot.com
 urlpire.com
+urlr.me
 urls.fr
 urlx.ie
 urlx.org

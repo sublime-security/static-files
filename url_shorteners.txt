@@ -205,6 +205,7 @@ shortna.me
 shorturl.asia
 shorturl.at
 shorturl.com
+shorturl.fm
 shoturl.us
 shrinkify.com
 shrinkster.com

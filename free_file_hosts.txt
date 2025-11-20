@@ -19,7 +19,6 @@ appsheet.com
 archive.org
 archive.ph
 attachment.outlook.live.net
-webmail-oxcs.register.com
 attachments.office.net
 backblazeb2.com
 beautiful.ai
@@ -166,6 +165,7 @@ view.storydoc.com
 viewer.joomag.com
 vikingfile.com
 we.tl
+webmail-oxcs.register.com
 wetransfer.com
 wikisend.com
 workflowy.com

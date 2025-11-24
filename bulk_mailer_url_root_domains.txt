@@ -1,6 +1,7 @@
 beehiiv.com
 hubspotlinks.com
 list-manage.com
+mailersend.net
 mandrillapp.com
 notifyvisitors.com
 omnisend.com
@@ -10,3 +11,4 @@ rs6.net
 sendgrid.net
 sendsay.ru
 spoton.com
+squarespace-mail.com

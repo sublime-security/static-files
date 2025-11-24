@@ -37,6 +37,7 @@ bd.tn
 berlin.tl
 bilder.lc
 bitbucket.io
+bubbleapps.io
 biz.ps
 biz.uz
 blog.lc

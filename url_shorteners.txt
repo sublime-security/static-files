@@ -290,6 +290,7 @@ urlx.ie
 urlx.org
 urlz.fr
 urlzen.com
+utm.guru
 virl.com
 vl.am
 w3t.org

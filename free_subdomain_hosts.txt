@@ -1,4 +1,3 @@
-framer.app
 000webhost.com
 000webhostapp.com
 18.lc
@@ -116,6 +115,7 @@ format.com
 forum.lc
 fotos.lc
 fr.gp
+framer.app
 free.lc
 freesubdomain.org
 fun.gg

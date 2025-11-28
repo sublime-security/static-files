@@ -23,6 +23,7 @@ figma.com
 forms.weavely.ai
 formstack.com
 frame.io
+framer.app
 freshdesk.com
 gamma.app
 heightsplatform.com
@@ -56,4 +57,3 @@ view.genially.com
 weavely.ai
 webflow.io
 workflowy.com
-framer.app

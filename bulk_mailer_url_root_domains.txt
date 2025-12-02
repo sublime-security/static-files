@@ -1,5 +1,7 @@
 beehiiv.com
 hs-sales-engage.com
+click.kit-mail1.com
+convertkit-mail2.com
 hubspotlinks.com
 list-manage.com
 mailersend.net
@@ -13,3 +15,4 @@ sendgrid.net
 sendsay.ru
 spoton.com
 squarespace-mail.com
+swoogo.com

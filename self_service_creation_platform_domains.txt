@@ -37,6 +37,7 @@ larksuite.com
 lovable.app
 mixpanel.com
 mockflow.com
+moqups.com
 netlify.app
 onrender.com
 padlet.com
@@ -57,4 +58,3 @@ view.genially.com
 weavely.ai
 webflow.io
 workflowy.com
-moqups.com

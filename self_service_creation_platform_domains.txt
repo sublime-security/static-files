@@ -37,7 +37,7 @@ larksuite.com
 lovable.app
 mixpanel.com
 mockflow.com
-moqups.com
+app.moqups.com
 netlify.app
 onrender.com
 padlet.com

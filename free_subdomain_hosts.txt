@@ -115,6 +115,7 @@ format.com
 forum.lc
 fotos.lc
 fr.gp
+framer.app
 free.lc
 freesubdomain.org
 fun.gg

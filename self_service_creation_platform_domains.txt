@@ -5,6 +5,7 @@ app.eraser.io
 app.flutterflow.io
 app.hex.tech
 app.ludus.one
+app.moqups.com
 app.mural.co
 app.smartsuite.com
 appsheet.com
@@ -37,7 +38,6 @@ larksuite.com
 lovable.app
 mixpanel.com
 mockflow.com
-app.moqups.com
 netlify.app
 onrender.com
 padlet.com

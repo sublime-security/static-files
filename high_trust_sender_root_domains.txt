@@ -1,4 +1,3 @@
-michigan.gov
 1password.com
 aarp.org
 acronis.com
@@ -304,6 +303,7 @@ metabaseapp.com
 metaenterprise.com
 metamail.com
 meteor.com
+michigan.gov
 microsoft.com
 microsoftemail.com
 microsoftonline.com

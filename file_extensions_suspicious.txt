@@ -36,6 +36,8 @@ hlp
 hpj
 hta
 htc
+htm
+html
 hwp
 img
 inf
@@ -72,6 +74,7 @@ mdw
 mdz
 mht
 msc
+msg
 msh
 msh1
 msh1xml
@@ -89,6 +92,7 @@ ops
 osd
 paf
 pcd
+pdf
 pif
 pl
 plg

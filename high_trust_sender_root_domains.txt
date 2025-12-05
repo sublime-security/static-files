@@ -303,6 +303,7 @@ metabaseapp.com
 metaenterprise.com
 metamail.com
 meteor.com
+michigan.gov
 microsoft.com
 microsoftemail.com
 microsoftonline.com

@@ -6,6 +6,7 @@ hubspotlinks.com
 list-manage.com
 mailersend.net
 maillist-manage.com
+mailwizz.com
 mandrillapp.com
 notifyvisitors.com
 omnisend.com
@@ -17,4 +18,3 @@ sendsay.ru
 spoton.com
 squarespace-mail.com
 swoogo.com
-mailwizz.com

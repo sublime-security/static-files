@@ -4,6 +4,7 @@ convertkit-mail2.com
 hs-sales-engage.com
 hubspotlinks.com
 list-manage.com
+lynk.email
 mailersend.net
 maillist-manage.com
 mandrillapp.com
@@ -17,3 +18,4 @@ sendsay.ru
 spoton.com
 squarespace-mail.com
 swoogo.com
+vbout.com

@@ -1,4 +1,3 @@
-linkly.link
 1in.me
 1link.in
 1url.com
@@ -130,6 +129,7 @@ linkbee.com
 linkbun.ch
 linkfollowservice.com
 linkify.ru
+linkly.link
 linksrtnr.com
 liurl.cn
 ln-s.net

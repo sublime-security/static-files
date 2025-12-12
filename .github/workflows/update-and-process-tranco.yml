@@ -381,4 +381,4 @@ jobs:
             - List URL: https://tranco-list.eu/list/${STEPS_TRANCO_ID_OUTPUTS_ID}
             - Automated update via GitHub Actions" \
             --head "$BRANCH_NAME" \
-            --base "master" 
+            --base "main"

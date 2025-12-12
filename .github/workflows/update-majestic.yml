@@ -142,4 +142,4 @@ jobs:
               - majestic_million.csv
             - Automated update via GitHub Actions" \
             --head "$BRANCH_NAME" \
-            --base "master"
+            --base "main"

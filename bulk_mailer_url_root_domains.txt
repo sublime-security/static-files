@@ -7,6 +7,7 @@ list-manage.com
 lynk.email
 mailersend.net
 maillist-manage.com
+mailwizz.com
 mandrillapp.com
 notifyvisitors.com
 omnisend.com

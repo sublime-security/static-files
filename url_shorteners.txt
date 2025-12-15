@@ -2,6 +2,7 @@
 1link.in
 1url.com
 2big.at
+azr.link
 2ly.link
 2pl.us
 2tu.us

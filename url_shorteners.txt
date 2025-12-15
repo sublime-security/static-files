@@ -2,7 +2,6 @@
 1link.in
 1url.com
 2big.at
-azr.link
 2ly.link
 2pl.us
 2tu.us
@@ -20,6 +19,7 @@ alturl.com
 amlink.pro
 artist.link
 atu.ca
+azr.link
 b.link
 b23.ru
 bacn.me

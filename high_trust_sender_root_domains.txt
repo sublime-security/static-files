@@ -1,4 +1,3 @@
-digitalpayouts.com
 1password.com
 aarp.org
 acronis.com
@@ -138,6 +137,7 @@ dhl.com
 dhs.gov
 dialpad.com
 digicert.com
+digitalpayouts.com
 digitalpayouts.com
 discord.com
 discover.com

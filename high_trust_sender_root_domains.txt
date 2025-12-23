@@ -42,6 +42,7 @@ att-mail.com
 auth0.com
 authentisign.com
 aws.training
+awsapps.com
 axios.com
 ba.com
 bakermckenzie.com

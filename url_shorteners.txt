@@ -310,6 +310,7 @@ xr.com
 xrl.in
 xrl.us
 xurl.jp
+xurl.pl
 xzb.cc
 yep.it
 yfrog.com

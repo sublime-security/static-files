@@ -1,6 +1,7 @@
 1in.me
 1link.in
 1url.com
+1url.my
 2big.at
 2ly.link
 2pl.us

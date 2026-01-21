@@ -115,6 +115,7 @@ sap
 scf
 scr
 sct
+scpt
 sh
 shb
 shortcut

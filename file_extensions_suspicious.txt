@@ -113,9 +113,9 @@ rgs
 run
 sap
 scf
+scpt
 scr
 sct
-scpt
 sh
 shb
 shortcut

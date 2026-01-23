@@ -35,6 +35,7 @@ claude.site
 clicknupload.com
 cloudflarestorage.com
 coda.io
+cryptpad.fr
 curipod.com
 customer-oci.com
 customervoice.microsoft.com

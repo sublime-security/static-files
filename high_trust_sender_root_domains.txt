@@ -217,6 +217,7 @@ geico.com
 gem.com
 getpostman.com
 github.com
+githubsupport.com
 gitlab.com
 glassdoor.com
 godaddy.com

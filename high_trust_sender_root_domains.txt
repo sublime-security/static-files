@@ -1,6 +1,5 @@
 1password.com
 aarp.org
-iru.com
 acronis.com
 adobe-presents.com
 adobe.com
@@ -266,6 +265,7 @@ intermountainhealth.org
 internationalsos.com
 intuit.com
 ironcladapp.com
+iru.com
 japantimes.co.jp
 jetbrains.com
 jnj.com

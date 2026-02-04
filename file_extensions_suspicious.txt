@@ -113,6 +113,7 @@ rgs
 run
 sap
 scf
+scpt
 scr
 sct
 sh

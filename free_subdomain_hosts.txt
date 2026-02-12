@@ -56,6 +56,7 @@ clandomain.de
 clandomain.org
 clickfunnels.com
 cloudapp.net
+chickenkiller.com
 cloudfront.net
 cloudwaysapps.com
 club.lc
@@ -154,6 +155,7 @@ int.ps
 ir.tn
 it.gp
 jimdosite.com
+jumpingcrab.com
 jixx.de
 jixx.net
 jp.tn
@@ -255,6 +257,7 @@ tr.tn
 translate.goog
 translate.google.com
 trycloudflare.com
+twilightparadox.com
 tumblr.com
 turkish.lc
 tv.gg

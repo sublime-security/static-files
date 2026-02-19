@@ -203,6 +203,7 @@ short.ie
 short.io
 short.to
 shorter.gg
+shorter.me
 shortlinks.co.uk
 shortna.me
 shorturl.asia

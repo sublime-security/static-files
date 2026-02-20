@@ -249,6 +249,7 @@ tli.su
 tnij.org
 to.ly
 togoto.us
+tr.ee
 tr.im
 tr.my
 traceurl.com

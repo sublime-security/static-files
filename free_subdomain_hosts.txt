@@ -138,6 +138,7 @@ hk.tn
 home.lc
 homepage.cx
 homepage.lc
+hoster-test.ru
 hostingerapp.com
 hot.lc
 hp.lc

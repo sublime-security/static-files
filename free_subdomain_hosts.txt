@@ -295,5 +295,6 @@ ydns.eu
 yj.ae
 you.lc
 za.tn
+zapto.org
 zendesk.com
 zx9.de

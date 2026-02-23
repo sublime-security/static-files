@@ -45,7 +45,6 @@ dailyuploads.net
 datafilehost.com
 depositfiles.com
 digitaloceanspaces.com
-doc.clickup.com
 docs.google.com
 docs.zoom.us
 down.mdiaload.com

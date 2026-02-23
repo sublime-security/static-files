@@ -9,12 +9,15 @@ app.moqups.com
 app.mural.co
 app.smartsuite.com
 appsheet.com
+appwrite.network
 archbee.com
+arweave.net
 beautiful.ai
 behance.net
 breely.com
 buildin.ai
 canva.com
+cloudworkstations.dev
 coda.io
 cognito.com
 cognitoforms.com
@@ -22,7 +25,10 @@ contact.kaktusapp.com
 copyfol.io
 curipod.com
 doc.clickup.com
+edgeone.dev
+elementor.cloud
 figma.com
+flipsnack.com
 forms.weavely.ai
 formstack.com
 frame.io
@@ -48,10 +54,12 @@ publuu.com
 railway.app
 replit.app
 riddle.com
+run.app
 scribehow.com
 seesaw.me
 soloist.ai
 surveymonkey.com
+systeme.io
 tana.pub
 tithelysetup.com
 typeform.com
@@ -61,3 +69,4 @@ weavely.ai
 web.val.run
 webflow.io
 workflowy.com
+wpdevcloud.com

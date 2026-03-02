@@ -24,6 +24,7 @@ backblazeb2.com
 beautiful.ai
 behance.net
 bitbucket.com
+bitbucket.org
 box.com
 buildin.ai
 bunkr.site

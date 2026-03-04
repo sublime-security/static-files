@@ -165,6 +165,7 @@ kr.tn
 kr3w.de
 l4n.contains_regexname.vg
 liebe.lc
+lovable.dev
 m.vu
 ma.tn
 mjt.lu

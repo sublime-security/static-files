@@ -47,6 +47,7 @@ canva.site
 center.tl
 ch.st
 chat.dj
+chickenkiller.com
 city.tl
 ciy.de
 cl4n.org
@@ -158,6 +159,7 @@ jimdosite.com
 jixx.de
 jixx.net
 jp.tn
+jumpingcrab.com
 k1.cx
 kinsta.cloud
 kinsta.page
@@ -259,6 +261,7 @@ trycloudflare.com
 tumblr.com
 turkish.lc
 tv.gg
+twilightparadox.com
 typeform.com
 uk.tn
 up.railway.app

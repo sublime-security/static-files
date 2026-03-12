@@ -195,6 +195,7 @@ rubyurl.com
 s.id
 s7y.us
 safe.mn
+share.google
 sharein.com
 sharetabs.com
 shorl.com

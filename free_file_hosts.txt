@@ -35,6 +35,7 @@ cdn.fbsbx.com
 claude.site
 clicknupload.com
 cloudflarestorage.com
+cloudup.com
 coda.io
 contabostorage.com
 cryptpad.fr

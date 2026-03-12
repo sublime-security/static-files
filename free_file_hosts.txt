@@ -1,4 +1,3 @@
-cryptpad.fr
 0x0.st
 1drv.com
 1drv.ms
@@ -38,6 +37,7 @@ clicknupload.com
 cloudflarestorage.com
 coda.io
 contabostorage.com
+cryptpad.fr
 cryptpad.fr
 curipod.com
 customer-oci.com

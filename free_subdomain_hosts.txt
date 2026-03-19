@@ -194,6 +194,7 @@ now.lc
 now.sh
 npx.de
 on-fleek.app
+on.aws
 on.lc
 ondigitalocean.app
 online.gp

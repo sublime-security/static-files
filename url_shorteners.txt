@@ -177,6 +177,7 @@ postly.link
 profile.to
 qicute.com
 qlnk.net
+qr.fm
 qrco.de
 qti.ai
 quip-art.com

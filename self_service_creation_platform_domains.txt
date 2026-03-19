@@ -39,6 +39,7 @@ gamma.app
 heightsplatform.com
 heyflow.site
 intakeq.com
+ipfs.io
 issuu.com
 isu.pub
 jensi.io

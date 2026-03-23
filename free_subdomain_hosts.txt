@@ -222,6 +222,7 @@ repl.co
 replit.app
 rf.gd
 ro.tn
+sa.com
 sa.tn
 se.nf
 search.gp
@@ -297,6 +298,7 @@ xxl.lc
 ydns.eu
 yj.ae
 you.lc
+za.com
 za.tn
 zapto.org
 zendesk.com

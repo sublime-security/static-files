@@ -46,6 +46,7 @@ jensi.io
 jotform.com
 landbot.site
 larksuite.com
+lighthouse.storage
 lovable.app
 mixpanel.com
 mockflow.com

@@ -70,6 +70,7 @@ tithelysetup.com
 typeform.com
 vercel.app
 view.genially.com
+wasmer.app
 weavely.ai
 web.val.run
 webflow.io

@@ -8,6 +8,7 @@ beauty
 best
 bio
 biz
+biz.id
 bond
 cam
 cc

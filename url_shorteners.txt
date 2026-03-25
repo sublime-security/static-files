@@ -133,6 +133,7 @@ linkfollowservice.com
 linkify.ru
 linkly.link
 linksrtnr.com
+linkurl.pk
 liurl.cn
 ln-s.net
 ln-s.ru
@@ -179,6 +180,7 @@ qicute.com
 qlnk.net
 qr.fm
 qrco.de
+qrsu.io
 qti.ai
 quip-art.com
 rb.gy

@@ -46,6 +46,7 @@ jensi.io
 jotform.com
 landbot.site
 larksuite.com
+lighthouse.storage
 lovable.app
 mixpanel.com
 mockflow.com
@@ -70,9 +71,12 @@ tithelysetup.com
 typeform.com
 vercel.app
 view.genially.com
+wasmer.app
 weavely.ai
 web.val.run
 webflow.io
+wixstudio.com
 workflowy.com
 wpdevcloud.com
+yayforms.link
 zapier.app

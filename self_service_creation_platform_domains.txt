@@ -73,5 +73,6 @@ view.genially.com
 weavely.ai
 web.val.run
 webflow.io
+wixstudio.com
 workflowy.com
 wpdevcloud.com

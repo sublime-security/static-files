@@ -25,6 +25,7 @@ contact.kaktusapp.com
 copyfol.io
 curipod.com
 doc.clickup.com
+edgeone.app
 edgeone.dev
 elementor.cloud
 figma.com

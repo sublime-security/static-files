@@ -106,6 +106,7 @@ hurl.ws
 ibit.ly
 icanhaz.com
 idek.net
+inlnk.co
 inreply.to
 ionos.ly
 is.gd
@@ -140,6 +141,7 @@ ln-s.ru
 ln.run
 lnk.gd
 lnk.in
+lnk.ink
 lnk.sk
 lnkd.in
 loopt.us

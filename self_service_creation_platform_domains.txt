@@ -17,6 +17,7 @@ behance.net
 breely.com
 buildin.ai
 canva.com
+cloudclusters.net
 cloudworkstations.dev
 coda.io
 cognito.com
@@ -65,12 +66,14 @@ run.app
 scribehow.com
 seesaw.me
 soloist.ai
+studio.site
 surveymonkey.com
 systeme.io
 tana.pub
 tithelysetup.com
 typedream.app
 typeform.com
+upresenter.ai
 vercel.app
 view.genially.com
 wasmer.app
@@ -83,3 +86,4 @@ wpdevcloud.com
 wpenginepowered.com
 yayforms.link
 zapier.app
+zeabur.app

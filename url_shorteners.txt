@@ -1,5 +1,3 @@
-v.gd
-dlvr.it
 1in.me
 1link.in
 1url.com
@@ -55,6 +53,7 @@ decenturl.com
 dfl8.me
 digbig.com
 digg.com
+dlvr.it
 doiop.com
 dub.co
 dub.sh
@@ -305,6 +304,7 @@ urlx.org
 urlz.fr
 urlzen.com
 utm.guru
+v.gd
 virl.com
 vl.am
 w3t.org

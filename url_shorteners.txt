@@ -248,6 +248,7 @@ tiny.cc
 tiny.pl
 tiny123.com
 tinyarro.ws
+tinyl.io
 tinytw.it
 tinyuri.ca
 tinyurl.com

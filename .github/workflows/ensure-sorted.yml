@@ -27,11 +27,26 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Sort file content order
+      - name: Get changed txt files
+        id: changed_files
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha }}
         run: |
-          python ./scripts/sorter.py
+          CHANGED_TXT=$(git diff --name-only "$BASE_REF"...HEAD -- '*.txt' | tr '\n' ' ')
+          echo "files=$CHANGED_TXT" >> "$GITHUB_OUTPUT"
+          if [ -z "$CHANGED_TXT" ]; then
+            echo "No .txt files changed in this PR"
+          else
+            echo "Changed .txt files: $CHANGED_TXT"
+          fi
+
+      - name: Sort file content order
+        if: steps.changed_files.outputs.files != ''
+        run: |
+          python ./scripts/sorter.py ${{ steps.changed_files.outputs.files }}
 
       - name: Commit & Push Results, if needed
+        if: steps.changed_files.outputs.files != ''
         id: push_results
         env:
           HEAD_REF: ${{ github.head_ref }}
@@ -46,4 +61,7 @@ jobs:
           git add '*.txt'
           git commit -m "Auto sorting static files"
 
+          # NOTE: Pushes with GITHUB_TOKEN do not trigger subsequent workflow runs.
+          # To fix CI not running on auto-sort commits, configure a GitHub App token
+          # or PAT and use it here instead of the default token.
           git push origin HEAD:${HEAD_REF}

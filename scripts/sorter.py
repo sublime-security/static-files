@@ -1,5 +1,6 @@
 import hashlib
 import os
+import sys
 
 from typing import List, Optional
 
@@ -58,7 +59,7 @@ class Sorter:
 
 
 if __name__ == "__main__":
-    FILES: List[str] = [
+    ALL_FILES: List[str] = [
         'bulk_mailer_url_root_domains.txt',
         'disposable_email_providers.txt',
         'email_forwarding_domains.txt',
@@ -79,5 +80,16 @@ if __name__ == "__main__":
         'suspicious_tlds.txt',
         'url_shorteners.txt'
     ]
-    for file in FILES:
+
+    # If file arguments are provided, only sort those (filtered to known files)
+    if len(sys.argv) > 1:
+        requested = set(sys.argv[1:])
+        files = [f for f in ALL_FILES if f in requested]
+        if not files:
+            print("No sortable files in the provided arguments, nothing to do")
+            sys.exit(0)
+    else:
+        files = ALL_FILES
+
+    for file in files:
         Sorter().sort(file)

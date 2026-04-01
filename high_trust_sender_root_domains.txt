@@ -383,6 +383,7 @@ politicopro.com
 powerapps.com
 primevideo.com
 principal.com
+proofpointessentials.com
 proxyvote.com
 prudential.com
 pulley.com
@@ -430,6 +431,7 @@ sentinelone.net
 sertifi.net
 service-now.com
 service-webroot.com
+servicenow.com
 sfax.com
 sharp.com
 shop.app

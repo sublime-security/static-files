@@ -182,6 +182,7 @@ my.vg
 mybluehost.me
 mybluemix.net
 myportfolio.com
+myqcloud.com
 mystrikingly.com
 name.ac
 name.vu

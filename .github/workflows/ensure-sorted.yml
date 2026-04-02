@@ -12,7 +12,7 @@ jobs:
     name: Ensure Sorted Order
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
       issues: read
       pull-requests: read
       checks: write
@@ -40,28 +40,7 @@ jobs:
             echo "Changed .txt files: $CHANGED_TXT"
           fi
 
-      - name: Sort file content order
+      - name: Check file sort order
         if: steps.changed_files.outputs.files != ''
         run: |
-          python ./scripts/sorter.py ${{ steps.changed_files.outputs.files }}
-
-      - name: Commit & Push Results, if needed
-        if: steps.changed_files.outputs.files != ''
-        id: push_results
-        env:
-          HEAD_REF: ${{ github.head_ref }}
-        run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No files changed, nothing to do"
-            exit 0
-          fi
-
-          git config user.name 'Sorted Order Validation'
-          git config user.email 'hello@sublimesecurity.com'
-          git add '*.txt'
-          git commit -m "Auto sorting static files"
-
-          # NOTE: Pushes with GITHUB_TOKEN do not trigger subsequent workflow runs.
-          # To fix CI not running on auto-sort commits, configure a GitHub App token
-          # or PAT and use it here instead of the default token.
-          git push origin HEAD:${HEAD_REF}
+          python ./scripts/sorter.py --check ${{ steps.changed_files.outputs.files }}

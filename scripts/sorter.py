@@ -15,6 +15,18 @@ class Sorter:
                 hash_sha256.update(chunk)
         return hash_sha256.hexdigest()
 
+    def is_sorted(self, filepath: str) -> bool:
+        """Check if a file's lines are sorted"""
+        with open(filepath, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        sorted_lines = sorted(lines)
+        is_sorted = lines == sorted_lines
+        if is_sorted:
+            print(f"{filepath}: sorted")
+        else:
+            print(f"{filepath}: NOT sorted")
+        return is_sorted
+
     def sort(self, input_file: str, output_file: Optional[str] = None) -> None:
         """
         Read a file, get its hash, sort its lines, compare hashes, then write if different
@@ -81,9 +93,14 @@ if __name__ == "__main__":
         'url_shorteners.txt'
     ]
 
+    args = sys.argv[1:]
+    check_only = '--check' in args
+    if check_only:
+        args.remove('--check')
+
     # If file arguments are provided, only sort those (filtered to known files)
-    if len(sys.argv) > 1:
-        requested = set(sys.argv[1:])
+    if args:
+        requested = set(args)
         files = [f for f in ALL_FILES if f in requested]
         if not files:
             print("No sortable files in the provided arguments, nothing to do")
@@ -91,5 +108,16 @@ if __name__ == "__main__":
     else:
         files = ALL_FILES
 
+    sorter = Sorter()
+    unsorted_files = []
     for file in files:
-        Sorter().sort(file)
+        if check_only:
+            if not sorter.is_sorted(file):
+                unsorted_files.append(file)
+        else:
+            sorter.sort(file)
+
+    if check_only and unsorted_files:
+        for f in unsorted_files:
+            print(f"::error file={f}::{f} is not sorted. Run `python ./scripts/sorter.py {f}` to fix.")
+        sys.exit(1)

@@ -21,6 +21,7 @@ cloud
 club
 cm
 co.cl
+co.id
 co.za
 company
 consulting

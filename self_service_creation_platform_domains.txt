@@ -30,6 +30,7 @@ edgeone.app
 edgeone.dev
 elementor.cloud
 figma.com
+flazio.com
 flipsnack.com
 forms.weavely.ai
 formstack.com

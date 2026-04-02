@@ -23,6 +23,8 @@ cm
 co.cl
 co.id
 co.za
+com.ge
+com.py
 company
 consulting
 country

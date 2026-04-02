@@ -22,6 +22,8 @@ club
 cm
 co.cl
 co.za
+com.ge
+com.py
 company
 consulting
 country

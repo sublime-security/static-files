@@ -42,10 +42,12 @@ expert
 fashion
 finance
 fit
+foo
 free
 fun
 ga
 gdn
+gf
 gq
 gu
 help
@@ -100,6 +102,7 @@ run
 sale
 sbs
 science
+shop
 site
 so
 social

@@ -104,6 +104,7 @@ limewire.com
 link.storjshare.io
 litterbox.catbox.moe
 livedrive.com
+localto.net
 mediafire.com
 mega.nz
 megafileupload.com
@@ -135,6 +136,7 @@ send-anywhere.com
 sendelephant.com
 sendgb.com
 sendspace.com
+serv00.net
 share.hsforms.com
 sharepoint.com
 siasky.net
@@ -142,6 +144,7 @@ sites.google.com
 slack-files.com
 solidfiles.com
 spark.adobe.com
+staticrun.app
 stonly.com
 storage.cloud.google.com
 storage.googleapis.com

@@ -87,6 +87,7 @@ gofile.io
 graph.org
 hidrive.ionos.com
 hightail.com
+hmstorage.net
 icedrive.net
 iceiy.com
 idrive.com

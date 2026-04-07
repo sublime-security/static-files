@@ -157,6 +157,7 @@ telegram.org
 teletype.in
 temp.sh
 terabox.com
+tiiny.site
 tinyupload.com
 transfer.sh
 transfergb.com

@@ -255,6 +255,7 @@ synology.me
 te4m.de
 team.cx
 team.tl
+temporary.site
 test.lc
 th.tn
 top.lc

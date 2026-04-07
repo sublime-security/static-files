@@ -66,6 +66,7 @@ replit.app
 riddle.com
 run.app
 scribehow.com
+scw.cloud
 seesaw.me
 soloist.ai
 studio.site

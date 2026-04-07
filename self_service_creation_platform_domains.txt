@@ -54,7 +54,6 @@ lovable.app
 mixpanel.com
 mockflow.com
 netlify.app
-omnicoder.app
 onrender.com
 orbitor.dev
 padlet.com
@@ -67,8 +66,10 @@ replit.app
 riddle.com
 run.app
 scribehow.com
+scw.cloud
 seesaw.me
 soloist.ai
+square.site
 studio.site
 surveymonkey.com
 systeme.io
@@ -82,7 +83,6 @@ view.genially.com
 wasmer.app
 weavely.ai
 web.val.run
-web-3.to
 webflow.io
 wixstudio.com
 workflowy.com

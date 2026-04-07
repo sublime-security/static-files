@@ -54,6 +54,7 @@ lovable.app
 mixpanel.com
 mockflow.com
 netlify.app
+omnicoder.app
 onrender.com
 orbitor.dev
 padlet.com
@@ -81,6 +82,7 @@ view.genially.com
 wasmer.app
 weavely.ai
 web.val.run
+web-3.to
 webflow.io
 wixstudio.com
 workflowy.com

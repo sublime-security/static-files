@@ -81,6 +81,7 @@ my.id
 ne.jp
 net.ms
 nom.za
+one
 online
 ooo
 party

@@ -181,8 +181,10 @@ postly.link
 profile.to
 qicute.com
 qlnk.net
+qr.coffee
 qr.fm
 qrco.de
+qrkit.co
 qrsu.io
 qti.ai
 quip-art.com
@@ -198,6 +200,7 @@ riz.gd
 rsmonkey.com
 ru.ly
 rubyurl.com
+s.craft.me
 s.id
 s7y.us
 safe.mn
@@ -209,6 +212,7 @@ short.gy
 short.ie
 short.io
 short.to
+shorten.world
 shorter.gg
 shorter.me
 shortlinks.co.uk

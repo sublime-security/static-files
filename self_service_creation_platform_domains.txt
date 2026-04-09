@@ -25,6 +25,7 @@ cognitoforms.com
 contact.kaktusapp.com
 copyfol.io
 curipod.com
+dash.formaloo.com
 doc.clickup.com
 edgeone.app
 edgeone.dev
@@ -40,6 +41,7 @@ framer.media
 framer.website
 freshdesk.com
 gamma.app
+glide.page
 heightsplatform.com
 heyflow.site
 intakeq.com
@@ -78,6 +80,7 @@ studio.site
 surveymonkey.com
 systeme.io
 tana.pub
+teachable.com
 tithelysetup.com
 typedream.app
 typeform.com

@@ -42,6 +42,7 @@ gamma.app
 heightsplatform.com
 heyflow.site
 intakeq.com
+ipfs.dweb.link
 ipfs.io
 issuu.com
 isu.pub

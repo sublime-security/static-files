@@ -51,6 +51,7 @@ landbot.site
 larksuite.com
 lighthouse.storage
 lovable.app
+miricanvas.com
 mixpanel.com
 mockflow.com
 netlify.app
@@ -91,4 +92,3 @@ wpenginepowered.com
 yayforms.link
 zapier.app
 zeabur.app
-miricanvas.com

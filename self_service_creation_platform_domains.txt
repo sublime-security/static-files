@@ -73,6 +73,7 @@ scw.cloud
 seesaw.me
 soloist.ai
 square.site
+static.hf.space
 studio.site
 surveymonkey.com
 systeme.io

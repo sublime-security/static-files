@@ -51,6 +51,7 @@ landbot.site
 larksuite.com
 lighthouse.storage
 lovable.app
+miricanvas.com
 mixpanel.com
 mockflow.com
 netlify.app

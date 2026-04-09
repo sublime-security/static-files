@@ -36,6 +36,7 @@ forms.weavely.ai
 formstack.com
 frame.io
 framer.app
+framer.media
 framer.website
 freshdesk.com
 gamma.app

@@ -4,6 +4,7 @@
 1url.my
 2big.at
 2ly.link
+2nco.com
 2pl.us
 2tu.us
 2ya.com

@@ -8,6 +8,7 @@ app.ludus.one
 app.moqups.com
 app.mural.co
 app.smartsuite.com
+app.usewhale.io
 appsheet.com
 appwrite.network
 archbee.com
@@ -78,6 +79,7 @@ studio.site
 surveymonkey.com
 systeme.io
 tana.pub
+taskade.com
 tithelysetup.com
 typedream.app
 typeform.com

@@ -38,12 +38,14 @@ buff.ly
 buk.me
 burnurl.com
 c-o.in
+canva.link
 chilp.it
 chl.li
 clck.ru
 cli.gs
 cli.re
 clickmeter.com
+conta.cc
 cort.as
 cutt.ly
 cuturl.com
@@ -205,6 +207,7 @@ s.craft.me
 s.id
 s7y.us
 safe.mn
+scnv.io
 share.google
 sharein.com
 sharetabs.com
@@ -213,6 +216,7 @@ short.gy
 short.ie
 short.io
 short.to
+shorten.tv
 shorten.world
 shorter.gg
 shorter.me
@@ -313,6 +317,7 @@ utm.guru
 v.gd
 virl.com
 vl.am
+vo.la
 w3t.org
 wa.link
 wapurl.co.uk

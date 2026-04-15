@@ -6,6 +6,7 @@ ar
 army
 beauty
 best
+bet
 bio
 biz
 biz.id
@@ -110,6 +111,7 @@ so
 social
 solutions
 space
+store
 stream
 su
 sx

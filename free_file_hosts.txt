@@ -6,6 +6,7 @@
 adrive.com
 airtable.com
 aliyun.com
+alwaysdata.net
 amazonaws.com
 app.flutterflow.io
 app.getresponse.com
@@ -18,8 +19,11 @@ appdomain.cloud
 appsheet.com
 archive.org
 archive.ph
+ardrive.net
+assets.cdn.filesafe.space
 attachment.outlook.live.net
 attachments.office.net
+aurorashard.org
 backblazeb2.com
 beautiful.ai
 behance.net
@@ -32,6 +36,8 @@ canva.com
 catbox.moe
 cdn.discordapp.com
 cdn.fbsbx.com
+cdn.filestackcontent.com
+cheapwebsites.biz
 claude.site
 clicknupload.com
 cloudflarestorage.com
@@ -52,6 +58,7 @@ docs.zoom.us
 down.mdiaload.com
 drime.cloud
 drive.google.com
+drive.proton.me
 drop.download
 dropbox.com
 dropmefiles.com
@@ -73,6 +80,7 @@ files.catbox.moe
 files.com
 files.delivrto.me
 files.fm
+filestackcontent.com
 filetransfer.io
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com
@@ -94,6 +102,7 @@ idrive.com
 indd.adobe.com
 issuu.com
 isu.pub
+jottacloud.com
 jumpshare.com
 kiwi6.com
 koofr.eu
@@ -103,6 +112,7 @@ larksuite.com
 layerstackobjects.com
 limewire.com
 link.storjshare.io
+linodeobjects.com
 litterbox.catbox.moe
 livedrive.com
 mediafire.com
@@ -110,6 +120,7 @@ mega.nz
 megafileupload.com
 megaup.net
 mixdrop.ag
+mochausercontent.com
 mockflow.com
 my.visme.co
 ncv.microsoft.com
@@ -132,6 +143,7 @@ raw.githubusercontent.com
 riddle.com
 sabercathost.com
 scribd.com
+script.google.com
 send-anywhere.com
 sendelephant.com
 sendgb.com
@@ -165,6 +177,7 @@ transfergb.com
 transfernow.net
 transferxl.com
 ufile.io
+unaux.com
 uploaded.net
 uploadfiles.io
 uplooder.net
@@ -173,6 +186,7 @@ view.genially.com
 view.storydoc.com
 viewer.joomag.com
 vikingfile.com
+vultrobjects.com
 we.tl
 webmail-oxcs.register.com
 wetransfer.com

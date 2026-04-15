@@ -37,6 +37,7 @@ stan.store
 superprofile.me
 tap.bio
 taplink.at
+taplink.cc
 theleap.co
 vistasocial.com
 wisery.io

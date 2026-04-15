@@ -160,7 +160,6 @@ teletype.in
 temp.sh
 terabox.com
 tiiny.site
-tilda.cc
 tilda.ws
 tinyupload.com
 transfer.sh

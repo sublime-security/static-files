@@ -38,6 +38,7 @@ cognitoforms.com
 contact.kaktusapp.com
 copyfol.io
 curipod.com
+dash.formaloo.com
 doc.clickup.com
 doksly.com
 easysend.app
@@ -59,6 +60,7 @@ framer.media
 framer.website
 freshdesk.com
 gamma.app
+glide.page
 gooey.ai
 heightsplatform.com
 heyflow.site
@@ -114,6 +116,7 @@ surge.sh
 surveymonkey.com
 systeme.io
 tana.pub
+teachable.com
 tithelysetup.com
 typedream.app
 typeform.com

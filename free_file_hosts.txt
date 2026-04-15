@@ -19,9 +19,11 @@ appdomain.cloud
 appsheet.com
 archive.org
 archive.ph
+ardrive.net
 assets.cdn.filesafe.space
 attachment.outlook.live.net
 attachments.office.net
+aurorashard.org
 backblazeb2.com
 beautiful.ai
 behance.net
@@ -78,6 +80,7 @@ files.catbox.moe
 files.com
 files.delivrto.me
 files.fm
+filestackcontent.com
 filetransfer.io
 firebasehostingproxy.page.link
 firebasestorage.googleapis.com
@@ -99,6 +102,7 @@ idrive.com
 indd.adobe.com
 issuu.com
 isu.pub
+jottacloud.com
 jumpshare.com
 kiwi6.com
 koofr.eu
@@ -116,6 +120,7 @@ mega.nz
 megafileupload.com
 megaup.net
 mixdrop.ag
+mochausercontent.com
 mockflow.com
 my.visme.co
 ncv.microsoft.com

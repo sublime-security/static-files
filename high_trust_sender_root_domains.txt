@@ -41,6 +41,8 @@ atriushealth.org
 att-mail.com
 auth0.com
 authentisign.com
+autodesk.com
+autodeskcommunications.com
 aws.training
 axa.es
 axios.com

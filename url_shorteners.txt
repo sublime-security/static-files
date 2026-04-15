@@ -160,6 +160,7 @@ miniurl.com
 minurl.fr
 mjt.lu
 moourl.com
+myqrcode.mobi
 myurl.in
 n9.cl
 ne1.net
@@ -207,6 +208,7 @@ s.craft.me
 s.id
 s7y.us
 safe.mn
+scan.page
 scnv.io
 share.google
 sharein.com

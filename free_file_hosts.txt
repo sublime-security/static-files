@@ -133,6 +133,7 @@ onehub.com
 onenoteonlinesync.onenote.com
 oortstorages.com
 padlet.com
+page-preview.instapage.com
 pastelink.net
 pcloud.com
 pixeldrain.com
@@ -171,6 +172,7 @@ teletype.in
 temp.sh
 terabox.com
 tiiny.site
+tilda.ws
 tinyupload.com
 transfer.sh
 transfergb.com

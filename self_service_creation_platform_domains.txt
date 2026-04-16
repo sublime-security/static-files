@@ -18,6 +18,7 @@ app.moqups.com
 app.mural.co
 app.slidebean.com
 app.smartsuite.com
+app.usewhale.io
 appsheet.com
 appwrite.network
 archbee.com
@@ -116,6 +117,7 @@ surge.sh
 surveymonkey.com
 systeme.io
 tana.pub
+taskade.com
 teachable.com
 tithelysetup.com
 typedream.app

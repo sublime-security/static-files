@@ -6,6 +6,7 @@ adobe.com
 adobesign.com
 adobesign.us
 adp.com
+aetna.com
 airbnb.com
 aircall.io
 airfrance.com
@@ -174,6 +175,7 @@ emailconed.com
 emailrep.io
 empforce.com
 empiresuite.com
+enterprise.com
 envoy.com
 equifax.com
 esignatures.com

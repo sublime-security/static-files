@@ -2,6 +2,7 @@ acrobat.adobe.com
 aidaform.com
 airtable.com
 amplifyapp.com
+anygen.io
 api.docparser.com
 apis.google.com
 app.amplitude.com
@@ -16,13 +17,17 @@ app.kuse.ai
 app.ludus.one
 app.moqups.com
 app.mural.co
+app.neuroflash.com
 app.slidebean.com
 app.smartsuite.com
+app.superlist.com
+app.tabidoo.cloud
 app.usewhale.io
 appsheet.com
 appwrite.network
 archbee.com
 arweave.net
+avion.io
 base44.app
 beautiful.ai
 behance.net
@@ -47,11 +52,13 @@ edgeone.app
 edgeone.dev
 elementor.cloud
 enhancedsitebuilder.com
+featurebase.app
 figma.com
 figma.site
 flipsnack.com
 flutterflow.app
 forms.cloud.microsoft
+forms.visme.co
 forms.weavely.ai
 forms.zohopublic.com
 formstack.com
@@ -107,6 +114,7 @@ scribe.com
 scribehow.com
 scw.cloud
 seesaw.me
+share.articulate.com
 sign.com
 soloist.ai
 square.site

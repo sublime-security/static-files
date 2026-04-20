@@ -91,6 +91,7 @@ miricanvas.com
 mixpanel.com
 mockflow.com
 monday.com
+myninja.ai
 myportfolio.com
 netlify.app
 onepage.me
@@ -116,6 +117,7 @@ scw.cloud
 seesaw.me
 share.articulate.com
 sign.com
+sign.zoho.com
 soloist.ai
 square.site
 static.hf.space

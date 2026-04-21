@@ -24,11 +24,13 @@ assets.cdn.filesafe.space
 attachment.outlook.live.net
 attachments.office.net
 aurorashard.org
+azurestaticapps.net
 backblazeb2.com
 beautiful.ai
 behance.net
 bitbucket.com
 bitbucket.org
+blob.core.windows.net
 box.com
 buildin.ai
 bunkr.site

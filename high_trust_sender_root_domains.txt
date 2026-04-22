@@ -461,6 +461,7 @@ snyk.io
 socradar.com
 sofi.com
 sony.com
+southwest.com
 spacex.com
 splitwise.com
 splunk.com

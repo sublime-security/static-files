@@ -1,4 +1,3 @@
-southwest.com
 1password.com
 aarp.org
 acronis.com
@@ -462,6 +461,7 @@ snyk.io
 socradar.com
 sofi.com
 sony.com
+southwest.com
 spacex.com
 splitwise.com
 splunk.com

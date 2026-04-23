@@ -367,6 +367,7 @@ otter.ai
 ozk.com
 paddle.com
 pagerduty.com
+paloaltonetworks.com 
 pandadoc.net
 panerabread.com
 paperspace.com
@@ -394,6 +395,7 @@ politicopro.com
 powerapps.com
 primevideo.com
 principal.com
+proofpoint.com
 proofpointessentials.com
 proxyvote.com
 prudential.com

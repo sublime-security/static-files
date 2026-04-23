@@ -1,4 +1,5 @@
 1password.com
+aa.com
 aarp.org
 acronis.com
 adobe-presents.com
@@ -287,6 +288,7 @@ jumpcloud.com
 kahoot.com
 klarna.com
 knowbe4.com
+kp.com
 kpmg.com
 lastpass.com
 lenovo.com

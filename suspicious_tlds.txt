@@ -136,5 +136,6 @@ works
 world
 ws
 xin
+xyz
 zip
 zone

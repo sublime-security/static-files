@@ -98,6 +98,7 @@ graph.org
 hidrive.ionos.com
 hightail.com
 hmstorage.net
+html.cafe
 icedrive.net
 iceiy.com
 idrive.com

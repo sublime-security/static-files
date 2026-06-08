@@ -1,5 +1,3 @@
-mail.co.uk
-mail.uk
 0-00.usa.cc
 0-180.com
 0-420.com
@@ -11669,6 +11667,7 @@ mail.bulgaria.com
 mail.by
 mail.byte.it
 mail.ch
+mail.co.uk
 mail.co.za
 mail.com
 mail.com.tr
@@ -11723,6 +11722,7 @@ mail.telenor.dk
 mail.theboys.com
 mail.txzs188.com
 mail.ua
+mail.uk
 mail.unionpay.pl
 mail.usa.com
 mail.vasarhely.hu

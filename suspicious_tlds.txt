@@ -127,6 +127,7 @@ ua
 uno
 us
 vip
+vi
 vu
 wang
 web.id

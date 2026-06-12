@@ -126,7 +126,9 @@ tt
 ua
 uno
 us
+vi
 vip
+vi
 vu
 wang
 web.id

@@ -20,6 +20,7 @@ appsheet.com
 archive.org
 archive.ph
 ardrive.net
+assets.adobe.com
 assets.cdn.filesafe.space
 attachment.outlook.live.net
 attachments.office.net

@@ -126,6 +126,7 @@ tt
 ua
 uno
 us
+vi
 vip
 vu
 wang

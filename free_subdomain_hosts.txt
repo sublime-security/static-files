@@ -205,8 +205,8 @@ on.aws
 on.lc
 ondigitalocean.app
 online.gp
-onlytap.io
 onlyoffice.com
+onlytap.io
 onrender.com
 onthewifi.com
 oraclecloud.com

@@ -1,6 +1,32 @@
 {
   "lists": [
     {
+      "file": "replyto_service_domains.txt",
+      "identifier": "replyto_service_domains",
+      "display_name": "These service domains send emails from their own system addresses while automatically inserting the original user's email address into the reply-to field. Useful in conjunction with reply-to sender profiles.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
+      "file": "self_service_creation_platform_domains.txt",
+      "identifier": "self_service_creation_platform_domains",
+      "display_name": "These service domains allow users to easily create hosted content such as websites, presentations, survey, contact forms, etc. These are often abused by threat actors to host initial landing pages which link to the actual phishing page.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
+      "file": "org_brand_names.txt",
+      "identifier": "org_brand_names",
+      "display_name": "This list should contain the various names, brands, trade names, or identifiers that your company uses or is commonly known by in business operations. This includes your official business name, any Doing Business As (DBA) names, brand names, shortened versions, common abbreviations, or industry nicknames that customers, partners, vendors, and the public use to identify and reference your organization.",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
       "file": "alexa_top_1m.csv",
       "identifier": "alexa_1m",
       "display_name": "Alexa Top 1 Million Domains",
@@ -51,6 +77,15 @@
       "headers": [
         "entry"
       ]
+    },
+    {
+      "file": "file_extensions_suspicious.txt",
+      "identifier": "file_extensions_suspicious",
+      "display_name": "A list of observed extensions known to be abused by threat actors in malicious message content.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
     },
     {
       "file": "file_types_images.txt",
@@ -134,12 +169,38 @@
       ]
     },
     {
+      "file": "social_landing_hosts.txt",
+      "identifier": "social_landing_hosts",
+      "display_name": "Root domains of social landing pages, also known as 'link-in-bio' pages.",
+      "headers": [
+        "entry"
+      ]
+    },
+    {
+      "file": "parked_domain_nameservers.txt",
+      "identifier": "parked_domain_nameservers",
+      "display_name": "Nameservers commonly used by parked domains",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
+    },
+    {
       "file": "suspicious_tlds.txt",
       "identifier": "suspicious_tlds",
       "display_name": "Suspicious Top-Level Domains",
       "headers": [
         "entry"
       ]
+    },
+    {
+      "file": "tenant_domains.txt",
+      "identifier": "tenant_domains",
+      "display_name": "Domains (including the SaaS provider's root domain) allocated to your organization by third-party SaaS providers.",
+      "headers": [
+        "entry"
+      ],
+      "format": "hostname"
     },
     {
       "file": "tranco.csv",
@@ -155,6 +216,15 @@
       "file": "tranco_top_10k.csv",
       "identifier": "tranco_10k",
       "display_name": "Tranco Top 10,000 Domains",
+      "headers": [
+        "x",
+        "entry"
+      ]
+    },
+    {
+      "file": "tranco_top_50k.csv",
+      "identifier": "tranco_50k",
+      "display_name": "Tranco Top 50,000 Domains",
       "headers": [
         "x",
         "entry"

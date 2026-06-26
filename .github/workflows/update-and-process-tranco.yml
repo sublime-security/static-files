@@ -1,0 +1,384 @@
+name: Update and Process Tranco CSV
+
+on:
+  schedule:
+    # Runs at 00:00 UTC on the 1st of every month
+    - cron: '0 0 1 * *'
+  # Allow manual triggering
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  
+jobs:
+  update-and-process-tranco:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          fetch-depth: 1
+      
+      - name: Set up date variables
+        id: date
+        run: |
+          echo "today=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "timestamp=$(date +'%Y%m%d%H%M%S')" >> "$GITHUB_OUTPUT"
+      
+      - name: Fetch Tranco list ID
+        id: tranco-id
+        run: |
+          # Maximum retry count
+          MAX_RETRIES=5
+          RETRY_COUNT=0
+          SUCCESS=false
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+            # Save the curl verbose output to a log file and the response to another file
+            echo "Attempt $(($RETRY_COUNT + 1)) of $MAX_RETRIES: Fetching Tranco list ID..."
+            
+            # Use -w to capture HTTP status code
+            HTTP_STATUS=$(curl -s -o tranco_response.txt -w "%{http_code}" \
+              --retry 3 --retry-delay 5 --retry-max-time 120 \
+              --connect-timeout 10 --max-time 60 \
+              https://tranco-list.eu/top-1m-id)
+            
+            echo "HTTP Status Code: $HTTP_STATUS"
+            
+            # Check if HTTP status code is 200 (OK)
+            if [ "$HTTP_STATUS" -eq 200 ]; then
+              # Get the response
+              TRANCO_ID=$(cat tranco_response.txt)
+              echo "Raw response: '$TRANCO_ID'"
+              
+              # Check if we got a valid ID (non-empty and contains alphanumeric characters)
+              if [[ ! -z "$TRANCO_ID" && "$TRANCO_ID" =~ ^[A-Za-z0-9]+$ ]]; then
+                echo "id=$TRANCO_ID" >> "$GITHUB_OUTPUT"
+                echo "Successfully fetched Tranco list ID: $TRANCO_ID"
+                SUCCESS=true
+              else
+                echo "Received invalid Tranco ID: '$TRANCO_ID' despite HTTP 200"
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "Retrying in 10 seconds..."
+                  sleep 10
+                fi
+              fi
+            else
+              echo "Request failed with HTTP status code: $HTTP_STATUS"
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Retrying in 10 seconds..."
+                sleep 10
+              fi
+            fi
+          done
+          
+          if [ "$SUCCESS" = "false" ]; then
+            echo "Failed to fetch Tranco list ID after $MAX_RETRIES attempts"
+            exit 1
+          fi
+      
+      - name: Download Tranco list
+        id: download
+        env:
+          STEPS_TRANCO_ID_OUTPUTS_ID: ${{ steps.tranco-id.outputs.id }}
+        run: |
+          # Maximum retry count
+          MAX_RETRIES=5
+          RETRY_COUNT=0
+          SUCCESS=false
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+            echo "Attempt $(($RETRY_COUNT + 1)) of $MAX_RETRIES: Downloading Tranco list ${STEPS_TRANCO_ID_OUTPUTS_ID}..."
+            
+            # Use -w to capture HTTP status code
+            HTTP_STATUS=$(curl -s -L -o tranco.zip -w "%{http_code}" \
+              --retry 3 --retry-delay 10 --retry-max-time 300 \
+              --connect-timeout 15 --max-time 300 \
+              "https://tranco-list.eu/download_daily/${STEPS_TRANCO_ID_OUTPUTS_ID}")
+            
+            echo "HTTP Status Code: $HTTP_STATUS"
+            
+            # Check if HTTP status code is 200 (OK)
+            if [ "$HTTP_STATUS" -eq 200 ]; then
+              # Check if file was actually downloaded and has content
+              if [ -s tranco.zip ]; then
+                echo "Successfully downloaded Tranco list ${STEPS_TRANCO_ID_OUTPUTS_ID}"
+                SUCCESS=true
+              else
+                echo "Downloaded file is empty despite HTTP 200"
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "Retrying in 15 seconds..."
+                  sleep 15
+                fi
+              fi
+            else
+              echo "Download failed with HTTP status code: $HTTP_STATUS"
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Retrying in 15 seconds..."
+                sleep 15
+              fi
+            fi
+          done
+          
+          if [ "$SUCCESS" = "false" ]; then
+            echo "Failed to download Tranco list after $MAX_RETRIES attempts"
+            exit 1
+          fi
+      
+      - name: Extract Tranco list
+        id: extract
+        run: |
+          if unzip -o tranco.zip; then
+            if [ -f "top-1m.csv" ]; then
+              echo "Successfully extracted Tranco list"
+            else
+              echo "Expected file 'top-1m.csv' not found in the zip archive"
+              ls -la
+              exit 1
+            fi
+          else
+            echo "Failed to extract zip file"
+            exit 1
+          fi
+      
+      - name: Validate Tranco list
+        id: validate_tranco_list
+        run: |
+          # Count lines to verify it's exactly 1 million
+          LINE_COUNT=$(wc -l < top-1m.csv)
+          
+          # Verify the first line starts with "1,"
+          FIRST_LINE=$(head -n 1 top-1m.csv)
+          
+          # Verify the last line starts with "1000000,"
+          LAST_LINE=$(tail -n 1 top-1m.csv)
+          
+          if [ "$LINE_COUNT" -eq 1000000 ] && [[ "$FIRST_LINE" =~ ^1, ]] && [[ "$LAST_LINE" =~ ^1000000, ]]; then
+            echo "File validation passed:"
+            echo "- Exactly 1,000,000 lines"
+            echo "- First line: $FIRST_LINE"
+            echo "- Last line: $LAST_LINE"
+            
+            # Move the file to desired location
+            mv top-1m.csv tranco.csv
+          else
+            echo "File validation failed:"
+            echo "- Line count: $LINE_COUNT (expected 1,000,000)"
+            echo "- First line: $FIRST_LINE (should start with '1,')"
+            echo "- Last line: $LAST_LINE (should start with '1000000,')"
+            exit 1
+          fi
+
+      - name: Remove Public Suffix List entries
+        id: remove_psl_entries
+        run: |
+          echo "Fetching Public Suffix List..."
+
+          # Download and process the Public Suffix List with error handling
+          # Remove comments, empty lines, wildcards, exceptions, and leading/trailing whitespace
+          if ! curl -sL https://publicsuffix.org/list/public_suffix_list.dat | \
+            grep -v '^//' | \
+            grep -v '^$' | \
+            grep -v '^\*' | \
+            grep -v '^!' | \
+            sed 's/^[ \t]*//;s/[ \t]*$//' > psl.txt; then
+            echo "Error: Failed to download or process Public Suffix List"
+            exit 1
+          fi
+
+          # Verify the PSL file has content
+          if [ ! -s psl.txt ]; then
+            echo "Error: Public Suffix List file is empty"
+            exit 1
+          fi
+
+          PSL_COUNT=$(wc -l < psl.txt | tr -d ' ')
+          echo "Loaded $PSL_COUNT public suffixes from PSL"
+
+          echo ""
+          echo "Removing PSL entries from tranco.csv..."
+
+          # First, normalize line endings by removing all carriage returns
+          # This handles both Unix (\n) and Windows (\r\n) line endings uniformly
+          tr -d '\r' < tranco.csv > tranco_normalized.csv
+          mv tranco_normalized.csv tranco.csv
+
+          # Build a single awk script for efficient filtering
+          # This processes the file in one pass instead of O(n×m) complexity
+          # Using exact string matching avoids regex escaping issues
+          awk 'BEGIN {
+            # Read all PSL entries into an associative array
+            while ((getline line < "psl.txt") > 0) {
+              if (line != "") {
+                psl[line] = 1
+              }
+            }
+            close("psl.txt")
+            removed = 0
+          }
+          {
+            # Extract domain from "rank,domain" format
+            n = index($0, ",")
+            if (n > 0) {
+              domain = substr($0, n + 1)
+
+              # Check if domain in PSL (exact string match)
+              if (domain in psl) {
+                removed++
+                print "✓ Removed: " domain > "/dev/stderr"
+              } else {
+                # Keep this line
+                print $0
+              }
+            } else {
+              # Malformed line, keep it
+              print $0
+            }
+          }
+          END {
+            # Write count to a separate file for easy extraction
+            print removed > "removal_count.txt"
+          }' tranco.csv > tranco_filtered.csv
+
+          # Read the removal count
+          TOTAL_REMOVED=$(cat removal_count.txt)
+
+          # Replace original file with filtered version
+          mv tranco_filtered.csv tranco.csv
+
+          # Clean up
+          rm -f removal_count.txt psl.txt
+          # Report final statistics
+          FINAL_COUNT=$(wc -l < tranco.csv | tr -d ' ')
+          echo ""
+          echo "=== Summary ==="
+          echo "PSL entries checked: $PSL_COUNT"
+          echo "PSL entries found in Tranco: $TOTAL_REMOVED"
+          echo "Total domains removed: $TOTAL_REMOVED"
+          echo "Final line count: $FINAL_COUNT"
+
+      - name: Set configuration for top files
+        id: set_config_top
+        run: |
+          # Configuration is defined here
+          CONFIG='[{"count": 10000, "filename": "tranco_top_10k.csv"}, {"count": 50000, "filename": "tranco_top_50k.csv"}]'
+          echo "CONFIG=$CONFIG" >> "$GITHUB_ENV"
+          echo "Using configuration: $CONFIG"
+      
+      - name: Validate manifest.json
+        id: validate_manifest
+        run: |
+          # Check if manifest.json exists
+          if [ ! -f "manifest.json" ]; then
+            echo "Error: manifest.json file not found"
+            exit 1
+          fi
+          
+          # Create a temporary file to store validation results
+          TEMP_FILE=$(mktemp)
+          
+          # Check each output file in the configuration
+          echo "$CONFIG" | jq -c '.[]' | while read -r config; do
+            filename=$(echo "$config" | jq -r '.filename')
+            
+            # Check if the filename is in manifest.json
+            if ! grep -q "\"file\": \"$filename\"" manifest.json; then
+              echo "Error: $filename is not defined in manifest.json"
+              echo "VALIDATION_FAILED=true" >> "$TEMP_FILE"
+            else
+              echo "✓ $filename is defined in manifest.json"
+            fi
+          done
+          
+          # Exit if any file is not defined in manifest.json
+          if grep -q "VALIDATION_FAILED=true" "$TEMP_FILE"; then
+            echo "One or more output files are not defined in manifest.json. Please update manifest.json first."
+            rm "$TEMP_FILE"
+            exit 1
+          fi
+          
+          rm "$TEMP_FILE"
+      
+      - name: Process Tranco CSV
+        id: process
+        run: |
+          echo "Processing Tranco CSV with configuration: $CONFIG"
+          
+          # Check if tranco.csv exists
+          if [ ! -f "tranco.csv" ]; then
+            echo "Error: tranco.csv file not found"
+            exit 1
+          fi
+          
+          # Parse the JSON configuration and process each output
+          echo "$CONFIG" | jq -c '.[]' | while read -r config; do
+            count=$(echo "$config" | jq -r '.count')
+            filename=$(echo "$config" | jq -r '.filename')
+            
+            if [ -z "$count" ] || [ -z "$filename" ]; then
+              echo "Skipping invalid configuration: $config"
+              continue
+            fi
+            
+            # Get exactly the requested number of lines from the file
+            head -n "$count" tranco.csv > "$filename"
+            
+            lines=$(wc -l < "$filename")
+            echo "Successfully created $filename with $lines rows"
+          done
+      
+      - name: Configure Git
+        run: |
+          git config --local user.email "hello@sublimesecurity.com"
+          git config --local user.name "Tranco Process Bot"
+      
+      - name: Create and push branch
+        id: create-branch
+        env:
+          STEPS_DATE_OUTPUTS_TODAY: ${{ steps.date.outputs.today }}
+          STEPS_DATE_OUTPUTS_TIMESTAMP: ${{ steps.date.outputs.timestamp }}
+          STEPS_TRANCO_ID_OUTPUTS_ID: ${{ steps.tranco-id.outputs.id }}
+        run: |
+          # Create a unique branch name with timestamp
+          BRANCH_NAME="tranco_update-${STEPS_DATE_OUTPUTS_TODAY}-${STEPS_DATE_OUTPUTS_TIMESTAMP}"
+          echo "branch_name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+          
+          git checkout -b "$BRANCH_NAME"
+          git add tranco.csv
+
+          # Parse the configuration to get the filenames
+          echo "$CONFIG" | jq -c '.[]' | while read -r config; do
+            filename=$(echo "$config" | jq -r '.filename')
+            # Add each generated file individually
+            git add "$filename"
+          done
+
+          git commit -m "Update Tranco list for ${STEPS_DATE_OUTPUTS_TODAY} (ID: ${STEPS_TRANCO_ID_OUTPUTS_ID})"
+          git push origin "$BRANCH_NAME"
+
+      - name: Create Pull Request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STEPS_DATE_OUTPUTS_TODAY: ${{ steps.date.outputs.today }}
+          STEPS_TRANCO_ID_OUTPUTS_ID: ${{ steps.tranco-id.outputs.id }}
+        run: |
+          gh pr create \
+            --title "Update Tranco list and derived files - ${STEPS_DATE_OUTPUTS_TODAY}" \
+            --body "This PR updates the Tranco top 1 million domains list and all derived files.
+            
+            - Date: ${STEPS_DATE_OUTPUTS_TODAY}
+            - Tranco List ID: ${STEPS_TRANCO_ID_OUTPUTS_ID}
+            - List URL: https://tranco-list.eu/list/${STEPS_TRANCO_ID_OUTPUTS_ID}
+            - Automated update via GitHub Actions" \
+            --head "$BRANCH_NAME" \
+            --base "main"

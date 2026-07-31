@@ -199,6 +199,7 @@ we.tl
 webmail-oxcs.register.com
 wetransfer.com
 wikisend.com
+wixsite.com
 workflowy.com
 xara.com
 zippyshare.com

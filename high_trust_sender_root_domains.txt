@@ -49,8 +49,8 @@ aws.training
 axa.es
 axios.com
 ba.com
-banamex.com
 bakermckenzie.com
+banamex.com
 bankofamerica.com
 barclays.com
 barclayscorp.com

@@ -49,6 +49,7 @@ aws.training
 axa.es
 axios.com
 ba.com
+banamex.com
 bakermckenzie.com
 bankofamerica.com
 barclays.com

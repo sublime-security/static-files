@@ -23,6 +23,7 @@ app.ludus.one
 app.moqups.com
 app.mural.co
 app.neuroflash.com
+app.notion.com
 app.publr.co
 app.slidebean.com
 app.smartsheet.com
@@ -31,15 +32,18 @@ app.superlist.com
 app.tabidoo.cloud
 app.upbase.io
 app.usewhale.io
+app.whirr.co
 appsheet.com
 appwrite.network
 archbee.com
 arweave.net
+authory.com
 avion.io
 base44.app
 beautiful.ai
 behance.net
 breely.com
+bubbleapps.io
 buildin.ai
 bunny.run
 cal.com
@@ -76,6 +80,7 @@ figma.site
 flipsnack.com
 flowpaper.com
 flutterflow.app
+forms.clickup.com
 forms.cloud.microsoft
 forms.visme.co
 forms.weavely.ai
@@ -87,6 +92,7 @@ framer.media
 framer.website
 freshdesk.com
 gamma.app
+getoutline.com
 glide.page
 gooey.ai
 heightsplatform.com
@@ -141,15 +147,18 @@ seesaw.me
 share.articulate.com
 sign.com
 sign.zoho.com
+sitesplaced.site
 slab.com
 sleekplan.app
 soloist.ai
 square.site
 start.page
 static.hf.space
+storydoc.com
 studio.site
 supporthero.io
 surge.sh
+surveymars.com
 surveymonkey.com
 systeme.io
 tana.pub
@@ -162,6 +171,7 @@ typeform.com
 upresenter.ai
 userback.io
 vercel.app
+vershun.io
 view.genially.com
 wasmer.app
 weavely.ai
@@ -176,3 +186,4 @@ yayforms.link
 zapier.app
 zeabur.app
 zoholandingpage.com
+zohopublic.com

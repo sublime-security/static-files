@@ -110,6 +110,7 @@ cisa.gov
 cisco.com
 citi.com
 citibanamex.com
+citibank.com.sg
 clearbit.com
 clixsign.com
 cloudappsecurity.com

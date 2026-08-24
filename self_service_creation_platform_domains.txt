@@ -65,6 +65,7 @@ dash.formaloo.com
 doc.clickup.com
 document360.io
 doksly.com
+dubsado.com
 durable.site
 easysend.app
 edgeone.app
@@ -95,6 +96,7 @@ freshdesk.com
 gamma.app
 getoutline.com
 glide.page
+go.fliplink.me
 gooey.ai
 heightsplatform.com
 heyflow.site
@@ -140,6 +142,7 @@ public.app.basecamp.com
 publuu.com
 pythonanywhere.com
 railway.app
+rapidr.io
 replit.app
 retool.com
 riddle.com
@@ -155,6 +158,7 @@ sign.zoho.com
 sitesplaced.site
 slab.com
 sleekplan.app
+slides.com
 soloist.ai
 square.site
 start.page
@@ -182,6 +186,7 @@ wasmer.app
 weavely.ai
 web.val.run
 webflow.io
+wishloop.com
 wixstudio.com
 workflowy.com
 wpdevcloud.com

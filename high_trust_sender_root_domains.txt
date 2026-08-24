@@ -334,6 +334,7 @@ monday.com
 mongodb.com
 morganstanley.com
 morningbrew.com
+mychart.org
 myisolved.com
 myworkday.com
 namecheap.com

@@ -96,6 +96,14 @@
       ]
     },
     {
+     "file": "file_hashes_image_warning_banners.txt",
+     "identifier": "file_hashes_image_warning_banners",
+     "display_name": "File hashes of images added to messages by 3rd party systems to warn recipients.",
+     "headers": [
+       "entry"
+     ]
+    },
+    {
       "file": "free_email_providers.txt",
       "identifier": "free_email_providers",
       "display_name": "Free Email Providers",

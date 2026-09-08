@@ -75,6 +75,7 @@ fastly.net
 figma.com
 file.io
 filebin.net
+filemail.com
 filedropper.com
 filefactory.com
 fileflyer.com

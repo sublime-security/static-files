@@ -221,6 +221,7 @@ short.gy
 short.ie
 short.io
 short.to
+shorten.is
 shorten.tv
 shorten.world
 shorter.gg

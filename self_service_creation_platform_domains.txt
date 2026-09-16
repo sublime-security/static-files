@@ -117,6 +117,7 @@ lex.page
 lighthouse.storage
 lovable.app
 lucid.app
+maze.co
 miricanvas.com
 mixpanel.com
 mockflow.com

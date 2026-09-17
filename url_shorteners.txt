@@ -104,6 +104,7 @@ hover.com
 href.in
 ht.ly
 htxt.it
+hubs.la
 hubs.ly
 hugeurl.com
 hurl.it

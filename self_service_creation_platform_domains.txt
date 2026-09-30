@@ -33,6 +33,7 @@ app.tabidoo.cloud
 app.upbase.io
 app.usewhale.io
 app.whirr.co
+apps.knack.com
 appsheet.com
 appwrite.network
 archbee.com

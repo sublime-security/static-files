@@ -58,6 +58,7 @@ depositfiles.com
 digitaloceanspaces.com
 docs.google.com
 docs.zoom.us
+docsend.com
 down.mdiaload.com
 drime.cloud
 drive.google.com

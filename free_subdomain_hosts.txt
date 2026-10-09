@@ -242,6 +242,7 @@ seite.ru
 server.gg
 server.tl
 service.lc
+s.gy
 sg.tn
 share.lc
 shopping.hn

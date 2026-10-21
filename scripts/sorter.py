@@ -7,6 +7,14 @@ from typing import List, Optional
 
 class Sorter:
 
+    def read_lines(self, filepath: str) -> List[str]:
+        """Read a file's lines, giving the last one a newline so sorting can't join it to another"""
+        with open(filepath, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        if lines and not lines[-1].endswith('\n'):
+            lines[-1] += '\n'
+        return lines
+
     def get_file_hash(self, filepath: str) -> str:
         """Calculate SHA-256 hash of a file's contents"""
         hash_sha256 = hashlib.sha256()
@@ -17,8 +25,7 @@ class Sorter:
 
     def is_sorted(self, filepath: str) -> bool:
         """Check if a file's lines are sorted"""
-        with open(filepath, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
+        lines = self.read_lines(filepath)
         sorted_lines = sorted(lines)
         is_sorted = lines == sorted_lines
         if is_sorted:
@@ -43,8 +50,7 @@ class Sorter:
         print(f"Original file hash: {original_hash}")
 
         # Read and sort the file contents
-        with open(input_file, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
+        lines = self.read_lines(input_file)
 
         # Sort the lines
         sorted_lines = sorted(lines)

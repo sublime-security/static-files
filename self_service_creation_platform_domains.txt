@@ -73,6 +73,7 @@ easysend.app
 edgeone.app
 edgeone.dev
 elementor.cloud
+emergent.host
 enhancedsitebuilder.com
 evenium.events
 eventcreate.com

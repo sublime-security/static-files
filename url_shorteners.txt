@@ -215,6 +215,7 @@ s7y.us
 safe.mn
 scan.page
 scnv.io
+search.app
 share.google
 sharein.com
 sharetabs.com
